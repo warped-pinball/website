@@ -1,0 +1,41 @@
+name: Sync Releases
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [sync-releases]
+
+permissions:
+  contents: write   # so we can commit back JSON files
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyGithub requests
+
+      - name: Generate JSON endpoints
+        run: |
+          python scripts/generate.py \
+            --owner warped-pinball \
+            --repo vector \
+            --out-dir content
+
+      - name: Commit and push updated JSON
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add content
+          git commit -m "Sync releases from vector @ ${{ github.run_id }}" || echo "Nothing to commit"
+          git push origin HEAD:main
