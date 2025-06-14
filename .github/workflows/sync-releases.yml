@@ -5,12 +5,17 @@ on:
   repository_dispatch:
     types: [sync-releases]
 
+# Grant write permissions so we can commit JSON files back to main
 permissions:
-  contents: write   # so we can commit back JSON files
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
       - name: Check out site repo
         uses: actions/checkout@v3
