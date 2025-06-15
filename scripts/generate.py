@@ -49,35 +49,24 @@ def main():
         # Channel: prerelease → beta, else main
         channel = "beta" if release.prerelease else "main"
 
-        # Find the update.json asset
+        # Extract metadata from release info (title, body, etc.)
+        release_data = {
+            "version": version,
+            "url": f"https://github.com/{args.owner}/{args.repo}/releases/download/{tag}/{tag}.uf2",  # assuming firmware is named like tag.uf2
+            "notes": release.body or "No release notes provided"
+        }
+
+        # Find the update.json asset (skip parsing it)
         asset = next((a for a in release.get_assets() if a.name == "update.json"), None)
         if not asset:
             print(f"⏭️ Skipping {tag}: no update.json asset", file=sys.stderr)
             continue
 
-        # Fetch and parse its JSON
-        resp = requests.get(
-            asset.browser_download_url,
-            headers={"Authorization": f"token {token}"}
-        )
-        try:
-            data = resp.json()
-        except ValueError:
-            print(f"❌ Invalid JSON at {asset.browser_download_url}", file=sys.stderr)
-            continue
-
-        # Ensure the JSON has the correct version/url (override if needed)
-        # (Optional) Uncomment to enforce our convention:
-        # data = {
-        #   "version": version,
-        #   "url": f"https://github.com/{args.owner}/{args.repo}/releases/download/{tag}/{tag}.uf2",
-        #   **{k: v for k,v in data.items() if k not in ("version","url")}
-        # }
-
+        # Write the release metadata into JSON
         key = (product, channel)
         prev = latest.get(key)
         if not prev or release.published_at > prev[0].published_at:
-            latest[key] = (release, data)
+            latest[key] = (release, release_data)
 
     # Write out the JSON files
     for (product, channel), (_, data) in latest.items():
