@@ -12,7 +12,7 @@ def main():
     )
     p.add_argument("--owner",   required=True, help="GitHub org or user (e.g. warped-pinball)")
     p.add_argument("--repo",    required=True, help="Repo name to scan (e.g. vector)")
-    p.add_argument("--out-dir", default="content", help="Where to write JSON files")
+    p.add_argument("--out-dir", default="docs", help="Where to write JSON files")
     args = p.parse_args()
 
     token = os.getenv("GITHUB_TOKEN")
