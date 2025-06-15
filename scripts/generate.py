@@ -5,7 +5,6 @@ import json
 import argparse
 from github import Github
 import requests
-import re
 
 def main():
     p = argparse.ArgumentParser(
@@ -24,8 +23,8 @@ def main():
     gh = Github(token)
     repository = gh.get_repo(f"{args.owner}/{args.repo}")
 
-    # key = (product, channel) → (latest_release_obj, parsed_json)
-    latest = {}
+    # key = (product, channel) → list of releases
+    releases_by_product = {"sys11": {"main": [], "beta": []}, "wpc": {"main": [], "beta": []}}
 
     for release in repository.get_releases():
         if release.draft:
@@ -38,9 +37,7 @@ def main():
             product = "wpc"
             version = tag[len("wpc-"):]
         else:
-            # Everything else is sys11
             product = "sys11"
-            # strip a leading "sys11-" if present, else keep full tag
             if tag.startswith("sys11-"):
                 version = tag[len("sys11-"):]
             else:
@@ -49,39 +46,28 @@ def main():
         # Channel: prerelease → beta, else main
         channel = "beta" if release.prerelease else "main"
 
-        # Extract metadata from release info (title, body, etc.)
+        # Extract metadata from release info
         release_data = {
             "version": version,
             "url": f"https://github.com/{args.owner}/{args.repo}/releases/download/{tag}/{tag}.uf2",  # assuming firmware is named like tag.uf2
-            "notes": release.body or "No release notes provided"
+            "notes": release.body or "No release notes provided",
+            "published_at": release.published_at.isoformat()  # Add the release date for sorting
         }
 
-        # Find the update.json asset (skip parsing it)
-        asset = next((a for a in release.get_assets() if a.name == "update.json"), None)
-        if not asset:
-            print(f"⏭️ Skipping {tag}: no update.json asset", file=sys.stderr)
-            continue
-
-        # Write the release metadata into JSON
-        key = (product, channel)
-        prev = latest.get(key)
-        if not prev or release.published_at > prev[0].published_at:
-            latest[key] = (release, release_data)
+        # Store release data
+        releases_by_product[product][channel].append(release_data)
 
     # Write out the JSON files
-    for (product, channel), (_, data) in latest.items():
-        out_folder = os.path.join(args.out_dir, product)
-        os.makedirs(out_folder, exist_ok=True)
-        out_path = os.path.join(out_folder, f"{channel}.json")
-        with open(out_path, "w") as f:
-            json.dump(data, f, indent=2)
-        print(f"✅ Wrote {out_path}")
+    for product, channels in releases_by_product.items():
+        for channel, releases in channels.items():
+            out_folder = os.path.join(args.out_dir, product)
+            os.makedirs(out_folder, exist_ok=True)
+            out_path = os.path.join(out_folder, f"{channel}.json")
+            with open(out_path, "w") as f:
+                json.dump(releases, f, indent=2)
+            print(f"✅ Wrote {out_path}")
 
-    if not latest:
-        print("⚠️  No matching releases found.")
-    else:
-        prods = ", ".join(f"{p}/{c}" for p,c in latest)
-        print(f"✅ Generated updates for: {prods}")
+    print("✅ Generated release data for all products and channels.")
 
 
 if __name__ == "__main__":
