@@ -70,6 +70,13 @@ def main():
                 json.dump(releases, f, indent=2)
             print(f"✅ Wrote {out_path}")
 
+            # Write the latest release to a separate file (latest.json)
+            latest_release = max(releases, key=lambda r: r["published_at"])  # Get the latest release
+            latest_path = os.path.join(out_folder, "latest.json")
+            with open(latest_path, "w") as f:
+                json.dump(latest_release, f, indent=2)
+            print(f"✅ Wrote {latest_path} for {product}")
+
     print("✅ Generated release data for all products.")
 
 
