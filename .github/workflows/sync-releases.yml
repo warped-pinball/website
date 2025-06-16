@@ -35,7 +35,7 @@ jobs:
           python scripts/generate.py \
             --owner warped-pinball \
             --repo vector \
-            --out-dir content
+            --out-dir docs
 
       - name: Commit and push updated JSON
         run: |
