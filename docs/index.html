@@ -15,6 +15,8 @@
     .release-item a { text-decoration: none; color: blue; }
     .copy-button { margin-left: 10px; background-color: #4CAF50; color: white; padding: 5px 10px; cursor: pointer; border: none; }
   </style>
+  <!-- Add marked.js for Markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 
@@ -27,13 +29,11 @@
 
   <div id="sys11" class="tab-content active">
     <h2>System 11 Releases</h2>
-    <p><strong>Latest Release:</strong> <a href="https://warped-pinball.github.io/website/docs/sys11/latest.json" target="_blank">Download latest update</a></p>
     <div id="sys11-releases" class="release-list"></div>
   </div>
 
   <div id="wpc" class="tab-content">
     <h2>WPC Releases</h2>
-    <p><strong>Latest Release:</strong> <a href="https://warped-pinball.github.io/website/docs/wpc/latest.json" target="_blank">Download latest update</a></p>
     <div id="wpc-releases" class="release-list"></div>
   </div>
 
@@ -54,7 +54,7 @@
         div.className = "release-item";
         const releaseLink = `<a href="https://github.com/warped-pinball/vector/releases/tag/${release.version}" target="_blank">${release.version}</a>`;
         
-        // Convert Markdown to HTML for release notes
+        // Convert Markdown to HTML for release notes using marked
         const releaseNotes = marked(release.notes || "No release notes provided");
 
         div.innerHTML = `
