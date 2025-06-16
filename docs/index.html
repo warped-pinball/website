@@ -5,38 +5,129 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Warped Pinball Firmware Changelog</title>
   <style>
-    body { font-family: Arial, sans-serif; }
-    .tab { padding: 10px; margin: 5px; background-color: #f1f1f1; cursor: pointer; display: inline-block; }
-    .tab.active { background-color: #ddd; }
-    .tab-content { display: none; padding: 10px; border-top: 1px solid #ccc; }
-    .tab-content.active { display: block; }
-    .release-list { margin-top: 20px; }
-    .release-item { padding: 5px 0; }
-    .release-item a { text-decoration: none; color: blue; }
-    .copy-button { margin-left: 10px; background-color: #4CAF50; color: white; padding: 5px 10px; cursor: pointer; border: none; }
+    /* Dark Mode Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e; /* Dark background */
+      color: #f0f0f0; /* Light text */
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 2em;
+    }
+
+    .tab {
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: #333; /* Dark tab background */
+      color: #f0f0f0;
+      cursor: pointer;
+      display: inline-block;
+      border-radius: 5px;
+    }
+
+    .tab.active {
+      background-color: #444; /* Lighter tab background when active */
+    }
+
+    .tab-content {
+      display: none;
+      padding: 20px;
+      border-top: 1px solid #444;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .release-list {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    .release-item {
+      background-color: #333; /* Card background */
+      margin-bottom: 15px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 95%;
+      margin-left: 20px; /* Added margin on left */
+    }
+
+    .release-item a {
+      text-decoration: none;
+      color: #3498db; /* Blue color for links */
+    }
+
+    .copy-button {
+      margin-top: 10px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 8px 15px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .copy-button:hover {
+      background-color: #45a049; /* Hover effect for copy button */
+    }
+
+    .toggle-button {
+      background-color: #333;
+      color: #f0f0f0;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .toggle-button:hover {
+      background-color: #444;
+    }
+
+    /* General layout adjustments */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* For smaller devices */
+    @media (max-width: 768px) {
+      .release-item {
+        width: 100%;
+      }
+    }
   </style>
-  <!-- Add marked.js for Markdown rendering -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 
-  <h1>Warped Pinball Firmware Changelog</h1>
+  <div class="container">
+    <h1>Warped Pinball Firmware Changelog</h1>
 
-  <div>
-    <div id="sys11-tab" class="tab active" onclick="showTab('sys11')">System 11</div>
-    <div id="wpc-tab" class="tab" onclick="showTab('wpc')">WPC</div>
-  </div>
+    <div>
+      <div id="sys11-tab" class="tab active" onclick="showTab('sys11')">System 11</div>
+      <div id="wpc-tab" class="tab" onclick="showTab('wpc')">WPC</div>
+    </div>
 
-  <div id="sys11" class="tab-content active">
-    <h2>System 11 Releases</h2>
-    <p><strong>Latest Release:</strong> <a href="https://warped-pinball.github.io/website/docs/sys11/latest.json" target="_blank">Download latest update</a></p>
-    <div id="sys11-releases" class="release-list"></div>
-  </div>
+    <div id="sys11" class="tab-content active">
+      <h2>System 11 Releases</h2>
+      <p><strong>Latest Release:</strong> <a href="https://warped-pinball.github.io/website/docs/sys11/latest.json" target="_blank">Download latest update</a></p>
+      <div id="sys11-releases" class="release-list"></div>
+    </div>
 
-  <div id="wpc" class="tab-content">
-    <h2>WPC Releases</h2>
-    <p><strong>Latest Release:</strong> <a href="https://warped-pinball.github.io/website/docs/wpc/latest.json" target="_blank">Download latest update</a></p>
-    <div id="wpc-releases" class="release-list"></div>
+    <div id="wpc" class="tab-content">
+      <h2>WPC Releases</h2>
+      <p><strong>Latest Release:</strong> <a href="https://warped-pinball.github.io/website/docs/wpc/latest.json" target="_blank">Download latest update</a></p>
+      <div id="wpc-releases" class="release-list"></div>
+    </div>
   </div>
 
   <script>
