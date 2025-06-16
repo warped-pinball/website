@@ -64,7 +64,7 @@ def main():
             print(f"⏭️ Skipping {tag}: no update.json asset", file=sys.stderr)
             continue
 
-        update_url = asset["browser_download_url"]
+        update_url = asset.browser_download_url
         # Download and calculate the hash of the update.json file
         update_data = fetch_update_json(update_url)
 
