@@ -60,7 +60,7 @@ def main():
         # Extract metadata from release info
         release_data = {
             "version": version,
-            "url": f"https://github.com/{args.owner}/{args.repo}/releases/download/{tag}/{tag}.uf2",  # assuming firmware is named like tag.uf2
+            "url": f"https://github.com/{args.owner}/{args.repo}/releases/download/{tag}/update.json",  # Fixed URL
             "notes": release.body if channel == "main" else "No release notes for beta/dev builds",
             "published_at": release.published_at.isoformat()  # Add the release date for sorting
         }

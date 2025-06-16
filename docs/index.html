@@ -14,6 +14,7 @@
     .release-item { padding: 5px 0; }
     .release-item a { text-decoration: none; color: blue; }
     .toggle-button { background-color: #ddd; padding: 5px 10px; cursor: pointer; border: none; }
+    .copy-button { margin-left: 10px; background-color: #4CAF50; color: white; padding: 5px 10px; cursor: pointer; border: none; }
   </style>
 </head>
 <body>
@@ -52,12 +53,13 @@
       data.forEach(release => {
         const div = document.createElement("div");
         div.className = "release-item";
-        const releaseLink = `<a href="${release.url}" target="_blank">${release.version}</a>`;
+        const releaseLink = `<a href="https://github.com/warped-pinball/vector/releases/tag/${release.version}" target="_blank">${release.version}</a>`;
         const releaseNotes = release.notes === "No release notes for beta/dev builds" ? "" : `<p>${release.notes}</p>`;
         div.innerHTML = `
           <strong>${releaseLink}</strong><br>
           <small>Published on: ${new Date(release.published_at).toLocaleDateString()}</small>
           ${releaseNotes}
+          <button class="copy-button" onclick="copyToClipboard('${release.url}')">Copy Download Link</button>
         `;
         container.appendChild(div);
       });
@@ -85,6 +87,17 @@
       betaReleases.forEach(release => {
         release.style.display = release.style.display === "none" ? "block" : "none";
       });
+    }
+
+    // Copy the download link to clipboard
+    function copyToClipboard(text) {
+      const textarea = document.createElement("textarea");
+      textarea.value = text;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+      alert("Download link copied!");
     }
 
     // Initial load for sys11
