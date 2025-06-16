@@ -54,8 +54,8 @@
         div.className = "release-item";
         const releaseLink = `<a href="https://github.com/warped-pinball/vector/releases/tag/${release.version}" target="_blank">${release.version}</a>`;
         
-        // Convert Markdown to HTML for release notes using marked
-        const releaseNotes = marked(release.notes || "No release notes provided");
+        // Convert Markdown to HTML for release notes using marked.parse
+        const releaseNotes = marked.parse(release.notes || "No release notes provided");
 
         div.innerHTML = `
           <strong>${releaseLink}</strong><br>
