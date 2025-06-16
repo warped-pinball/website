@@ -7,22 +7,13 @@ import hashlib
 import requests
 from github import Github
 
-def fetch_asset_metadata(owner, repo, release_id, asset_name):
-    """Fetch the metadata of an asset (such as SHA1 hash) using GitHub API."""
-    api_url = f"https://api.github.com/repos/{owner}/{repo}/releases/{release_id}/assets"
-    response = requests.get(api_url)
-    
-    if response.status_code != 200:
-        raise Exception(f"Failed to fetch assets for release {release_id}: {response.text}")
-    
-    assets = response.json()
-    
-    # Find the asset with the matching name
-    for asset in assets:
-        if asset["name"] == asset_name:
-            return asset
-    
-    return None
+def fetch_update_json(url):
+    """Fetch the update.json from the release and return its content as a JSON object."""
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return None
 
 def calculate_json_hash(json_data):
     """Calculate a hash for the given JSON data."""
@@ -68,18 +59,21 @@ def main():
         # Get the asset metadata for update.json (instead of downloading the full file)
         asset = None
         try:
-            asset = fetch_asset_metadata(args.owner, args.repo, release.id, "update.json")
-        except Exception as e:
-            print(f"⏭️ Skipping {tag}: {str(e)}", file=sys.stderr)
-            continue
-
-        if not asset:
+            asset = next(a for a in release.get_assets() if a.name == "update.json")
+        except StopIteration:
             print(f"⏭️ Skipping {tag}: no update.json asset", file=sys.stderr)
             continue
 
         update_url = asset["browser_download_url"]
-        # Use the SHA1 of the asset to compare files
-        update_hash = asset["sha1"]
+        # Download and calculate the hash of the update.json file
+        update_data = fetch_update_json(update_url)
+
+        if update_data is None:
+            print(f"⏭️ Skipping {tag}: failed to fetch update.json", file=sys.stderr)
+            continue
+
+        # Calculate the hash of the update.json file
+        update_hash = calculate_json_hash(update_data)
 
         # Skip this release if it's identical to the last release for this product
         if previous_update_hashes[product] == update_hash:
@@ -92,7 +86,7 @@ def main():
         # Extract metadata for the release
         release_data = {
             "version": version,
-            "url": update_url,  # This is the download link for update.json
+            "url": f"https://github.com/{args.owner}/{args.repo}/releases/download/{tag}/update.json",
             "notes": release.body or "No release notes provided",
             "published_at": release.published_at.isoformat()  # Add the release date for sorting
         }
