@@ -3,15 +3,28 @@ import os
 import sys
 import json
 import argparse
-from github import Github
+import hashlib
 import requests
+from github import Github
+
+def fetch_update_json(url):
+    """Fetch the update.json from the release and return its content as a JSON object."""
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return None
+
+def calculate_json_hash(json_data):
+    """Calculate a hash for the given JSON data."""
+    return hashlib.sha256(json.dumps(json_data, sort_keys=True).encode('utf-8')).hexdigest()
 
 def main():
     p = argparse.ArgumentParser(
         description="Fetch releases from warped-pinball/vector and generate per-product JSON"
     )
-    p.add_argument("--owner",   required=True, help="GitHub org or user (e.g. warped-pinball)")
-    p.add_argument("--repo",    required=True, help="Repo name to scan (e.g. vector)")
+    p.add_argument("--owner", required=True, help="GitHub org or user (e.g. warped-pinball)")
+    p.add_argument("--repo", required=True, help="Repo name to scan (e.g. vector)")
     p.add_argument("--out-dir", default="docs", help="Where to write JSON files")
     args = p.parse_args()
 
@@ -25,14 +38,14 @@ def main():
 
     # key = (product) → list of full releases
     releases_by_product = {"sys11": [], "wpc": []}
+    previous_update_hashes = {"sys11": None, "wpc": None}
 
     for release in repository.get_releases():
         if release.draft or release.prerelease:
             continue
 
         tag = release.tag_name
-
-        # Determine product & version
+        # Determine the product (sys11 or wpc)
         if tag.startswith("wpc-"):
             product = "wpc"
             version = tag[len("wpc-"):]
@@ -43,21 +56,39 @@ def main():
             else:
                 version = tag
 
-        # Exclude releases with no update.json file
+        # Get the update.json file for this release
         asset = next((a for a in release.get_assets() if a.name == "update.json"), None)
         if not asset:
             print(f"⏭️ Skipping {tag}: no update.json asset", file=sys.stderr)
             continue
 
-        # Extract metadata from release info
+        update_url = asset.browser_download_url
+        update_data = fetch_update_json(update_url)
+
+        if update_data is None:
+            print(f"⏭️ Skipping {tag}: failed to fetch update.json", file=sys.stderr)
+            continue
+
+        # Calculate the hash of the update.json file
+        update_hash = calculate_json_hash(update_data)
+
+        # Skip this release if it's identical to the last release for this product
+        if previous_update_hashes[product] == update_hash:
+            print(f"⏭️ Skipping {tag}: identical to previous release")
+            continue
+
+        # Store the update.json hash to compare with the next release
+        previous_update_hashes[product] = update_hash
+
+        # Extract metadata for the release
         release_data = {
             "version": version,
-            "url": f"https://github.com/{args.owner}/{args.repo}/releases/download/{tag}/update.json",  # Fixed URL
+            "url": f"https://github.com/{args.owner}/{args.repo}/releases/download/{tag}/update.json",
             "notes": release.body or "No release notes provided",
             "published_at": release.published_at.isoformat()  # Add the release date for sorting
         }
 
-        # Store release data
+        # Store the release data
         releases_by_product[product].append(release_data)
 
     # Write out the JSON files for each product
@@ -85,7 +116,6 @@ def main():
             print(f"✅ Wrote {latest_path} for {product}")
 
     print("✅ Generated release data for all products.")
-
 
 if __name__ == "__main__":
     main()
