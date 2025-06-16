@@ -29,11 +29,13 @@
 
   <div id="sys11" class="tab-content active">
     <h2>System 11 Releases</h2>
+    <p><strong>Latest Release:</strong> <a href="https://warped-pinball.github.io/website/docs/sys11/latest.json" target="_blank">Download latest update</a></p>
     <div id="sys11-releases" class="release-list"></div>
   </div>
 
   <div id="wpc" class="tab-content">
     <h2>WPC Releases</h2>
+    <p><strong>Latest Release:</strong> <a href="https://warped-pinball.github.io/website/docs/wpc/latest.json" target="_blank">Download latest update</a></p>
     <div id="wpc-releases" class="release-list"></div>
   </div>
 
@@ -57,11 +59,14 @@
         // Convert Markdown to HTML for release notes using marked.parse
         const releaseNotes = marked.parse(release.notes || "No release notes provided");
 
+        // Set the correct download link (update.json)
+        const downloadLink = `https://github.com/warped-pinball/vector/releases/download/${release.version}/update.json`;
+
         div.innerHTML = `
           <strong>${releaseLink}</strong><br>
           <small>Published on: ${new Date(release.published_at).toLocaleDateString()}</small>
           <div>${releaseNotes}</div>
-          <button class="copy-button" onclick="copyToClipboard('${release.url}')">Copy Download Link</button>
+          <button class="copy-button" onclick="copyToClipboard('${downloadLink}')">Copy Download Link</button>
         `;
         container.appendChild(div);
       });
