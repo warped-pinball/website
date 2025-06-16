@@ -72,9 +72,16 @@ def main():
 
             # Write the latest release to a separate file (latest.json)
             latest_release = max(releases, key=lambda r: r["published_at"])  # Get the latest release
+            latest_release_data = {
+                "version": latest_release["version"],
+                "url": latest_release["url"],  # This is the download link for update.json
+                "release_page": f"https://github.com/{args.owner}/{args.repo}/releases/tag/{latest_release['version']}",  # Link to the release page
+                "published_at": latest_release["published_at"]  # Just the date, no need for release notes
+            }
+
             latest_path = os.path.join(out_folder, "latest.json")
             with open(latest_path, "w") as f:
-                json.dump(latest_release, f, indent=2)
+                json.dump(latest_release_data, f, indent=2)
             print(f"✅ Wrote {latest_path} for {product}")
 
     print("✅ Generated release data for all products.")

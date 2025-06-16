@@ -57,6 +57,7 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       width: 95%;
       margin-left: 20px; /* Added margin on left */
+      position: relative;
     }
 
     .release-item a {
@@ -64,9 +65,17 @@
       color: #3498db; /* Blue color for links */
     }
 
+    .release-item .date {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 0.9em;
+      color: #bbb;
+    }
+
     .copy-button {
       margin-top: 10px;
-      background-color: #4CAF50;
+      background-color: #777; /* Subtle button */
       color: white;
       padding: 8px 15px;
       cursor: pointer;
@@ -75,7 +84,7 @@
     }
 
     .copy-button:hover {
-      background-color: #45a049; /* Hover effect for copy button */
+      background-color: #666; /* More subtle hover effect */
     }
 
     .toggle-button {
@@ -155,7 +164,7 @@
 
         div.innerHTML = `
           <strong>${releaseLink}</strong><br>
-          <small>Published on: ${new Date(release.published_at).toLocaleDateString()}</small>
+          <div class="date">${new Date(release.published_at).toLocaleDateString()}</div>
           <div>${releaseNotes}</div>
           <button class="copy-button" onclick="copyToClipboard('${downloadLink}')">Copy Download Link</button>
         `;
