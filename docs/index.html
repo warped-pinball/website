@@ -41,8 +41,14 @@
   <script>
     // Fetch the release data
     async function fetchData(product, channel) {
-      const response = await fetch(`https://warped-pinball.github.io/website/docs/${product}/${channel}.json`);
-      return response.json();
+      try {
+        const response = await fetch(`https://warped-pinball.github.io/website/docs/${product}/${channel}.json`);
+        if (!response.ok) throw new Error("Not found");
+        return response.json();
+      } catch (error) {
+        console.log(`${channel} not found for ${product}`);
+        return []; // Return an empty array if the file isn't found
+      }
     }
 
     // Render release data in Markdown-like format

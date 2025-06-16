@@ -71,12 +71,13 @@ def main():
     # Write out the JSON files
     for product, channels in releases_by_product.items():
         for channel, releases in channels.items():
-            out_folder = os.path.join(args.out_dir, product)
-            os.makedirs(out_folder, exist_ok=True)
-            out_path = os.path.join(out_folder, f"{channel}.json")
-            with open(out_path, "w") as f:
-                json.dump(releases, f, indent=2)
-            print(f"✅ Wrote {out_path}")
+            if releases:  # Only write if there are releases for that channel
+                out_folder = os.path.join(args.out_dir, product)
+                os.makedirs(out_folder, exist_ok=True)
+                out_path = os.path.join(out_folder, f"{channel}.json")
+                with open(out_path, "w") as f:
+                    json.dump(releases, f, indent=2)
+                print(f"✅ Wrote {out_path}")
 
     print("✅ Generated release data for all products and channels.")
 
