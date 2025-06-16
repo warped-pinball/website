@@ -23,11 +23,11 @@ def main():
     gh = Github(token)
     repository = gh.get_repo(f"{args.owner}/{args.repo}")
 
-    # key = (product, channel) → list of releases
-    releases_by_product = {"sys11": {"main": [], "beta": [], "dev": []}, "wpc": {"main": [], "beta": [], "dev": []}}
+    # key = (product) → list of full releases
+    releases_by_product = {"sys11": [], "wpc": []}
 
     for release in repository.get_releases():
-        if release.draft:
+        if release.draft or release.prerelease:
             continue
 
         tag = release.tag_name
@@ -43,14 +43,6 @@ def main():
             else:
                 version = tag
 
-        # Channel: prerelease → beta, dev builds are those without the "beta" flag
-        if release.prerelease:
-            channel = "beta"
-        elif "dev" in tag:
-            channel = "dev"
-        else:
-            channel = "main"
-
         # Exclude releases with no update.json file
         asset = next((a for a in release.get_assets() if a.name == "update.json"), None)
         if not asset:
@@ -61,25 +53,24 @@ def main():
         release_data = {
             "version": version,
             "url": f"https://github.com/{args.owner}/{args.repo}/releases/download/{tag}/update.json",  # Fixed URL
-            "notes": release.body if channel == "main" else "No release notes for beta/dev builds",
+            "notes": release.body or "No release notes provided",
             "published_at": release.published_at.isoformat()  # Add the release date for sorting
         }
 
         # Store release data
-        releases_by_product[product][channel].append(release_data)
+        releases_by_product[product].append(release_data)
 
-    # Write out the JSON files
-    for product, channels in releases_by_product.items():
-        for channel, releases in channels.items():
-            if releases:  # Only write if there are releases for that channel
-                out_folder = os.path.join(args.out_dir, product)
-                os.makedirs(out_folder, exist_ok=True)
-                out_path = os.path.join(out_folder, f"{channel}.json")
-                with open(out_path, "w") as f:
-                    json.dump(releases, f, indent=2)
-                print(f"✅ Wrote {out_path}")
+    # Write out the JSON files for each product
+    for product, releases in releases_by_product.items():
+        if releases:
+            out_folder = os.path.join(args.out_dir, product)
+            os.makedirs(out_folder, exist_ok=True)
+            out_path = os.path.join(out_folder, "main.json")
+            with open(out_path, "w") as f:
+                json.dump(releases, f, indent=2)
+            print(f"✅ Wrote {out_path}")
 
-    print("✅ Generated release data for all products and channels.")
+    print("✅ Generated release data for all products.")
 
 
 if __name__ == "__main__":

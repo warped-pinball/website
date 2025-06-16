@@ -13,7 +13,6 @@
     .release-list { margin-top: 20px; }
     .release-item { padding: 5px 0; }
     .release-item a { text-decoration: none; color: blue; }
-    .toggle-button { background-color: #ddd; padding: 5px 10px; cursor: pointer; border: none; }
     .copy-button { margin-left: 10px; background-color: #4CAF50; color: white; padding: 5px 10px; cursor: pointer; border: none; }
   </style>
 </head>
@@ -28,27 +27,19 @@
 
   <div id="sys11" class="tab-content active">
     <h2>System 11 Releases</h2>
-    <button class="toggle-button" onclick="toggleBeta('sys11')">Show/Hide Beta/Dev Builds</button>
     <div id="sys11-releases" class="release-list"></div>
   </div>
 
   <div id="wpc" class="tab-content">
     <h2>WPC Releases</h2>
-    <button class="toggle-button" onclick="toggleBeta('wpc')">Show/Hide Beta/Dev Builds</button>
     <div id="wpc-releases" class="release-list"></div>
   </div>
 
   <script>
     // Fetch the release data
-    async function fetchData(product, channel) {
-      try {
-        const response = await fetch(`https://warped-pinball.github.io/website/docs/${product}/${channel}.json`);
-        if (!response.ok) throw new Error("Not found");
-        return response.json();
-      } catch (error) {
-        console.log(`${channel} not found for ${product}`);
-        return []; // Return an empty array if the file isn't found
-      }
+    async function fetchData(product) {
+      const response = await fetch(`https://warped-pinball.github.io/website/docs/${product}/main.json`);
+      return response.json();
     }
 
     // Render release data in Markdown-like format
@@ -60,7 +51,7 @@
         const div = document.createElement("div");
         div.className = "release-item";
         const releaseLink = `<a href="https://github.com/warped-pinball/vector/releases/tag/${release.version}" target="_blank">${release.version}</a>`;
-        const releaseNotes = release.notes === "No release notes for beta/dev builds" ? "" : `<p>${release.notes}</p>`;
+        const releaseNotes = `<p>${release.notes}</p>`;
         div.innerHTML = `
           <strong>${releaseLink}</strong><br>
           <small>Published on: ${new Date(release.published_at).toLocaleDateString()}</small>
@@ -81,18 +72,8 @@
       document.getElementById(product + '-tab').classList.add('active');
       document.getElementById(product).classList.add('active');
 
-      // Load data for that product and channel
-      fetchData(product, 'main').then(data => renderReleases(data, product));
-      fetchData(product, 'beta').then(data => renderReleases(data, product));
-      fetchData(product, 'dev').then(data => renderReleases(data, product));
-    }
-
-    // Toggle visibility of beta and dev builds
-    function toggleBeta(product) {
-      const betaReleases = document.querySelectorAll(`#${product}-releases .beta, #${product}-releases .dev`);
-      betaReleases.forEach(release => {
-        release.style.display = release.style.display === "none" ? "block" : "none";
-      });
+      // Load data for that product
+      fetchData(product).then(data => renderReleases(data, product));
     }
 
     // Copy the download link to clipboard
