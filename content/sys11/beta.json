@@ -2,643 +2,637 @@
   {
     "version": "1.3.9-beta408",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.9-beta408/1.3.9-beta408.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.9-beta408\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-05-26T22:24:34+00:00"
   },
   {
     "version": "1.3.9-dev82",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.9-dev82/1.3.9-dev82.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/82\nBranch: leader_reset\nVersion: 1.3.9-dev82\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-05-26T21:08:30+00:00"
   },
   {
     "version": "1.3.9-beta404",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.9-beta404/1.3.9-beta404.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.9-beta404\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-05-21T02:04:22+00:00"
   },
   {
     "version": "1.3.9-dev81",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.9-dev81/1.3.9-dev81.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/81\nBranch: version-bump\nVersion: 1.3.9-dev81\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-05-21T02:01:22+00:00"
   },
   {
     "version": "1.3.8-dev80",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.8-dev80/1.3.8-dev80.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/80\nBranch: Whirlwind-Live-Scores\nVersion: 1.3.8-dev80\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-05-20T01:46:42+00:00"
   },
   {
     "version": "1.3.8-beta399",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.8-beta399/1.3.8-beta399.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.8-beta399\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-05-20T02:38:42+00:00"
   },
   {
     "version": "1.3.8-beta396",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.8-beta396/1.3.8-beta396.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.8-beta396\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-05-20T00:53:56+00:00"
   },
   {
     "version": "1.3.8-beta394",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.8-beta394/1.3.8-beta394.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.8-beta394\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-05-06T00:11:44+00:00"
   },
   {
     "version": "1.3.8-dev78",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.8-dev78/1.3.8-dev78.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/78\nBranch: wifi-retry-timeout\nVersion: 1.3.8-dev78\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-05-03T01:41:00+00:00"
   },
   {
     "version": "1.3.8-dev77",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.8-dev77/1.3.8-dev77.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/77\nBranch: improved-discover\nVersion: 1.3.8-dev77\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-04-17T21:38:55+00:00"
   },
   {
     "version": "1.3.8-dev76",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.8-dev76/1.3.8-dev76.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/76\nBranch: Sorcerer-add\nVersion: 1.3.8-dev76\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-04-16T23:34:10+00:00"
   },
   {
     "version": "1.3.8-beta386",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.8-beta386/1.3.8-beta386.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.8-beta386\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-04-11T18:47:45+00:00"
   },
   {
     "version": "1.3.8-dev74",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.8-dev74/1.3.8-dev74.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/74\nBranch: sys9-score-fix\nVersion: 1.3.8-dev74\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-04-11T17:27:47+00:00"
   },
   {
     "version": "1.3.7-beta381",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.7-beta381/1.3.7-beta381.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.7-beta381\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-04-01T00:42:48+00:00"
   },
   {
     "version": "1.3.7-dev73",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.7-dev73/1.3.7-dev73.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/73\nBranch: Space-Station-Fix\nVersion: 1.3.7-dev73\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-04-01T00:04:20+00:00"
   },
   {
     "version": "1.3.6-dev73",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.6-dev73/1.3.6-dev73.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/73\nBranch: Space-Station-Fix\nVersion: 1.3.6-dev73\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-04-01T00:03:22+00:00"
   },
   {
     "version": "1.3.6-dev72",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.6-dev72/1.3.6-dev72.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/72\nBranch: readme-contributors\nVersion: 1.3.6-dev72\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-28T00:12:53+00:00"
   },
   {
     "version": "1.3.6-beta378",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.6-beta378/1.3.6-beta378.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.6-beta378\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-28T00:13:00+00:00"
   },
   {
     "version": "1.3.6-beta376",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.6-beta376/1.3.6-beta376.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.6-beta376\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-28T00:12:27+00:00"
   },
   {
     "version": "1.3.5-dev72",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.5-dev72/1.3.5-dev72.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/72\nBranch: readme-contributors\nVersion: 1.3.5-dev72\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-28T00:09:24+00:00"
   },
   {
     "version": "1.3.5-beta372",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.5-beta372/1.3.5-beta372.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.5-beta372\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-27T23:54:32+00:00"
   },
   {
     "version": "1.3.6-dev68",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.6-dev68/1.3.6-dev68.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/68\nBranch: live-scores-clear\nVersion: 1.3.6-dev68\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-27T19:29:06+00:00"
   },
   {
     "version": "1.3.5-dev68",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.5-dev68/1.3.5-dev68.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/68\nBranch: live-scores-clear\nVersion: 1.3.5-dev68\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-27T00:43:16+00:00"
   },
   {
     "version": "1.3.5-dev67",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.5-dev67/1.3.5-dev67.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/67\nBranch: diner_fix\nVersion: 1.3.5-dev67\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-23T20:50:37+00:00"
   },
   {
     "version": "1.3.5-beta363",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.5-beta363/1.3.5-beta363.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.5-beta363\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-23T20:51:10+00:00"
   },
   {
     "version": "1.3.5-beta361",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.5-beta361/1.3.5-beta361.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.5-beta361\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-23T20:44:01+00:00"
   },
   {
     "version": "1.3.5-dev70",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.5-dev70/1.3.5-dev70.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/70\nBranch: version-bump\nVersion: 1.3.5-dev70\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-23T20:42:40+00:00"
   },
   {
     "version": "1.3.4-beta358",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.4-beta358/1.3.4-beta358.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.4-beta358\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-22T20:32:57+00:00"
   },
   {
     "version": "1.3.4-dev68",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.4-dev68/1.3.4-dev68.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/68\nBranch: live-scores-clear\nVersion: 1.3.4-dev68\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-22T14:42:01+00:00"
   },
   {
     "version": "1.3.4-dev67",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.4-dev67/1.3.4-dev67.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/67\nBranch: diner_fix\nVersion: 1.3.4-dev67\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-21T01:50:43+00:00"
   },
   {
     "version": "1.3.4-dev66",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.4-dev66/1.3.4-dev66.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/66\nBranch: improved-readme\nVersion: 1.3.4-dev66\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-20T03:50:27+00:00"
   },
   {
     "version": "1.3.4-dev65",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.4-dev65/1.3.4-dev65.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/65\nBranch: Zoom-Demo-TPF\nVersion: 1.3.4-dev65\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-14T20:48:15+00:00"
   },
   {
     "version": "1.3.4-beta338",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.4-beta338/1.3.4-beta338.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.4-beta338\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-12T02:36:53+00:00"
   },
   {
     "version": "1.3.4-dev64",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.4-dev64/1.3.4-dev64.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/64\nBranch: log-adjustments\nVersion: 1.3.4-dev64\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-12T02:36:22+00:00"
   },
   {
     "version": "1.3.3-dev64",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.3-dev64/1.3.3-dev64.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/64\nBranch: log-adjustments\nVersion: 1.3.3-dev64\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-10T22:27:24+00:00"
   },
   {
     "version": "1.3.3-dev63",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.3-dev63/1.3.3-dev63.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/63\nBranch: version-bump\nVersion: 1.3.3-dev63\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T21:51:53+00:00"
   },
   {
     "version": "1.3.3-beta330",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.3-beta330/1.3.3-beta330.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.3-beta330\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T21:51:50+00:00"
   },
   {
     "version": "1.3.2-dev62",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.2-dev62/1.3.2-dev62.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/62\nBranch: short-initials\nVersion: 1.3.2-dev62\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T20:17:00+00:00"
   },
   {
     "version": "1.3.2-dev58",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.2-dev58/1.3.2-dev58.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/58\nBranch: KISS-scores-reload\nVersion: 1.3.2-dev58\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T17:26:50+00:00"
   },
   {
     "version": "1.3.2-dev53",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.2-dev53/1.3.2-dev53.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/53\nBranch: disaplymessage_robusto\nVersion: 1.3.2-dev53\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T17:29:06+00:00"
   },
   {
     "version": "1.3.2-beta327",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.2-beta327/1.3.2-beta327.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.2-beta327\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T21:49:26+00:00"
   },
   {
     "version": "1.3.2-beta324",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.2-beta324/1.3.2-beta324.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.2-beta324\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T17:33:04+00:00"
   },
   {
     "version": "1.3.2-beta320",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.2-beta320/1.3.2-beta320.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.2-beta320\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T17:26:29+00:00"
   },
   {
     "version": "1.3.2-beta319",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.2-beta319/1.3.2-beta319.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.2-beta319\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T17:26:07+00:00"
   },
   {
     "version": "1.3.2-dev61",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.2-dev61/1.3.2-dev61.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/61\nBranch: light-mode-style-fixes\nVersion: 1.3.2-dev61\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T17:10:25+00:00"
   },
   {
     "version": "1.3.2-dev60",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.2-dev60/1.3.2-dev60.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/60\nBranch: claim-in-tournament\nVersion: 1.3.2-dev60\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T01:49:28+00:00"
   },
   {
     "version": "1.3.1-dev60",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.1-dev60/1.3.1-dev60.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/60\nBranch: claim-in-tournament\nVersion: 1.3.1-dev60\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-08T04:07:36+00:00"
   },
   {
     "version": "1.3.1-dev59",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.1-dev59/1.3.1-dev59.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/59\nBranch: sort-tournament-by-game\nVersion: 1.3.1-dev59\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T17:25:13+00:00"
   },
   {
     "version": "1.3.1-dev56",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.1-dev56/1.3.1-dev56.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/56\nBranch: automated-testing\nVersion: 1.3.1-dev56\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-09T17:13:13+00:00"
   },
   {
     "version": "1.3.1-beta310",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.1-beta310/1.3.1-beta310.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.1-beta310\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-08T01:30:28+00:00"
   },
   {
     "version": "1.3.1-dev58",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.1-dev58/1.3.1-dev58.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/58\nBranch: KISS-scores-reload\nVersion: 1.3.1-dev58\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-06T04:10:33+00:00"
   },
   {
     "version": "1.3.1-dev55",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.1-dev55/1.3.1-dev55.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/55\nBranch: Testing-and-bug-resolution\nVersion: 1.3.1-dev55\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-06T21:14:36+00:00"
   },
   {
     "version": "1.3.0-dev59",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.0-dev59/1.3.0-dev59.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/59\nBranch: sort-tournament-by-game\nVersion: 1.3.0-dev59\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-08T01:01:04+00:00"
   },
   {
     "version": "1.3.0-dev57",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.0-dev57/1.3.0-dev57.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/57\nBranch: combine-api-routes\nVersion: 1.3.0-dev57\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-04T03:52:39+00:00"
   },
   {
     "version": "1.3.0-dev56",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.0-dev56/1.3.0-dev56.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/56\nBranch: automated-testing\nVersion: 1.3.0-dev56\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-03T02:31:26+00:00"
   },
   {
     "version": "1.3.0-beta262",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.0-beta262/1.3.0-beta262.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.0-beta262\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-03T02:26:06+00:00"
   },
   {
     "version": "1.3.0-dev55",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.0-dev55/1.3.0-dev55.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/55\nBranch: Testing-and-bug-resolution\nVersion: 1.3.0-dev55\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-03T00:14:20+00:00"
   },
   {
     "version": "1.3.0-dev54",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.0-dev54/1.3.0-dev54.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/54\nBranch: route-quick-fix\nVersion: 1.3.0-dev54\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T23:21:53+00:00"
   },
   {
     "version": "1.3.0-dev53",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.0-dev53/1.3.0-dev53.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/53\nBranch: disaplymessage_robusto\nVersion: 1.3.0-dev53\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T19:21:48+00:00"
   },
   {
     "version": "1.3.0-dev52",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.0-dev52/1.3.0-dev52.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/52\nBranch: js-linter\nVersion: 1.3.0-dev52\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T18:26:23+00:00"
   },
   {
     "version": "1.3.0-beta258",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.0-beta258/1.3.0-beta258.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.3.0-beta258\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T18:46:18+00:00"
   },
   {
     "version": "1.2.0-dev53",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-dev53/1.2.0-dev53.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/53\nBranch: disaplymessage_robusto\nVersion: 1.2.0-dev53\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T13:11:53+00:00"
   },
   {
     "version": "1.2.0-dev52",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-dev52/1.2.0-dev52.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/52\nBranch: js-linter\nVersion: 1.2.0-dev52\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T04:43:50+00:00"
   },
   {
     "version": "1.2.0-dev51",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-dev51/1.2.0-dev51.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/51\nBranch: show-ip-toggle\nVersion: 1.2.0-dev51\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T02:47:20+00:00"
   },
   {
     "version": "1.2.0-dev50",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-dev50/1.2.0-dev50.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/50\nBranch: web-ui-claim-toggle\nVersion: 1.2.0-dev50\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T02:15:04+00:00"
   },
   {
     "version": "1.2.0-dev49",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-dev49/1.2.0-dev49.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/49\nBranch: discovery-recovery\nVersion: 1.2.0-dev49\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T02:20:30+00:00"
   },
   {
     "version": "1.2.0-dev48",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-dev48/1.2.0-dev48.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/48\nBranch: fix-overlapping-routes\nVersion: 1.2.0-dev48\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T02:20:00+00:00"
   },
   {
     "version": "1.2.0-beta254",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-beta254/1.2.0-beta254.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.2.0-beta254\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T18:14:40+00:00"
   },
   {
     "version": "1.2.0-beta251",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-beta251/1.2.0-beta251.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.2.0-beta251\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T17:51:26+00:00"
   },
   {
     "version": "1.2.0-beta247",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-beta247/1.2.0-beta247.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.2.0-beta247\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T15:06:45+00:00"
   },
   {
     "version": "1.2.0-beta246",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-beta246/1.2.0-beta246.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.2.0-beta246\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T15:06:22+00:00"
   },
   {
     "version": "1.2.0-beta235",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-beta235/1.2.0-beta235.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.2.0-beta235\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T02:11:41+00:00"
   },
   {
     "version": "1.2.0-dev47",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.2.0-dev47/1.2.0-dev47.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/47\nBranch: live-scores-webui\nVersion: 1.2.0-dev47\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-01T01:45:10+00:00"
   },
   {
     "version": "1.1.0-dev49",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.1.0-dev49/1.1.0-dev49.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/49\nBranch: discovery-recovery\nVersion: 1.1.0-dev49\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T01:58:59+00:00"
   },
   {
     "version": "1.1.0-dev48",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.1.0-dev48/1.1.0-dev48.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/48\nBranch: fix-overlapping-routes\nVersion: 1.1.0-dev48\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-02T01:31:46+00:00"
   },
   {
     "version": "1.1.0-beta227",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.1.0-beta227/1.1.0-beta227.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.1.0-beta227\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-01T01:39:02+00:00"
   },
   {
     "version": "1.0.0-beta225",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.0.0-beta225/1.0.0-beta225.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.0.0-beta225\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-03-01T01:37:48+00:00"
   },
   {
     "version": "1.1.0-dev45",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.1.0-dev45/1.1.0-dev45.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/45\nBranch: wifi-reconnect\nVersion: 1.1.0-dev45\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-26T03:22:37+00:00"
   },
   {
     "version": "1.0.0-dev47",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.0.0-dev47/1.0.0-dev47.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/47\nBranch: live-scores-webui\nVersion: 1.0.0-dev47\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-26T23:04:19+00:00"
   },
   {
     "version": "1.0.0-dev46",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.0.0-dev46/1.0.0-dev46.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/46\nBranch: logging\nVersion: 1.0.0-dev46\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-26T03:36:54+00:00"
   },
   {
     "version": "1.0.0-dev44",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.0.0-dev44/1.0.0-dev44.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/44\nBranch: memory-efficiency\nVersion: 1.0.0-dev44\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-26T01:38:58+00:00"
   },
   {
     "version": "1.0.0-beta211",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.0.0-beta211/1.0.0-beta211.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.0.0-beta211\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-26T01:31:32+00:00"
   },
   {
     "version": "1.0.0-dev43",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.0.0-dev43/1.0.0-dev43.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/43\nBranch: memory-efficiency\nVersion: 1.0.0-dev43\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-25T02:49:28+00:00"
   },
   {
     "version": "1.0.0-beta203",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.0.0-beta203/1.0.0-beta203.uf2",
-    "notes": "PR: \nBranch: \nVersion: 1.0.0-beta203\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-23T19:57:39+00:00"
   },
   {
     "version": "0.4.4-beta160",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.4-beta160/0.4.4-beta160.uf2",
-    "notes": "PR: \nBranch: \nVersion: 0.4.4-beta160\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-06T22:57:10+00:00"
   },
   {
     "version": "1.0.0-dev35",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.0.0-dev35/1.0.0-dev35.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/35\nBranch: update-logic-fix\nVersion: 1.0.0-dev35\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-06T04:13:37+00:00"
   },
   {
     "version": "0.4.5-dev33",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.5-dev33/0.4.5-dev33.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/33\nBranch: KISS-scores\nVersion: 0.4.5-dev33\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-05T04:13:36+00:00"
   },
   {
     "version": "0.4.4-dev34",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.4-dev34/0.4.4-dev34.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/34\nBranch: Factory-Reset\nVersion: 0.4.4-dev34\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-05T19:53:48+00:00"
   },
   {
     "version": "0.4.4-beta149",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.4-beta149/0.4.4-beta149.uf2",
-    "notes": "PR: \nBranch: \nVersion: 0.4.4-beta149\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-04T01:02:49+00:00"
   },
   {
     "version": "0.4.4-dev32",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.4-dev32/0.4.4-dev32.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/32\nBranch: main_0_4_0_testing\nVersion: 0.4.4-dev32\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-03T21:50:24+00:00"
   },
   {
     "version": "0.4.3-dev31",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.3-dev31/0.4.3-dev31.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/31\nBranch: authenticate-for-logs\nVersion: 0.4.3-dev31\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-02T16:34:19+00:00"
   },
   {
     "version": "0.4.3-dev29",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.3-dev29/0.4.3-dev29.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/29\nBranch: scores\nVersion: 0.4.3-dev29\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-02T03:21:43+00:00"
   },
   {
     "version": "0.4.3-beta145",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.3-beta145/0.4.3-beta145.uf2",
-    "notes": "PR: \nBranch: \nVersion: 0.4.3-beta145\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-02T16:46:59+00:00"
   },
   {
     "version": "0.4.2-beta139",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.2-beta139/0.4.2-beta139.uf2",
-    "notes": "PR: \nBranch: \nVersion: 0.4.2-beta139\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-02T03:06:44+00:00"
   },
   {
     "version": "0.4.2-dev30",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.2-dev30/0.4.2-dev30.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/30\nBranch: no-discovery-in-ap-mode\nVersion: 0.4.2-dev30\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-02T02:53:34+00:00"
   },
   {
     "version": "0.4.1-dev29",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.1-dev29/0.4.1-dev29.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/29\nBranch: scores\nVersion: 0.4.1-dev29\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-01T23:49:39+00:00"
   },
   {
     "version": "0.4.1-dev28",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.1-dev28/0.4.1-dev28.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/28\nBranch: cancel-button-fix\nVersion: 0.4.1-dev28\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-01T23:38:40+00:00"
   },
   {
     "version": "0.4.1-beta135",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.1-beta135/0.4.1-beta135.uf2",
-    "notes": "PR: \nBranch: \nVersion: 0.4.1-beta135\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-01T23:48:13+00:00"
   },
   {
     "version": "0.4.0-dev29",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.0-dev29/0.4.0-dev29.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/29\nBranch: scores\nVersion: 0.4.0-dev29\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-01T23:42:13+00:00"
   },
   {
     "version": "0.4.0-beta130",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.0-beta130/0.4.0-beta130.uf2",
-    "notes": "PR: \nBranch: \nVersion: 0.4.0-beta130\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-02-01T23:36:46+00:00"
   },
   {
     "version": "0.4.0-beta126",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.0-beta126/0.4.0-beta126.uf2",
-    "notes": "PR: \nBranch: \nVersion: 0.4.0-beta126\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-01-28T23:32:55+00:00"
   },
   {
     "version": "0.4.0-beta123",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.0-beta123/0.4.0-beta123.uf2",
-    "notes": "PR: \nBranch: \nVersion: 0.4.0-beta123\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-01-28T22:23:22+00:00"
   },
   {
     "version": "0.4.0-dev25",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.0-dev25/0.4.0-dev25.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/25\nBranch: network-discovery\nVersion: 0.4.0-dev25\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-01-26T19:37:25+00:00"
   },
   {
     "version": "0.3.0-beta-116",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.3.0-beta-116/0.3.0-beta-116.uf2",
-    "notes": "PR: \nBranch: \nVersion: 0.3.0-beta-116\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-01-26T17:00:14+00:00"
   },
   {
     "version": "0.4.0-dev24",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.0-dev24/0.4.0-dev24.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/24\nBranch: pre-commit-changes\nVersion: 0.4.0-dev24\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-01-19T22:45:30+00:00"
   },
   {
     "version": "0.4.0-dev22",
     "url": "https://github.com/warped-pinball/vector/releases/download/0.4.0-dev22/0.4.0-dev22.uf2",
-    "notes": "PR: https://github.com/warped-pinball/vector/pull/22\nBranch: Serial_Flash_Test\nVersion: 0.4.0-dev22\n",
+    "notes": "No release notes for beta/dev builds",
     "published_at": "2025-01-19T03:00:13+00:00"
-  },
-  {
-    "version": "0.2.1",
-    "url": "https://github.com/warped-pinball/vector/releases/download/0.2.1/0.2.1.uf2",
-    "notes": "Patched Dec 2024",
-    "published_at": "2024-12-24T22:36:36+00:00"
   }
 ]
