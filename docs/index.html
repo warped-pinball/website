@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Warped Pinball Firmware Releases</title>
+  <title>Warped Pinball Firmware Changelog</title>
   <style>
     body { font-family: Arial, sans-serif; }
     .tab { padding: 10px; margin: 5px; background-color: #f1f1f1; cursor: pointer; display: inline-block; }
     .tab.active { background-color: #ddd; }
     .tab-content { display: none; padding: 10px; border-top: 1px solid #ccc; }
     .tab-content.active { display: block; }
-    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-    th, td { padding: 10px; text-align: left; border: 1px solid #ddd; }
+    .release-list { margin-top: 20px; }
+    .release-item { padding: 5px 0; }
+    .release-item a { text-decoration: none; color: blue; }
+    .toggle-button { background-color: #ddd; padding: 5px 10px; cursor: pointer; border: none; }
   </style>
 </head>
 <body>
@@ -25,12 +27,14 @@
 
   <div id="sys11" class="tab-content active">
     <h2>System 11 Releases</h2>
-    <table id="sys11-table"></table>
+    <button class="toggle-button" onclick="toggleBeta('sys11')">Show/Hide Beta/Dev Builds</button>
+    <div id="sys11-releases" class="release-list"></div>
   </div>
 
   <div id="wpc" class="tab-content">
     <h2>WPC Releases</h2>
-    <table id="wpc-table"></table>
+    <button class="toggle-button" onclick="toggleBeta('wpc')">Show/Hide Beta/Dev Builds</button>
+    <div id="wpc-releases" class="release-list"></div>
   </div>
 
   <script>
@@ -40,19 +44,22 @@
       return response.json();
     }
 
-    // Render release data in a table
-    function renderTable(data, tableId) {
-      const table = document.getElementById(tableId);
-      table.innerHTML = "<thead><tr><th>Version</th><th>Release Notes</th><th>Release Date</th></tr></thead><tbody>";
+    // Render release data in Markdown-like format
+    function renderReleases(data, product) {
+      const container = document.getElementById(`${product}-releases`);
+      container.innerHTML = '';  // Clear existing entries
 
       data.forEach(release => {
-        const row = document.createElement("tr");
-        row.innerHTML = `
-          <td>${release.version}</td>
-          <td>${release.notes}</td>
-          <td>${new Date(release.published_at).toLocaleDateString()}</td>
+        const div = document.createElement("div");
+        div.className = "release-item";
+        const releaseLink = `<a href="${release.url}" target="_blank">${release.version}</a>`;
+        const releaseNotes = release.notes === "No release notes for beta/dev builds" ? "" : `<p>${release.notes}</p>`;
+        div.innerHTML = `
+          <strong>${releaseLink}</strong><br>
+          <small>Published on: ${new Date(release.published_at).toLocaleDateString()}</small>
+          ${releaseNotes}
         `;
-        table.appendChild(row);
+        container.appendChild(div);
       });
     }
 
@@ -67,8 +74,17 @@
       document.getElementById(product).classList.add('active');
 
       // Load data for that product and channel
-      fetchData(product, 'main').then(data => renderTable(data, product + '-table'));
-      fetchData(product, 'beta').then(data => renderTable(data, product + '-table'));
+      fetchData(product, 'main').then(data => renderReleases(data, product));
+      fetchData(product, 'beta').then(data => renderReleases(data, product));
+      fetchData(product, 'dev').then(data => renderReleases(data, product));
+    }
+
+    // Toggle visibility of beta and dev builds
+    function toggleBeta(product) {
+      const betaReleases = document.querySelectorAll(`#${product}-releases .beta, #${product}-releases .dev`);
+      betaReleases.forEach(release => {
+        release.style.display = release.style.display === "none" ? "block" : "none";
+      });
     }
 
     // Initial load for sys11

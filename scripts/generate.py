@@ -24,7 +24,7 @@ def main():
     repository = gh.get_repo(f"{args.owner}/{args.repo}")
 
     # key = (product, channel) → list of releases
-    releases_by_product = {"sys11": {"main": [], "beta": []}, "wpc": {"main": [], "beta": []}}
+    releases_by_product = {"sys11": {"main": [], "beta": [], "dev": []}, "wpc": {"main": [], "beta": [], "dev": []}}
 
     for release in repository.get_releases():
         if release.draft:
@@ -43,14 +43,25 @@ def main():
             else:
                 version = tag
 
-        # Channel: prerelease → beta, else main
-        channel = "beta" if release.prerelease else "main"
+        # Channel: prerelease → beta, dev builds are those without the "beta" flag
+        if release.prerelease:
+            channel = "beta"
+        elif "dev" in tag:
+            channel = "dev"
+        else:
+            channel = "main"
+
+        # Exclude releases with no update.json file
+        asset = next((a for a in release.get_assets() if a.name == "update.json"), None)
+        if not asset:
+            print(f"⏭️ Skipping {tag}: no update.json asset", file=sys.stderr)
+            continue
 
         # Extract metadata from release info
         release_data = {
             "version": version,
             "url": f"https://github.com/{args.owner}/{args.repo}/releases/download/{tag}/{tag}.uf2",  # assuming firmware is named like tag.uf2
-            "notes": release.body or "No release notes provided",
+            "notes": release.body if channel == "main" else "No release notes for beta/dev builds",
             "published_at": release.published_at.isoformat()  # Add the release date for sorting
         }
 
