@@ -46,8 +46,11 @@ def main():
     gh = Github(token)
     repository = gh.get_repo(f"{args.owner}/{args.repo}")
 
-    # key = product -> list of unique releases
-    releases_by_product = {"sys11": [], "wpc": []}
+    # key = product -> dict of release lists by type
+    releases_by_product = {
+        "sys11": {"prod": [], "beta": [], "dev": [], "all": []},
+        "wpc": {"prod": [], "beta": [], "dev": [], "all": []},
+    }
     # track last update hash for each product so we can skip identical builds
     previous_update_hashes = {"sys11": None, "wpc": None}
     file_db = []  # collect metadata for all update files
@@ -107,21 +110,32 @@ def main():
                 "notes": release.body or "No release notes provided",
                 "published_at": release.published_at.isoformat(),
                 "type": release_type,
+                "download_count": asset.download_count,
             }
-            releases_by_product[product].append(release_entry)
+            releases_by_product[product]["all"].append(release_entry)
+            releases_by_product[product][release_type if release_type != "production" else "prod"].append(release_entry)
 
     # Write out the JSON files for each product
-    for product, releases in releases_by_product.items():
-        if releases:
+    for product, groups in releases_by_product.items():
+        if groups["all"]:
             out_folder = os.path.join(args.out_dir, product)
             os.makedirs(out_folder, exist_ok=True)
-            out_path = os.path.join(out_folder, "main.json")
-            with open(out_path, "w") as f:
-                json.dump(releases, f, indent=2)
-            print(f"✅ Wrote {out_path}")
+
+            # write combined data for backward compatibility
+            all_path = os.path.join(out_folder, "main.json")
+            with open(all_path, "w") as f:
+                json.dump(groups["all"], f, indent=2)
+            print(f"✅ Wrote {all_path}")
+
+            # write per-type JSON files
+            for key, filename in [("prod", "prod.json"), ("beta", "beta.json"), ("dev", "dev.json")]:
+                path = os.path.join(out_folder, filename)
+                with open(path, "w") as f:
+                    json.dump(groups[key], f, indent=2)
+                print(f"✅ Wrote {path}")
 
             # Write the latest release to a separate file (latest.json)
-            latest_release = max(releases, key=lambda r: r["published_at"])  # Get the latest release
+            latest_release = max(groups["all"], key=lambda r: r["published_at"])  # Get the latest release
             latest_release_data = {
                 "version": latest_release["version"],
                 "url": latest_release["url"],  # This is the download link for update.json

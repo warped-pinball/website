@@ -147,18 +147,29 @@
     // Fetch the release data
     const releaseCache = {};
     let currentProduct = 'sys11';
-    async function fetchData(product) {
-      if (releaseCache[product]) return releaseCache[product];
-      const response = await fetch(`https://warped-pinball.github.io/website/docs/${product}/main.json`);
+
+    async function fetchData(product, type) {
+      releaseCache[product] = releaseCache[product] || {};
+      if (releaseCache[product][type]) return releaseCache[product][type];
+      const response = await fetch(`https://warped-pinball.github.io/website/docs/${product}/${type}.json`);
       const data = await response.json();
-      releaseCache[product] = data;
+      releaseCache[product][type] = data;
       return data;
+    }
+
+    async function loadAndRender() {
+      const showBeta = document.getElementById('show-beta').checked;
+      const showDev = document.getElementById('show-dev').checked;
+      const promises = [fetchData(currentProduct, 'prod')];
+      if (showBeta) promises.push(fetchData(currentProduct, 'beta'));
+      if (showDev) promises.push(fetchData(currentProduct, 'dev'));
+      const results = await Promise.all(promises);
+      const data = [].concat(...results);
+      renderReleases(data, currentProduct);
     }
 
     // Render release data in Markdown-like format
     function renderReleases(data, product) {
-      const showBeta = document.getElementById('show-beta').checked;
-      const showDev = document.getElementById('show-dev').checked;
       const container = document.getElementById(`${product}-releases`);
       container.innerHTML = '';
 
@@ -166,8 +177,6 @@
       const sorted = data.slice().sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
       sorted.forEach(release => {
-        if (release.type === 'beta' && !showBeta) return;
-        if (release.type === 'dev' && !showDev) return;
         const div = document.createElement("div");
         div.className = "release-item";
         const releaseLink = `<a href="https://github.com/warped-pinball/vector/releases/tag/${release.version}" target="_blank">${release.version}</a>`;
@@ -197,7 +206,7 @@
       document.getElementById(product + '-tab').classList.add('active');
       document.getElementById(product).classList.add('active');
 
-      fetchData(product).then(data => renderReleases(data, product));
+      loadAndRender();
     }
 
     // Copy the download link to clipboard
@@ -220,12 +229,8 @@
       alert("Download link copied!");
     }
 
-    document.getElementById('show-beta').addEventListener('change', () => {
-      fetchData(currentProduct).then(data => renderReleases(data, currentProduct));
-    });
-    document.getElementById('show-dev').addEventListener('change', () => {
-      fetchData(currentProduct).then(data => renderReleases(data, currentProduct));
-    });
+    document.getElementById('show-beta').addEventListener('change', loadAndRender);
+    document.getElementById('show-dev').addEventListener('change', loadAndRender);
 
     // Initial load for sys11
     showTab('sys11');
