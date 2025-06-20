@@ -1,0 +1,9 @@
+[
+  {
+    "version": "1.3.10-dev83",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.3.10-dev83/update_wpc.json",
+    "notes": "Version: 1.3.10-dev83\nTrigger: pull_request\n",
+    "published_at": "2025-06-19T02:25:50+00:00",
+    "type": "beta"
+  }
+]
