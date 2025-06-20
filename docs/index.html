@@ -162,7 +162,10 @@
       const container = document.getElementById(`${product}-releases`);
       container.innerHTML = '';
 
-      data.forEach(release => {
+      // Sort releases so the newest appear first
+      const sorted = data.slice().sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+
+      sorted.forEach(release => {
         if (release.type === 'beta' && !showBeta) return;
         if (release.type === 'dev' && !showDev) return;
         const div = document.createElement("div");
