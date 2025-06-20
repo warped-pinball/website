@@ -198,7 +198,16 @@
     }
 
     // Copy the download link to clipboard
-    function copyToClipboard(text) {
+    async function copyToClipboard(text) {
+      if (navigator.clipboard) {
+        try {
+          await navigator.clipboard.writeText(text);
+          alert("Download link copied!");
+          return;
+        } catch (err) {
+          console.warn("Clipboard API failed, falling back", err);
+        }
+      }
       const textarea = document.createElement("textarea");
       textarea.value = text;
       document.body.appendChild(textarea);
