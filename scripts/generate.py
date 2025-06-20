@@ -6,6 +6,7 @@ import argparse
 import hashlib
 import requests
 from github import Github
+import re
 
 def fetch_update_json(url):
     """Fetch an update JSON file and return its parsed content.
@@ -65,9 +66,9 @@ def main():
             base_version = tag
 
         release_type = "production"
-        if release.draft:
+        if re.search(r"-dev\d+$", base_version):
             release_type = "dev"
-        elif release.prerelease:
+        elif re.search(r"-beta-?\d+$", base_version):
             release_type = "beta"
 
         # gather assets by name
