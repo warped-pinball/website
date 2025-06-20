@@ -8,16 +8,15 @@ import requests
 from github import Github
 
 def fetch_update_json(url):
-    """Fetch the update.json from the release and return its content as a JSON object."""
+    """Fetch an update JSON file and return its parsed content."""
     response = requests.get(url)
     if response.status_code == 200:
         return response.json()
-    else:
-        return None
+    return None
 
 def calculate_json_hash(json_data):
-    """Calculate a hash for the given JSON data."""
-    return hashlib.sha256(json.dumps(json_data, sort_keys=True).encode('utf-8')).hexdigest()
+    """Return a deterministic SHA256 digest for a JSON object."""
+    return hashlib.sha256(json.dumps(json_data, sort_keys=True).encode("utf-8")).hexdigest()
 
 def main():
     p = argparse.ArgumentParser(
@@ -36,63 +35,69 @@ def main():
     gh = Github(token)
     repository = gh.get_repo(f"{args.owner}/{args.repo}")
 
-    # key = (product) → list of full releases
+    # key = product -> list of unique releases
     releases_by_product = {"sys11": [], "wpc": []}
+    # track last update hash for each product so we can skip identical builds
     previous_update_hashes = {"sys11": None, "wpc": None}
+    file_db = []  # collect metadata for all update files
 
-    for release in repository.get_releases():
-        if release.draft or release.prerelease:
-            continue
+    releases = list(repository.get_releases())
+    # sort oldest -> newest so we only skip later duplicates
+    releases.sort(key=lambda r: r.created_at)
 
+    for release in releases:
         tag = release.tag_name
-        # Determine the product (sys11 or wpc)
         if tag.startswith("wpc-"):
-            product = "wpc"
-            version = tag[len("wpc-"):]
+            base_version = tag[len("wpc-") :]
+        elif tag.startswith("sys11-"):
+            base_version = tag[len("sys11-") :]
         else:
-            product = "sys11"
-            if tag.startswith("sys11-"):
-                version = tag[len("sys11-"):]
-            else:
-                version = tag
+            base_version = tag
 
-        # Get the asset metadata for update.json (instead of downloading the full file)
-        asset = None
-        try:
-            asset = next(a for a in release.get_assets() if a.name == "update.json")
-        except StopIteration:
-            print(f"⏭️ Skipping {tag}: no update.json asset", file=sys.stderr)
-            continue
+        release_type = "production"
+        if release.draft:
+            release_type = "dev"
+        elif release.prerelease:
+            release_type = "beta"
 
-        update_url = asset.browser_download_url
-        # Download and calculate the hash of the update.json file
-        update_data = fetch_update_json(update_url)
+        # gather assets by name
+        assets = {a.name: a for a in release.get_assets()}
+        for asset_name, product in [("update.json", "sys11"), ("update_wpc.json", "wpc")]:
+            asset = assets.get(asset_name)
+            if not asset:
+                continue
 
-        if update_data is None:
-            print(f"⏭️ Skipping {tag}: failed to fetch update.json", file=sys.stderr)
-            continue
+            update_data = fetch_update_json(asset.browser_download_url)
+            if update_data is None:
+                print(f"⏭️ Skipping {tag} {asset_name}: failed to fetch", file=sys.stderr)
+                continue
 
-        # Calculate the hash of the update.json file
-        update_hash = calculate_json_hash(update_data)
+            update_hash = calculate_json_hash(update_data)
 
-        # Skip this release if it's identical to the last release for this product
-        if previous_update_hashes[product] == update_hash:
-            print(f"⏭️ Skipping {tag}: identical to previous release")
-            continue
+            file_db.append({
+                "product": product,
+                "version": base_version,
+                "type": release_type,
+                "url": asset.browser_download_url,
+                "sha256": update_hash,
+                "download_count": asset.download_count,
+            })
 
-        # Store the update hash to compare with the next release
-        previous_update_hashes[product] = update_hash
+            # Only skip if this is a production build identical to previous production
+            if release_type == "production" and previous_update_hashes[product] == update_hash:
+                continue
 
-        # Extract metadata for the release
-        release_data = {
-            "version": version,
-            "url": f"https://github.com/{args.owner}/{args.repo}/releases/download/{tag}/update.json",
-            "notes": release.body or "No release notes provided",
-            "published_at": release.published_at.isoformat()  # Add the release date for sorting
-        }
+            if release_type == "production":
+                previous_update_hashes[product] = update_hash
 
-        # Store the release data
-        releases_by_product[product].append(release_data)
+            release_entry = {
+                "version": base_version,
+                "url": asset.browser_download_url,
+                "notes": release.body or "No release notes provided",
+                "published_at": release.published_at.isoformat(),
+                "type": release_type,
+            }
+            releases_by_product[product].append(release_entry)
 
     # Write out the JSON files for each product
     for product, releases in releases_by_product.items():
@@ -117,6 +122,13 @@ def main():
             with open(latest_path, "w") as f:
                 json.dump(latest_release_data, f, indent=2)
             print(f"✅ Wrote {latest_path} for {product}")
+
+    # write mini database of all update files
+    if file_db:
+        build_db_path = os.path.join(args.out_dir, "builds.json")
+        with open(build_db_path, "w") as f:
+            json.dump(file_db, f, indent=2)
+        print(f"✅ Wrote {build_db_path}")
 
     print("✅ Generated release data for all products.")
 
