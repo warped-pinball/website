@@ -8,11 +8,21 @@ import requests
 from github import Github
 
 def fetch_update_json(url):
-    """Fetch an update JSON file and return its parsed content."""
+    """Fetch an update JSON file and return its parsed content.
+
+    The update files published by the firmware repository contain a JSON
+    metadata line followed by additional binary data.  Using ``response.json``
+    directly fails because of this extra content.  Instead, read only the
+    first line of the response and parse that as JSON.
+    """
+
     response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()
-    return None
+    if response.status_code != 200:
+        return None
+
+    # splitlines handles both ``\n`` and ``\r\n`` newlines
+    first_line = response.text.splitlines()[0]
+    return json.loads(first_line)
 
 def calculate_json_hash(json_data):
     """Return a deterministic SHA256 digest for a JSON object."""
