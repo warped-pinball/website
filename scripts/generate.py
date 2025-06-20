@@ -122,7 +122,7 @@ def main():
             os.makedirs(out_folder, exist_ok=True)
 
             # write combined data for backward compatibility
-            all_path = os.path.join(out_folder, "main.json")
+            all_path = os.path.join(out_folder, "all.json")
             with open(all_path, "w") as f:
                 json.dump(groups["all"], f, indent=2)
             print(f"✅ Wrote {all_path}")
@@ -134,8 +134,12 @@ def main():
                     json.dump(groups[key], f, indent=2)
                 print(f"✅ Wrote {path}")
 
-            # Write the latest release to a separate file (latest.json)
-            latest_release = max(groups["all"], key=lambda r: r["published_at"])  # Get the latest release
+            # Write the latest production release to a separate file (latest.json)
+            prod_releases = groups["prod"]
+            if prod_releases:
+                latest_release = max(prod_releases, key=lambda r: r["published_at"])
+            else:
+                latest_release = max(groups["all"], key=lambda r: r["published_at"])
             latest_release_data = {
                 "version": latest_release["version"],
                 "url": latest_release["url"],  # This is the download link for update.json
