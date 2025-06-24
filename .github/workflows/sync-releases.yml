@@ -5,7 +5,7 @@ on:
   repository_dispatch:
     types: [sync-releases]
 
-# Grant write permissions so we can commit JSON files back to main
+# Grant write permissions so we can commit updated JSON files
 permissions:
   contents: write
 
@@ -43,4 +43,5 @@ jobs:
           git config user.email "actions@github.com"
           git add docs
           git commit -m "Sync releases from vector @ ${{ github.run_id }}" || echo "Nothing to commit"
-          git push origin HEAD:main
+          # Push changes back to the same branch the workflow is running on
+          git push origin HEAD:"${GITHUB_REF#refs/heads/}"
