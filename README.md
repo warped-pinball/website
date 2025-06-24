@@ -20,12 +20,14 @@ there:
 GITHUB_TOKEN=<token> python3 scripts/generate.py --owner warped-pinball --repo vector --out-dir docs
 ```
 
-Latest production builds are published under a `vector/` prefix. For example,
-the System 11 firmware can be downloaded from:
+All firmware metadata files are published under a `vector/` prefix. For example,
+the System 11 metadata can be downloaded from:
 
 ```
 https://software.warpedpinball.com/vector/sys11/latest.json
 ```
+Additional files like `prod.json`, `beta.json`, and `dev.json` live in the same
+`vector/<product>` directory.
 
 GitHub Pages is configured to publish from the `docs/` directory. The
 repository includes a `CNAME` file so the site is served at

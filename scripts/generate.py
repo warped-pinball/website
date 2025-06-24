@@ -124,7 +124,8 @@ def main():
     # Write out the JSON files for each product
     for product, groups in releases_by_product.items():
         if groups["all"]:
-            out_folder = os.path.join(args.out_dir, product)
+            # All firmware metadata now lives under docs/vector/<product>
+            out_folder = os.path.join(args.out_dir, "vector", product)
             os.makedirs(out_folder, exist_ok=True)
 
             # write combined data for backward compatibility
@@ -153,12 +154,9 @@ def main():
                 "published_at": latest_release["published_at"]  # Just the date, no need for release notes
             }
 
-            # Latest release files now live under a "vector" prefix so firmware
-            # can reference them at
+            # Latest release metadata in the same folder
             # https://software.warpedpinball.com/vector/<product>/latest.json
-            latest_dir = os.path.join(args.out_dir, "vector", product)
-            os.makedirs(latest_dir, exist_ok=True)
-            latest_path = os.path.join(latest_dir, "latest.json")
+            latest_path = os.path.join(out_folder, "latest.json")
             with open(latest_path, "w") as f:
                 json.dump(latest_release_data, f, indent=2)
             print(f"✅ Wrote {latest_path} for {product}")

@@ -149,7 +149,7 @@
     async function fetchData(product, type) {
       releaseCache[product] = releaseCache[product] || {};
       if (releaseCache[product][type]) return releaseCache[product][type];
-      const response = await fetch(`./${product}/${type}.json`);
+      const response = await fetch(`./vector/${product}/${type}.json`);
       const data = await response.json();
       releaseCache[product][type] = data;
       return data;
