@@ -18,6 +18,13 @@ Then execute the generator with a valid `GITHUB_TOKEN` environment variable:
 GITHUB_TOKEN=<token> python3 scripts/generate.py --owner warped-pinball --repo vector --out-dir .
 ```
 
+Latest production builds are published under a `vector/` prefix. For example,
+the System 11 firmware can be downloaded from:
+
+```
+https://software.warpedpinball.com/vector/sys11/latest.json
+```
+
 The repository includes a `CNAME` file so GitHub Pages serves the site at
 `https://updates.warpedpinball.com` without extra path segments.
 

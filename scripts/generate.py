@@ -151,7 +151,12 @@ def main():
                 "published_at": latest_release["published_at"]  # Just the date, no need for release notes
             }
 
-            latest_path = os.path.join(out_folder, "latest.json")
+            # Latest release files now live under a "vector" prefix so firmware
+            # can reference them at
+            # https://software.warpedpinball.com/vector/<product>/latest.json
+            latest_dir = os.path.join(args.out_dir, "vector", product)
+            os.makedirs(latest_dir, exist_ok=True)
+            latest_path = os.path.join(latest_dir, "latest.json")
             with open(latest_path, "w") as f:
                 json.dump(latest_release_data, f, indent=2)
             print(f"✅ Wrote {latest_path} for {product}")
