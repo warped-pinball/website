@@ -37,8 +37,10 @@ def main():
     p.add_argument("--repo", required=True, help="Repo name to scan (e.g. vector)")
     p.add_argument(
         "--out-dir",
-        default=".",
-        help="Where to write JSON files (defaults to the repository root)",
+        default="docs",
+        help=(
+            "Where to write JSON files (defaults to the 'docs' folder so GitHub Pages can serve them)"
+        ),
     )
     args = p.parse_args()
 

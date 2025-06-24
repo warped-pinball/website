@@ -12,10 +12,12 @@ Python dependencies:
 python3 -m pip install -r requirements.txt
 ```
 
-Then execute the generator with a valid `GITHUB_TOKEN` environment variable:
+Then execute the generator with a valid `GITHUB_TOKEN` environment variable.  
+The site is published from the `docs/` directory, so write all generated files
+there:
 
 ```bash
-GITHUB_TOKEN=<token> python3 scripts/generate.py --owner warped-pinball --repo vector --out-dir .
+GITHUB_TOKEN=<token> python3 scripts/generate.py --owner warped-pinball --repo vector --out-dir docs
 ```
 
 Latest production builds are published under a `vector/` prefix. For example,
@@ -25,6 +27,7 @@ the System 11 firmware can be downloaded from:
 https://software.warpedpinball.com/vector/sys11/latest.json
 ```
 
-The repository includes a `CNAME` file so GitHub Pages serves the site at
+GitHub Pages is configured to publish from the `docs/` directory. The
+repository includes a `CNAME` file so the site is served at
 `https://updates.warpedpinball.com` without extra path segments.
 
