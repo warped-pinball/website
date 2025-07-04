@@ -4,6 +4,7 @@ import sys
 import json
 import argparse
 import hashlib
+import shutil
 import requests
 from github import Github
 import re
@@ -64,6 +65,16 @@ def main():
         ),
     )
     args = p.parse_args()
+
+    # Remove any previously generated release data so deleted releases
+    # don't linger on the website. Only wipe the vector folder and
+    # builds.json so other files like index.html remain untouched.
+    out_vector_dir = os.path.join(args.out_dir, "vector")
+    if os.path.exists(out_vector_dir):
+        shutil.rmtree(out_vector_dir)
+    builds_path = os.path.join(args.out_dir, "builds.json")
+    if os.path.exists(builds_path):
+        os.remove(builds_path)
 
     token = os.getenv("GITHUB_TOKEN")
     if not token:
