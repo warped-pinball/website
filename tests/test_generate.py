@@ -43,3 +43,28 @@ def test_fetch_update_json_failure(monkeypatch):
     monkeypatch.setattr(generate.requests, "get", mock_get)
     result = generate.fetch_update_json("http://example.com/missing.json")
     assert result is None
+
+
+def test_parse_release_versions():
+    body = (
+        "Some notes\n"
+        "## Versions\n"
+        "**Vector**: `1.3.11-dev83`\n"
+        "**Sys11**: `1.0.0-dev83`\n"
+        "**WPC**: `0.0.0-dev83`\n"
+        "**EM**: `0.0.1-dev83`\n"
+        "<!-- END VERSIONS SECTION -->\nMore text"
+    )
+    versions = generate.parse_release_versions(body)
+    assert versions == {
+        "vector": "1.3.11-dev83",
+        "sys11": "1.0.0-dev83",
+        "wpc": "0.0.0-dev83",
+        "em": "0.0.1-dev83",
+    }
+
+
+def test_parse_release_versions_missing():
+    body = "No version info"
+    versions = generate.parse_release_versions(body)
+    assert versions == {}

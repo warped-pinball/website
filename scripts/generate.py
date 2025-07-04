@@ -29,6 +29,27 @@ def calculate_json_hash(json_data):
     """Return a deterministic SHA256 digest for a JSON object."""
     return hashlib.sha256(json.dumps(json_data, sort_keys=True).encode("utf-8")).hexdigest()
 
+
+def parse_release_versions(text):
+    """Return a mapping of product name to version from a release body."""
+    if not text:
+        return {}
+
+    block_match = re.search(
+        r"##\s*Versions\s*(.*?)<!--\s*END VERSIONS SECTION\s*-->",
+        text,
+        re.DOTALL | re.IGNORECASE,
+    )
+    if not block_match:
+        return {}
+
+    section = block_match.group(1)
+    versions = {}
+    for m in re.finditer(r"\*\*([^*]+)\*\*:\s*`([^`]+)`", section):
+        product = m.group(1).strip().lower()
+        versions[product] = m.group(2).strip()
+    return versions
+
 def main():
     p = argparse.ArgumentParser(
         description="Fetch releases from warped-pinball/vector and generate per-product JSON"
@@ -74,11 +95,7 @@ def main():
         else:
             base_version = tag
 
-        release_type = "production"
-        if re.search(r"-dev\d+$", base_version):
-            release_type = "dev"
-        elif re.search(r"-beta-?\d+$", base_version):
-            release_type = "beta"
+        versions_in_body = parse_release_versions(release.body or "")
 
         # gather assets by name
         assets = {a.name: a for a in release.get_assets()}
@@ -92,11 +109,18 @@ def main():
                 print(f"⏭️ Skipping {tag} {asset_name}: failed to fetch", file=sys.stderr)
                 continue
 
+            product_version = versions_in_body.get(product, base_version)
+            release_type = "production"
+            if re.search(r"-dev\d+$", product_version):
+                release_type = "dev"
+            elif re.search(r"-beta-?\d+$", product_version):
+                release_type = "beta"
+
             update_hash = calculate_json_hash(update_data)
 
             file_db.append({
                 "product": product,
-                "version": base_version,
+                "version": product_version,
                 "type": release_type,
                 "url": asset.browser_download_url,
                 "sha256": update_hash,
@@ -111,7 +135,7 @@ def main():
                 previous_update_hashes[product] = update_hash
 
             release_entry = {
-                "version": base_version,
+                "version": product_version,
                 "url": asset.browser_download_url,
                 "notes": release.body or "No release notes provided",
                 "published_at": release.published_at.isoformat(),
