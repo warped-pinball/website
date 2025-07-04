@@ -142,6 +142,9 @@
   </div>
 
   <script>
+    // Render Markdown with line breaks similar to GitHub
+    marked.setOptions({ breaks: true });
+
     // Fetch the release data
     const releaseCache = {};
     let currentProduct = 'sys11';
