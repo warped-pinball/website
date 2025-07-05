@@ -5,7 +5,7 @@
     "notes": "## Versions\n**Vector**: `1.3.11-dev83`\n**Sys11**: `1.4.0-dev83`\n**WPC**: `0.0.1-dev83`\n**EM**: `0.0.1-dev83`\n<!-- END VERSIONS SECTION -->",
     "published_at": "2025-06-24T01:11:06+00:00",
     "type": "dev",
-    "download_count": 0
+    "download_count": 1
   },
   {
     "version": "1.3.10-dev83",
@@ -13,6 +13,14 @@
     "notes": "Version: 1.3.10-dev83\nTrigger: pull_request\n",
     "published_at": "2025-06-19T02:25:50+00:00",
     "type": "dev",
-    "download_count": 10
+    "download_count": 11
+  },
+  {
+    "version": "0.0.1-dev89",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-dev89/update_wpc.json",
+    "notes": "## Versions\n**Vector**: `1.3.11-dev89`\n**Sys11**: `1.4.0-dev89`\n**WPC**: `0.0.1-dev89`\n**EM**: `0.0.1-dev89`\n<!-- END VERSIONS SECTION -->",
+    "published_at": "2025-07-05T15:30:41+00:00",
+    "type": "dev",
+    "download_count": 0
   }
 ]
