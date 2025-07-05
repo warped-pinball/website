@@ -186,7 +186,8 @@ def main():
                 "version": latest_release["version"],
                 "url": latest_release["url"],  # This is the download link for update.json
                 "release_page": f"https://github.com/{args.owner}/{args.repo}/releases/tag/{latest_release['version']}",  # Link to the release page
-                "published_at": latest_release["published_at"]  # Just the date, no need for release notes
+                "notes": latest_release["notes"],
+                "published_at": latest_release["published_at"]
             }
 
             # Latest release metadata in the same folder
