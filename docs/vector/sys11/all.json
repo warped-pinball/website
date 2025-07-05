@@ -5,7 +5,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/24\nBranch: pre-commit-changes\nVersion: 0.4.0-dev24\n",
     "published_at": "2025-01-19T22:45:30+00:00",
     "type": "dev",
-    "download_count": 18
+    "download_count": 19
   },
   {
     "version": "0.4.0-dev22",
@@ -13,7 +13,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/22\nBranch: Serial_Flash_Test\nVersion: 0.4.0-dev22\n",
     "published_at": "2025-01-19T03:00:13+00:00",
     "type": "dev",
-    "download_count": 16
+    "download_count": 17
   },
   {
     "version": "0.3.0",
@@ -21,7 +21,7 @@
     "notes": "1. Added New web interface with dark mode\r\n2. Improved update functionality, no more messing with files\r\n3. Improved Security\r\n4. Minor bug Fixes",
     "published_at": "2025-01-12T02:51:54+00:00",
     "type": "production",
-    "download_count": 44
+    "download_count": 45
   },
   {
     "version": "0.4.0-dev25",
@@ -29,7 +29,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/25\nBranch: network-discovery\nVersion: 0.4.0-dev25\n",
     "published_at": "2025-01-26T19:37:25+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "0.3.0-beta-116",
@@ -37,7 +37,7 @@
     "notes": "PR: \nBranch: \nVersion: 0.3.0-beta-116\n",
     "published_at": "2025-01-26T17:00:14+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "0.4.0-beta123",
@@ -45,7 +45,7 @@
     "notes": "PR: \nBranch: \nVersion: 0.4.0-beta123\n",
     "published_at": "2025-01-28T22:23:22+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "0.4.0-beta126",
@@ -53,7 +53,7 @@
     "notes": "PR: \nBranch: \nVersion: 0.4.0-beta126\n",
     "published_at": "2025-01-28T23:32:55+00:00",
     "type": "beta",
-    "download_count": 18
+    "download_count": 19
   },
   {
     "version": "0.4.1-dev28",
@@ -61,7 +61,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/28\nBranch: cancel-button-fix\nVersion: 0.4.1-dev28\n",
     "published_at": "2025-02-01T23:38:40+00:00",
     "type": "dev",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "0.4.0-dev29",
@@ -69,7 +69,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/29\nBranch: scores\nVersion: 0.4.0-dev29\n",
     "published_at": "2025-02-01T23:42:13+00:00",
     "type": "dev",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "0.4.0-beta130",
@@ -77,7 +77,7 @@
     "notes": "PR: \nBranch: \nVersion: 0.4.0-beta130\n",
     "published_at": "2025-02-01T23:36:46+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "0.4.2-dev30",
@@ -85,7 +85,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/30\nBranch: no-discovery-in-ap-mode\nVersion: 0.4.2-dev30\n",
     "published_at": "2025-02-02T02:53:34+00:00",
     "type": "dev",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "0.4.1-dev29",
@@ -93,7 +93,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/29\nBranch: scores\nVersion: 0.4.1-dev29\n",
     "published_at": "2025-02-01T23:49:39+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "0.4.1-beta135",
@@ -101,7 +101,7 @@
     "notes": "PR: \nBranch: \nVersion: 0.4.1-beta135\n",
     "published_at": "2025-02-01T23:48:13+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "0.4.3-dev31",
@@ -109,7 +109,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/31\nBranch: authenticate-for-logs\nVersion: 0.4.3-dev31\n",
     "published_at": "2025-02-02T16:34:19+00:00",
     "type": "dev",
-    "download_count": 16
+    "download_count": 17
   },
   {
     "version": "0.4.3-dev29",
@@ -117,7 +117,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/29\nBranch: scores\nVersion: 0.4.3-dev29\n",
     "published_at": "2025-02-02T03:21:43+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "0.4.2-beta139",
@@ -125,7 +125,7 @@
     "notes": "PR: \nBranch: \nVersion: 0.4.2-beta139\n",
     "published_at": "2025-02-02T03:06:44+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "0.4.4-dev32",
@@ -133,7 +133,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/32\nBranch: main_0_4_0_testing\nVersion: 0.4.4-dev32\n",
     "published_at": "2025-02-03T21:50:24+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "0.4.3-beta145",
@@ -141,7 +141,7 @@
     "notes": "PR: \nBranch: \nVersion: 0.4.3-beta145\n",
     "published_at": "2025-02-02T16:46:59+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.0.0-dev35",
@@ -149,7 +149,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/35\nBranch: update-logic-fix\nVersion: 1.0.0-dev35\n",
     "published_at": "2025-02-06T04:13:37+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "0.4.5-dev33",
@@ -157,7 +157,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/33\nBranch: KISS-scores\nVersion: 0.4.5-dev33\n",
     "published_at": "2025-02-05T04:13:36+00:00",
     "type": "dev",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "0.4.4-dev34",
@@ -165,7 +165,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/34\nBranch: Factory-Reset\nVersion: 0.4.4-dev34\n",
     "published_at": "2025-02-05T19:53:48+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "0.4.4-beta149",
@@ -173,7 +173,7 @@
     "notes": "PR: \nBranch: \nVersion: 0.4.4-beta149\n",
     "published_at": "2025-02-04T01:02:49+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "0.4.4",
@@ -181,7 +181,7 @@
     "notes": "## What's Changed\r\n* Added Adjustment Profiles by @mullinmax in https://github.com/warped-pinball/vector/pull/22\r\n  * Save your adjustments as a profile and switch between your profiles easily\r\n* Network discovery by @mullinmax in https://github.com/warped-pinball/vector/pull/25\r\n  * When on the same WiFi network vector boards will identify and add links to each other on their webpages (just click the game name)\r\n* Factory reset by @paulmullin in https://github.com/warped-pinball/vector/pull/34\r\n  * Factory reset now supports clearing all the new features added in this release\r\n\r\n\r\n## Bug Fixes\r\n* Main 0 4 0 testing by @paulmullin in https://github.com/warped-pinball/vector/pull/32\r\n* fixing cancel call back logic by @mullinmax in https://github.com/warped-pinball/vector/pull/28\r\n* Builder tweaks by @mullinmax in https://github.com/warped-pinball/vector/pull/23\r\n* turn off some of schedule when in AP mode by @mullinmax in https://github.com/warped-pinball/vector/pull/30\r\n* correct authentication by @mullinmax in https://github.com/warped-pinball/vector/pull/31\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/0.3.0...0.4.4",
     "published_at": "2025-02-06T23:04:19+00:00",
     "type": "production",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "0.4.4-beta160",
@@ -189,7 +189,7 @@
     "notes": "PR: \nBranch: \nVersion: 0.4.4-beta160\n",
     "published_at": "2025-02-06T22:57:10+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.0.0",
@@ -197,7 +197,7 @@
     "notes": "## What's Changed\r\n* New responsive scoreboard\r\n* Added System 9 support\r\n* Added score claim to allow users to enter initials after playing their game, especially for system 9 with no native support for initials\r\n* Improved forward compatibility\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/0.4.4...1.0.0",
     "published_at": "2025-02-23T20:00:09+00:00",
     "type": "production",
-    "download_count": 29
+    "download_count": 30
   },
   {
     "version": "1.0.0-dev43",
@@ -205,7 +205,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/43\nBranch: memory-efficiency\nVersion: 1.0.0-dev43\n",
     "published_at": "2025-02-25T02:49:28+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.0.0-beta203",
@@ -213,7 +213,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.0.0-beta203\n",
     "published_at": "2025-02-23T19:57:39+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.1.0-dev45",
@@ -221,7 +221,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/45\nBranch: wifi-reconnect\nVersion: 1.1.0-dev45\n",
     "published_at": "2025-02-26T03:22:37+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.0.0-dev47",
@@ -229,7 +229,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/47\nBranch: live-scores-webui\nVersion: 1.0.0-dev47\n",
     "published_at": "2025-02-26T23:04:19+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.0.0-dev46",
@@ -237,7 +237,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/46\nBranch: logging\nVersion: 1.0.0-dev46\n",
     "published_at": "2025-02-26T03:36:54+00:00",
     "type": "dev",
-    "download_count": 19
+    "download_count": 20
   },
   {
     "version": "1.0.0-dev44",
@@ -245,7 +245,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/44\nBranch: memory-efficiency\nVersion: 1.0.0-dev44\n",
     "published_at": "2025-02-26T01:38:58+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.0.0-beta211",
@@ -253,7 +253,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.0.0-beta211\n",
     "published_at": "2025-02-26T01:31:32+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.0.0-beta225",
@@ -261,7 +261,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.0.0-beta225\n",
     "published_at": "2025-03-01T01:37:48+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.2.0-dev47",
@@ -269,7 +269,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/47\nBranch: live-scores-webui\nVersion: 1.2.0-dev47\n",
     "published_at": "2025-03-01T01:45:10+00:00",
     "type": "dev",
-    "download_count": 17
+    "download_count": 18
   },
   {
     "version": "1.1.0",
@@ -277,7 +277,7 @@
     "notes": "## What's Changed\r\n* Added more robust ability to reconnect to WiFi on signal loss @mullinmax in https://github.com/warped-pinball/vector/pull/45\r\n* Restructured code to free up Memory @mullinmax in https://github.com/warped-pinball/vector/pull/43\r\n* Moved some files to firmware to save memory @paulmullin in https://github.com/warped-pinball/vector/pull/46\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.0.0...1.1.0",
     "published_at": "2025-03-01T01:43:01+00:00",
     "type": "production",
-    "download_count": 16
+    "download_count": 17
   },
   {
     "version": "1.1.0-dev49",
@@ -285,7 +285,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/49\nBranch: discovery-recovery\nVersion: 1.1.0-dev49\n",
     "published_at": "2025-03-02T01:58:59+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.1.0-dev48",
@@ -293,7 +293,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/48\nBranch: fix-overlapping-routes\nVersion: 1.1.0-dev48\n",
     "published_at": "2025-03-02T01:31:46+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.1.0-beta227",
@@ -301,7 +301,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.1.0-beta227\n",
     "published_at": "2025-03-01T01:39:02+00:00",
     "type": "beta",
-    "download_count": 16
+    "download_count": 17
   },
   {
     "version": "1.2.0",
@@ -309,7 +309,7 @@
     "notes": "## What's Changed\r\n* Live game scores by @mullinmax in https://github.com/warped-pinball/vector/pull/47\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.1.0...1.2.0",
     "published_at": "2025-03-02T02:11:58+00:00",
     "type": "production",
-    "download_count": 19
+    "download_count": 20
   },
   {
     "version": "1.2.0-dev53",
@@ -317,7 +317,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/53\nBranch: disaplymessage_robusto\nVersion: 1.2.0-dev53\n",
     "published_at": "2025-03-02T13:11:53+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.2.0-dev52",
@@ -325,7 +325,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/52\nBranch: js-linter\nVersion: 1.2.0-dev52\n",
     "published_at": "2025-03-02T04:43:50+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.2.0-dev51",
@@ -333,7 +333,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/51\nBranch: show-ip-toggle\nVersion: 1.2.0-dev51\n",
     "published_at": "2025-03-02T02:47:20+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.2.0-dev50",
@@ -341,7 +341,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/50\nBranch: web-ui-claim-toggle\nVersion: 1.2.0-dev50\n",
     "published_at": "2025-03-02T02:15:04+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.2.0-dev49",
@@ -349,7 +349,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/49\nBranch: discovery-recovery\nVersion: 1.2.0-dev49\n",
     "published_at": "2025-03-02T02:20:30+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.2.0-dev48",
@@ -357,7 +357,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/48\nBranch: fix-overlapping-routes\nVersion: 1.2.0-dev48\n",
     "published_at": "2025-03-02T02:20:00+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.2.0-beta235",
@@ -365,7 +365,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.2.0-beta235\n",
     "published_at": "2025-03-02T02:11:41+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.2.0-beta246",
@@ -373,7 +373,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.2.0-beta246\n",
     "published_at": "2025-03-02T15:06:22+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.2.0-beta247",
@@ -381,7 +381,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.2.0-beta247\n",
     "published_at": "2025-03-02T15:06:45+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.2.0-beta251",
@@ -389,7 +389,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.2.0-beta251\n",
     "published_at": "2025-03-02T17:51:26+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.0-dev52",
@@ -397,7 +397,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/52\nBranch: js-linter\nVersion: 1.3.0-dev52\n",
     "published_at": "2025-03-02T18:26:23+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.2.0-beta254",
@@ -405,7 +405,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.2.0-beta254\n",
     "published_at": "2025-03-02T18:14:40+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.0-dev55",
@@ -413,7 +413,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/55\nBranch: Testing-and-bug-resolution\nVersion: 1.3.0-dev55\n",
     "published_at": "2025-03-03T00:14:20+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.0-dev54",
@@ -421,7 +421,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/54\nBranch: route-quick-fix\nVersion: 1.3.0-dev54\n",
     "published_at": "2025-03-02T23:21:53+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.0-dev53",
@@ -429,7 +429,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/53\nBranch: disaplymessage_robusto\nVersion: 1.3.0-dev53\n",
     "published_at": "2025-03-02T19:21:48+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.0-beta258",
@@ -437,7 +437,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.0-beta258\n",
     "published_at": "2025-03-02T18:46:18+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.1-dev58",
@@ -445,7 +445,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/58\nBranch: KISS-scores-reload\nVersion: 1.3.1-dev58\n",
     "published_at": "2025-03-06T04:10:33+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.1-dev55",
@@ -453,7 +453,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/55\nBranch: Testing-and-bug-resolution\nVersion: 1.3.1-dev55\n",
     "published_at": "2025-03-06T21:14:36+00:00",
     "type": "dev",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.0-dev59",
@@ -461,7 +461,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/59\nBranch: sort-tournament-by-game\nVersion: 1.3.0-dev59\n",
     "published_at": "2025-03-08T01:01:04+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.0-dev57",
@@ -469,7 +469,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/57\nBranch: combine-api-routes\nVersion: 1.3.0-dev57\n",
     "published_at": "2025-03-04T03:52:39+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.0-dev56",
@@ -477,7 +477,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/56\nBranch: automated-testing\nVersion: 1.3.0-dev56\n",
     "published_at": "2025-03-03T02:31:26+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.0-beta262",
@@ -485,7 +485,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.0-beta262\n",
     "published_at": "2025-03-03T02:26:06+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.2-dev61",
@@ -493,7 +493,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/61\nBranch: light-mode-style-fixes\nVersion: 1.3.2-dev61\n",
     "published_at": "2025-03-09T17:10:25+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.2-dev60",
@@ -501,7 +501,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/60\nBranch: claim-in-tournament\nVersion: 1.3.2-dev60\n",
     "published_at": "2025-03-09T01:49:28+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.1",
@@ -509,7 +509,7 @@
     "notes": "## What's Changed\r\n* More memory efficient web server @mullinmax in https://github.com/warped-pinball/vector/pull/48\r\n* Added toggle to disable claiming scores via the web UI @mullinmax in https://github.com/warped-pinball/vector/pull/50\r\n* Added toggle to disable displaying IP on game @mullinmax in https://github.com/warped-pinball/vector/pull/51\r\n\r\n### Bug fixes\r\n* Various bug fixes and tweaks by @paulmullin in https://github.com/warped-pinball/vector/pull/55\r\n* More robust discovery service by @mullinmax in https://github.com/warped-pinball/vector/pull/49\r\n* linted all JS code and added linter by @mullinmax in https://github.com/warped-pinball/vector/pull/52\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.2.0...1.3.1",
     "published_at": "2025-03-08T01:35:21+00:00",
     "type": "production",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.1-dev60",
@@ -517,7 +517,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/60\nBranch: claim-in-tournament\nVersion: 1.3.1-dev60\n",
     "published_at": "2025-03-08T04:07:36+00:00",
     "type": "dev",
-    "download_count": 18
+    "download_count": 19
   },
   {
     "version": "1.3.1-dev59",
@@ -525,7 +525,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/59\nBranch: sort-tournament-by-game\nVersion: 1.3.1-dev59\n",
     "published_at": "2025-03-09T17:25:13+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.1-dev56",
@@ -533,7 +533,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/56\nBranch: automated-testing\nVersion: 1.3.1-dev56\n",
     "published_at": "2025-03-09T17:13:13+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.1-beta310",
@@ -541,7 +541,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.1-beta310\n",
     "published_at": "2025-03-08T01:30:28+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.2-dev58",
@@ -549,7 +549,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/58\nBranch: KISS-scores-reload\nVersion: 1.3.2-dev58\n",
     "published_at": "2025-03-09T17:26:50+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.2-dev53",
@@ -557,7 +557,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/53\nBranch: disaplymessage_robusto\nVersion: 1.3.2-dev53\n",
     "published_at": "2025-03-09T17:29:06+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.2-beta320",
@@ -565,7 +565,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.2-beta320\n",
     "published_at": "2025-03-09T17:26:29+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.2-beta319",
@@ -573,7 +573,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.2-beta319\n",
     "published_at": "2025-03-09T17:26:07+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.2",
@@ -581,7 +581,7 @@
     "notes": "## What's Changed\r\n* Enabled score claim for tournament mode @paulmullin in https://github.com/warped-pinball/vector/pull/60\r\n## Bug fixes\r\n* Live scores visible on light mode by @mullinmax in https://github.com/warped-pinball/vector/pull/61\r\n* sort tournament scores by chronological order @mullinmax in https://github.com/warped-pinball/vector/pull/59\r\n\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.1...1.3.2",
     "published_at": "2025-03-09T17:35:32+00:00",
     "type": "production",
-    "download_count": 16
+    "download_count": 17
   },
   {
     "version": "1.3.2-dev62",
@@ -589,7 +589,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/62\nBranch: short-initials\nVersion: 1.3.2-dev62\n",
     "published_at": "2025-03-09T20:17:00+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.2-beta324",
@@ -597,7 +597,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.2-beta324\n",
     "published_at": "2025-03-09T17:33:04+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.2-beta327",
@@ -605,7 +605,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.2-beta327\n",
     "published_at": "2025-03-09T21:49:26+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.4-dev64",
@@ -613,7 +613,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/64\nBranch: log-adjustments\nVersion: 1.3.4-dev64\n",
     "published_at": "2025-03-12T02:36:22+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.3",
@@ -621,7 +621,7 @@
     "notes": "## What's Changed\r\n\r\n## Bug Fixes\r\n* fix 1 and 2 letter initials by @paulmullin in https://github.com/warped-pinball/vector/pull/62\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.2...1.3.3",
     "published_at": "2025-03-09T21:52:22+00:00",
     "type": "production",
-    "download_count": 25
+    "download_count": 26
   },
   {
     "version": "1.3.3-dev64",
@@ -629,7 +629,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/64\nBranch: log-adjustments\nVersion: 1.3.3-dev64\n",
     "published_at": "2025-03-10T22:27:24+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.3-dev63",
@@ -637,7 +637,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/63\nBranch: version-bump\nVersion: 1.3.3-dev63\n",
     "published_at": "2025-03-09T21:51:53+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.3-beta330",
@@ -645,7 +645,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.3-beta330\n",
     "published_at": "2025-03-09T21:51:50+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.4",
@@ -653,7 +653,7 @@
     "notes": "## What's Changed\r\n* Log adjustments and bug fixes by @paulmullin in https://github.com/warped-pinball/vector/pull/64\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.3...1.3.4",
     "published_at": "2025-03-12T02:37:09+00:00",
     "type": "production",
-    "download_count": 25
+    "download_count": 26
   },
   {
     "version": "1.3.4-dev68",
@@ -661,7 +661,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/68\nBranch: live-scores-clear\nVersion: 1.3.4-dev68\n",
     "published_at": "2025-03-22T14:42:01+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.4-dev67",
@@ -669,7 +669,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/67\nBranch: diner_fix\nVersion: 1.3.4-dev67\n",
     "published_at": "2025-03-21T01:50:43+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.4-dev66",
@@ -677,7 +677,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/66\nBranch: improved-readme\nVersion: 1.3.4-dev66\n",
     "published_at": "2025-03-20T03:50:27+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.4-dev65",
@@ -685,7 +685,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/65\nBranch: Zoom-Demo-TPF\nVersion: 1.3.4-dev65\n",
     "published_at": "2025-03-14T20:48:15+00:00",
     "type": "dev",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.4-beta338",
@@ -693,7 +693,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.4-beta338\n",
     "published_at": "2025-03-12T02:36:53+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.5-dev70",
@@ -701,7 +701,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/70\nBranch: version-bump\nVersion: 1.3.5-dev70\n",
     "published_at": "2025-03-23T20:42:40+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.4-beta358",
@@ -709,7 +709,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.4-beta358\n",
     "published_at": "2025-03-22T20:32:57+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.5-dev67",
@@ -717,7 +717,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/67\nBranch: diner_fix\nVersion: 1.3.5-dev67\n",
     "published_at": "2025-03-23T20:50:37+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.5-beta361",
@@ -725,7 +725,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.5-beta361\n",
     "published_at": "2025-03-23T20:44:01+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.6-dev68",
@@ -733,7 +733,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/68\nBranch: live-scores-clear\nVersion: 1.3.6-dev68\n",
     "published_at": "2025-03-27T19:29:06+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.5",
@@ -741,7 +741,7 @@
     "notes": "## What's Changed\r\n* Improved readme by @mullinmax in https://github.com/warped-pinball/vector/pull/66\r\n* Enabled Ball in play for Diner by @paulmullin in https://github.com/warped-pinball/vector/pull/67\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.4...1.3.5",
     "published_at": "2025-03-23T20:52:20+00:00",
     "type": "production",
-    "download_count": 186
+    "download_count": 187
   },
   {
     "version": "1.3.5-dev68",
@@ -749,7 +749,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/68\nBranch: live-scores-clear\nVersion: 1.3.5-dev68\n",
     "published_at": "2025-03-27T00:43:16+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.5-beta363",
@@ -757,7 +757,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.5-beta363\n",
     "published_at": "2025-03-23T20:51:10+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.5-dev72",
@@ -765,7 +765,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/72\nBranch: readme-contributors\nVersion: 1.3.5-dev72\n",
     "published_at": "2025-03-28T00:09:24+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.5-beta372",
@@ -773,7 +773,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.5-beta372\n",
     "published_at": "2025-03-27T23:54:32+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.6-beta376",
@@ -781,7 +781,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.6-beta376\n",
     "published_at": "2025-03-28T00:12:27+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.7-dev73",
@@ -789,7 +789,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/73\nBranch: Space-Station-Fix\nVersion: 1.3.7-dev73\n",
     "published_at": "2025-04-01T00:04:20+00:00",
     "type": "dev",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.6-dev73",
@@ -797,7 +797,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/73\nBranch: Space-Station-Fix\nVersion: 1.3.6-dev73\n",
     "published_at": "2025-04-01T00:03:22+00:00",
     "type": "dev",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.6-dev72",
@@ -805,7 +805,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/72\nBranch: readme-contributors\nVersion: 1.3.6-dev72\n",
     "published_at": "2025-03-28T00:12:53+00:00",
     "type": "dev",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.6-beta378",
@@ -813,7 +813,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.6-beta378\n",
     "published_at": "2025-03-28T00:13:00+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.8-dev74",
@@ -821,7 +821,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/74\nBranch: sys9-score-fix\nVersion: 1.3.8-dev74\n",
     "published_at": "2025-04-11T17:27:47+00:00",
     "type": "dev",
-    "download_count": 17
+    "download_count": 18
   },
   {
     "version": "1.3.7",
@@ -829,7 +829,7 @@
     "notes": "## What's Changed\r\n* Added manual port by @JakeSiegers in https://github.com/warped-pinball/vector/pull/71\r\n\r\n## Bug fixes\r\n* Clear Existing scores from live scores between games by @mullinmax in https://github.com/warped-pinball/vector/pull/68\r\n* space station config fix by @paulmullin in https://github.com/warped-pinball/vector/pull/73\r\n\r\n## Documentation\r\n* Add contributors to Readme by @mullinmax in https://github.com/warped-pinball/vector/pull/72\r\n\r\n## New Contributors\r\n* @JakeSiegers made their first contribution in https://github.com/warped-pinball/vector/pull/71\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.5...1.3.7",
     "published_at": "2025-04-01T01:06:38+00:00",
     "type": "production",
-    "download_count": 135
+    "download_count": 136
   },
   {
     "version": "1.3.7-beta381",
@@ -837,7 +837,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.7-beta381\n",
     "published_at": "2025-04-01T00:42:48+00:00",
     "type": "beta",
-    "download_count": 16
+    "download_count": 17
   },
   {
     "version": "1.3.8",
@@ -845,7 +845,7 @@
     "notes": "## What's Changed\r\n* Sys9 score fix by @paulmullin in https://github.com/warped-pinball/vector/pull/74\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.7...1.3.8",
     "published_at": "2025-04-11T18:53:28+00:00",
     "type": "production",
-    "download_count": 35
+    "download_count": 36
   },
   {
     "version": "1.3.8-dev78",
@@ -853,7 +853,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/78\nBranch: wifi-retry-timeout\nVersion: 1.3.8-dev78\n",
     "published_at": "2025-05-03T01:41:00+00:00",
     "type": "dev",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.8-dev77",
@@ -861,7 +861,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/77\nBranch: improved-discover\nVersion: 1.3.8-dev77\n",
     "published_at": "2025-04-17T21:38:55+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.8-dev76",
@@ -869,7 +869,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/76\nBranch: Sorcerer-add\nVersion: 1.3.8-dev76\n",
     "published_at": "2025-04-16T23:34:10+00:00",
     "type": "dev",
-    "download_count": 17
+    "download_count": 18
   },
   {
     "version": "1.3.8-beta386",
@@ -877,7 +877,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.8-beta386\n",
     "published_at": "2025-04-11T18:47:45+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.8-beta394",
@@ -885,7 +885,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.8-beta394\n",
     "published_at": "2025-05-06T00:11:44+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.8-dev80",
@@ -893,7 +893,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/80\nBranch: Whirlwind-Live-Scores\nVersion: 1.3.8-dev80\n",
     "published_at": "2025-05-20T01:46:42+00:00",
     "type": "dev",
-    "download_count": 18
+    "download_count": 19
   },
   {
     "version": "1.3.8-beta396",
@@ -901,7 +901,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.8-beta396\n",
     "published_at": "2025-05-20T00:53:56+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.9-dev81",
@@ -909,7 +909,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/81\nBranch: version-bump\nVersion: 1.3.9-dev81\n",
     "published_at": "2025-05-21T02:01:22+00:00",
     "type": "dev",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.8-beta399",
@@ -917,7 +917,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.8-beta399\n",
     "published_at": "2025-05-20T02:38:42+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.9",
@@ -925,7 +925,7 @@
     "notes": "## What's Changed\r\n* Improved handling booting with no WiFi signal by @mullinmax in https://github.com/warped-pinball/vector/pull/78\r\n* Added config for Sorcerer_L2 by @paulmullin in https://github.com/warped-pinball/vector/pull/76\r\n* Corrected Live scores for Whirlwind by @paulmullin in https://github.com/warped-pinball/vector/pull/80\r\n* Fixed ReadMe Shield links by @mullinmax in https://github.com/warped-pinball/vector/pull/81\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.8...1.3.9",
     "published_at": "2025-05-21T02:08:23+00:00",
     "type": "production",
-    "download_count": 36
+    "download_count": 37
   },
   {
     "version": "1.3.9-dev82",
@@ -933,7 +933,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/82\nBranch: leader_reset\nVersion: 1.3.9-dev82\n",
     "published_at": "2025-05-26T21:08:30+00:00",
     "type": "dev",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.3.9-beta404",
@@ -941,7 +941,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.9-beta404\n",
     "published_at": "2025-05-21T02:04:22+00:00",
     "type": "beta",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.10-dev84",
@@ -949,7 +949,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/84\nBranch: Fire-in-play-data\nVersion: 1.3.10-dev84\n",
     "published_at": "2025-06-18T23:57:48+00:00",
     "type": "dev",
-    "download_count": 13
+    "download_count": 14
   },
   {
     "version": "1.3.9-dev84",
@@ -957,7 +957,7 @@
     "notes": "PR: https://github.com/warped-pinball/vector/pull/84\nBranch: Fire-in-play-data\nVersion: 1.3.9-dev84\n",
     "published_at": "2025-06-18T23:56:13+00:00",
     "type": "dev",
-    "download_count": 13
+    "download_count": 14
   },
   {
     "version": "1.3.9-beta408",
@@ -965,7 +965,7 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.9-beta408\n",
     "published_at": "2025-05-26T22:24:34+00:00",
     "type": "beta",
-    "download_count": 14
+    "download_count": 15
   },
   {
     "version": "1.4.0-dev83",
@@ -973,7 +973,7 @@
     "notes": "## Versions\n**Vector**: `1.3.11-dev83`\n**Sys11**: `1.4.0-dev83`\n**WPC**: `0.0.1-dev83`\n**EM**: `0.0.1-dev83`\n<!-- END VERSIONS SECTION -->",
     "published_at": "2025-06-24T01:11:06+00:00",
     "type": "dev",
-    "download_count": 2
+    "download_count": 0
   },
   {
     "version": "1.3.10",
@@ -981,7 +981,7 @@
     "notes": "## What's Changed\r\n* move leader reset function by @paulmullin in https://github.com/warped-pinball/vector/pull/82\r\n* Fire inplay score address by @paulmullin in https://github.com/warped-pinball/vector/pull/84\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.9...1.3.10",
     "published_at": "2025-06-19T00:22:28+00:00",
     "type": "production",
-    "download_count": 25
+    "download_count": 27
   },
   {
     "version": "1.3.10-dev83",
@@ -989,7 +989,7 @@
     "notes": "Version: 1.3.10-dev83\nTrigger: pull_request\n",
     "published_at": "2025-06-19T02:25:50+00:00",
     "type": "dev",
-    "download_count": 9
+    "download_count": 10
   },
   {
     "version": "1.3.10-beta419",
@@ -997,6 +997,6 @@
     "notes": "PR: \nBranch: \nVersion: 1.3.10-beta419\n",
     "published_at": "2025-06-19T00:22:15+00:00",
     "type": "beta",
-    "download_count": 13
+    "download_count": 14
   }
 ]

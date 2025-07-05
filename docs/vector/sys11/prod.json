@@ -5,7 +5,7 @@
     "notes": "1. Added New web interface with dark mode\r\n2. Improved update functionality, no more messing with files\r\n3. Improved Security\r\n4. Minor bug Fixes",
     "published_at": "2025-01-12T02:51:54+00:00",
     "type": "production",
-    "download_count": 44
+    "download_count": 45
   },
   {
     "version": "0.4.4",
@@ -13,7 +13,7 @@
     "notes": "## What's Changed\r\n* Added Adjustment Profiles by @mullinmax in https://github.com/warped-pinball/vector/pull/22\r\n  * Save your adjustments as a profile and switch between your profiles easily\r\n* Network discovery by @mullinmax in https://github.com/warped-pinball/vector/pull/25\r\n  * When on the same WiFi network vector boards will identify and add links to each other on their webpages (just click the game name)\r\n* Factory reset by @paulmullin in https://github.com/warped-pinball/vector/pull/34\r\n  * Factory reset now supports clearing all the new features added in this release\r\n\r\n\r\n## Bug Fixes\r\n* Main 0 4 0 testing by @paulmullin in https://github.com/warped-pinball/vector/pull/32\r\n* fixing cancel call back logic by @mullinmax in https://github.com/warped-pinball/vector/pull/28\r\n* Builder tweaks by @mullinmax in https://github.com/warped-pinball/vector/pull/23\r\n* turn off some of schedule when in AP mode by @mullinmax in https://github.com/warped-pinball/vector/pull/30\r\n* correct authentication by @mullinmax in https://github.com/warped-pinball/vector/pull/31\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/0.3.0...0.4.4",
     "published_at": "2025-02-06T23:04:19+00:00",
     "type": "production",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.0.0",
@@ -21,7 +21,7 @@
     "notes": "## What's Changed\r\n* New responsive scoreboard\r\n* Added System 9 support\r\n* Added score claim to allow users to enter initials after playing their game, especially for system 9 with no native support for initials\r\n* Improved forward compatibility\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/0.4.4...1.0.0",
     "published_at": "2025-02-23T20:00:09+00:00",
     "type": "production",
-    "download_count": 29
+    "download_count": 30
   },
   {
     "version": "1.1.0",
@@ -29,7 +29,7 @@
     "notes": "## What's Changed\r\n* Added more robust ability to reconnect to WiFi on signal loss @mullinmax in https://github.com/warped-pinball/vector/pull/45\r\n* Restructured code to free up Memory @mullinmax in https://github.com/warped-pinball/vector/pull/43\r\n* Moved some files to firmware to save memory @paulmullin in https://github.com/warped-pinball/vector/pull/46\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.0.0...1.1.0",
     "published_at": "2025-03-01T01:43:01+00:00",
     "type": "production",
-    "download_count": 16
+    "download_count": 17
   },
   {
     "version": "1.2.0",
@@ -37,7 +37,7 @@
     "notes": "## What's Changed\r\n* Live game scores by @mullinmax in https://github.com/warped-pinball/vector/pull/47\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.1.0...1.2.0",
     "published_at": "2025-03-02T02:11:58+00:00",
     "type": "production",
-    "download_count": 19
+    "download_count": 20
   },
   {
     "version": "1.3.1",
@@ -45,7 +45,7 @@
     "notes": "## What's Changed\r\n* More memory efficient web server @mullinmax in https://github.com/warped-pinball/vector/pull/48\r\n* Added toggle to disable claiming scores via the web UI @mullinmax in https://github.com/warped-pinball/vector/pull/50\r\n* Added toggle to disable displaying IP on game @mullinmax in https://github.com/warped-pinball/vector/pull/51\r\n\r\n### Bug fixes\r\n* Various bug fixes and tweaks by @paulmullin in https://github.com/warped-pinball/vector/pull/55\r\n* More robust discovery service by @mullinmax in https://github.com/warped-pinball/vector/pull/49\r\n* linted all JS code and added linter by @mullinmax in https://github.com/warped-pinball/vector/pull/52\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.2.0...1.3.1",
     "published_at": "2025-03-08T01:35:21+00:00",
     "type": "production",
-    "download_count": 15
+    "download_count": 16
   },
   {
     "version": "1.3.2",
@@ -53,7 +53,7 @@
     "notes": "## What's Changed\r\n* Enabled score claim for tournament mode @paulmullin in https://github.com/warped-pinball/vector/pull/60\r\n## Bug fixes\r\n* Live scores visible on light mode by @mullinmax in https://github.com/warped-pinball/vector/pull/61\r\n* sort tournament scores by chronological order @mullinmax in https://github.com/warped-pinball/vector/pull/59\r\n\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.1...1.3.2",
     "published_at": "2025-03-09T17:35:32+00:00",
     "type": "production",
-    "download_count": 16
+    "download_count": 17
   },
   {
     "version": "1.3.3",
@@ -61,7 +61,7 @@
     "notes": "## What's Changed\r\n\r\n## Bug Fixes\r\n* fix 1 and 2 letter initials by @paulmullin in https://github.com/warped-pinball/vector/pull/62\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.2...1.3.3",
     "published_at": "2025-03-09T21:52:22+00:00",
     "type": "production",
-    "download_count": 25
+    "download_count": 26
   },
   {
     "version": "1.3.4",
@@ -69,7 +69,7 @@
     "notes": "## What's Changed\r\n* Log adjustments and bug fixes by @paulmullin in https://github.com/warped-pinball/vector/pull/64\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.3...1.3.4",
     "published_at": "2025-03-12T02:37:09+00:00",
     "type": "production",
-    "download_count": 25
+    "download_count": 26
   },
   {
     "version": "1.3.5",
@@ -77,7 +77,7 @@
     "notes": "## What's Changed\r\n* Improved readme by @mullinmax in https://github.com/warped-pinball/vector/pull/66\r\n* Enabled Ball in play for Diner by @paulmullin in https://github.com/warped-pinball/vector/pull/67\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.4...1.3.5",
     "published_at": "2025-03-23T20:52:20+00:00",
     "type": "production",
-    "download_count": 186
+    "download_count": 187
   },
   {
     "version": "1.3.7",
@@ -85,7 +85,7 @@
     "notes": "## What's Changed\r\n* Added manual port by @JakeSiegers in https://github.com/warped-pinball/vector/pull/71\r\n\r\n## Bug fixes\r\n* Clear Existing scores from live scores between games by @mullinmax in https://github.com/warped-pinball/vector/pull/68\r\n* space station config fix by @paulmullin in https://github.com/warped-pinball/vector/pull/73\r\n\r\n## Documentation\r\n* Add contributors to Readme by @mullinmax in https://github.com/warped-pinball/vector/pull/72\r\n\r\n## New Contributors\r\n* @JakeSiegers made their first contribution in https://github.com/warped-pinball/vector/pull/71\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.5...1.3.7",
     "published_at": "2025-04-01T01:06:38+00:00",
     "type": "production",
-    "download_count": 135
+    "download_count": 136
   },
   {
     "version": "1.3.8",
@@ -93,7 +93,7 @@
     "notes": "## What's Changed\r\n* Sys9 score fix by @paulmullin in https://github.com/warped-pinball/vector/pull/74\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.7...1.3.8",
     "published_at": "2025-04-11T18:53:28+00:00",
     "type": "production",
-    "download_count": 35
+    "download_count": 36
   },
   {
     "version": "1.3.9",
@@ -101,7 +101,7 @@
     "notes": "## What's Changed\r\n* Improved handling booting with no WiFi signal by @mullinmax in https://github.com/warped-pinball/vector/pull/78\r\n* Added config for Sorcerer_L2 by @paulmullin in https://github.com/warped-pinball/vector/pull/76\r\n* Corrected Live scores for Whirlwind by @paulmullin in https://github.com/warped-pinball/vector/pull/80\r\n* Fixed ReadMe Shield links by @mullinmax in https://github.com/warped-pinball/vector/pull/81\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.8...1.3.9",
     "published_at": "2025-05-21T02:08:23+00:00",
     "type": "production",
-    "download_count": 36
+    "download_count": 37
   },
   {
     "version": "1.3.10",
@@ -109,6 +109,6 @@
     "notes": "## What's Changed\r\n* move leader reset function by @paulmullin in https://github.com/warped-pinball/vector/pull/82\r\n* Fire inplay score address by @paulmullin in https://github.com/warped-pinball/vector/pull/84\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.9...1.3.10",
     "published_at": "2025-06-19T00:22:28+00:00",
     "type": "production",
-    "download_count": 25
+    "download_count": 27
   }
 ]
