@@ -8,6 +8,7 @@ on:
 # Grant write permissions so we can commit updated JSON files
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   build:
@@ -51,6 +52,7 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' }}
         uses: peter-evans/create-pull-request@v5
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Sync releases from vector @ ${{ github.run_id }}"
           title: "Sync releases from vector"
           body: "Automated update of release metadata."
