@@ -8,6 +8,7 @@ on:
 # Grant write permissions so we can commit updated JSON files
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   build:
@@ -38,6 +39,7 @@ jobs:
             --out-dir docs
 
       - name: Commit and push updated JSON
+        if: ${{ github.event_name != 'workflow_dispatch' }}
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
@@ -45,3 +47,17 @@ jobs:
           git commit -m "Sync releases from vector @ ${{ github.run_id }}" || echo "Nothing to commit"
           # Push changes back to the same branch the workflow is running on
           git push origin HEAD:"${GITHUB_REF#refs/heads/}"
+
+      - name: Create pull request with updates
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Sync releases from vector @ ${{ github.run_id }}"
+          title: "Sync releases from vector"
+          body: "Automated update of release metadata."
+          base: ${{ github.event.repository.default_branch }}
+          branch: sync-releases-${{ github.run_id }}
+          delete-branch: true
+          add-paths: |
+            docs/**
