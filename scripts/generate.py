@@ -8,6 +8,9 @@ import shutil
 import requests
 from github import Github
 import re
+import markdown
+import bleach
+
 
 def fetch_update_json(url):
     """Fetch an update JSON file and return its parsed content.
@@ -26,9 +29,12 @@ def fetch_update_json(url):
     first_line = response.text.splitlines()[0]
     return json.loads(first_line)
 
+
 def calculate_json_hash(json_data):
     """Return a deterministic SHA256 digest for a JSON object."""
-    return hashlib.sha256(json.dumps(json_data, sort_keys=True).encode("utf-8")).hexdigest()
+    return hashlib.sha256(
+        json.dumps(json_data, sort_keys=True).encode("utf-8")
+    ).hexdigest()
 
 
 def parse_release_versions(text):
@@ -51,17 +57,39 @@ def parse_release_versions(text):
         versions[product] = m.group(2).strip()
     return versions
 
+
+def release_notes_to_html(text):
+    """Convert Markdown release notes to sanitized HTML without images."""
+    if not text:
+        return ""
+    html = markdown.markdown(text)
+    allowed_tags = set(bleach.sanitizer.ALLOWED_TAGS).union(
+        {"p", "pre", "code", "h1", "h2", "h3", "h4", "h5", "h6"}
+    ) - {"img"}
+    return bleach.clean(
+        html,
+        tags=list(allowed_tags),
+        attributes=bleach.sanitizer.ALLOWED_ATTRIBUTES,
+        strip=True,
+    )
+
+
 def main():
     p = argparse.ArgumentParser(
-        description="Fetch releases from warped-pinball/vector and generate per-product JSON"
+        description=(
+            "Fetch releases from warped-pinball/vector and generate " "per-product JSON"
+        )
     )
-    p.add_argument("--owner", required=True, help="GitHub org or user (e.g. warped-pinball)")
+    p.add_argument(
+        "--owner", required=True, help="GitHub org or user (e.g. warped-pinball)"
+    )
     p.add_argument("--repo", required=True, help="Repo name to scan (e.g. vector)")
     p.add_argument(
         "--out-dir",
         default="docs",
         help=(
-            "Where to write JSON files (defaults to the 'docs' folder so GitHub Pages can serve them)"
+            "Where to write JSON files (defaults to the 'docs' folder "
+            "so GitHub Pages can serve them)"
         ),
     )
     args = p.parse_args()
@@ -110,14 +138,19 @@ def main():
 
         # gather assets by name
         assets = {a.name: a for a in release.get_assets()}
-        for asset_name, product in [("update.json", "sys11"), ("update_wpc.json", "wpc")]:
+        for asset_name, product in [
+            ("update.json", "sys11"),
+            ("update_wpc.json", "wpc"),
+        ]:
             asset = assets.get(asset_name)
             if not asset:
                 continue
 
             update_data = fetch_update_json(asset.browser_download_url)
             if update_data is None:
-                print(f"⏭️ Skipping {tag} {asset_name}: failed to fetch", file=sys.stderr)
+                print(
+                    f"⏭️ Skipping {tag} {asset_name}: failed to fetch", file=sys.stderr
+                )
                 continue
 
             product_version = versions_in_body.get(product, base_version)
@@ -129,17 +162,22 @@ def main():
 
             update_hash = calculate_json_hash(update_data)
 
-            file_db.append({
-                "product": product,
-                "version": product_version,
-                "type": release_type,
-                "url": asset.browser_download_url,
-                "sha256": update_hash,
-                "download_count": asset.download_count,
-            })
+            file_db.append(
+                {
+                    "product": product,
+                    "version": product_version,
+                    "type": release_type,
+                    "url": asset.browser_download_url,
+                    "sha256": update_hash,
+                    "download_count": asset.download_count,
+                }
+            )
 
             # Only skip if this is a production build identical to previous production
-            if release_type == "production" and previous_update_hashes[product] == update_hash:
+            if (
+                release_type == "production"
+                and previous_update_hashes[product] == update_hash
+            ):
                 continue
 
             if release_type == "production":
@@ -148,13 +186,15 @@ def main():
             release_entry = {
                 "version": product_version,
                 "url": asset.browser_download_url,
-                "notes": release.body or "No release notes provided",
+                "notes": release_notes_to_html(release.body),
                 "published_at": release.published_at.isoformat(),
                 "type": release_type,
                 "download_count": asset.download_count,
             }
             releases_by_product[product]["all"].append(release_entry)
-            releases_by_product[product][release_type if release_type != "production" else "prod"].append(release_entry)
+            releases_by_product[product][
+                release_type if release_type != "production" else "prod"
+            ].append(release_entry)
 
     # Write out the JSON files for each product
     for product, groups in releases_by_product.items():
@@ -170,7 +210,11 @@ def main():
             print(f"✅ Wrote {all_path}")
 
             # write per-type JSON files
-            for key, filename in [("prod", "prod.json"), ("beta", "beta.json"), ("dev", "dev.json")]:
+            for key, filename in [
+                ("prod", "prod.json"),
+                ("beta", "beta.json"),
+                ("dev", "dev.json"),
+            ]:
                 path = os.path.join(out_folder, filename)
                 with open(path, "w") as f:
                     json.dump(groups[key], f, indent=2)
@@ -182,13 +226,18 @@ def main():
                 latest_release = max(prod_releases, key=lambda r: r["published_at"])
             else:
                 latest_release = max(groups["all"], key=lambda r: r["published_at"])
-            latest_release_data = {
-                "version": latest_release["version"],
-                "url": latest_release["url"],  # This is the download link for update.json
-                "release_page": f"https://github.com/{args.owner}/{args.repo}/releases/tag/{latest_release['version']}",  # Link to the release page
-                "notes": latest_release["notes"],
-                "published_at": latest_release["published_at"]
-            }
+                latest_release_data = {
+                    "version": latest_release["version"],
+                    "url": latest_release[
+                        "url"
+                    ],  # This is the download link for update.json
+                    "release_page": (
+                        f"https://github.com/{args.owner}/{args.repo}/releases/tag/"
+                        f"{latest_release['version']}"
+                    ),  # Link to the release page
+                    "notes": latest_release["notes"],
+                    "published_at": latest_release["published_at"],
+                }
 
             # Latest release metadata in the same folder
             # https://software.warpedpinball.com/vector/<product>/latest.json
@@ -205,6 +254,7 @@ def main():
         print(f"✅ Wrote {build_db_path}")
 
     print("✅ Generated release data for all products.")
+
 
 if __name__ == "__main__":
     main()

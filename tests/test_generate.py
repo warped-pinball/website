@@ -2,11 +2,12 @@ import json
 import os
 import sys
 
-import pytest
+sys.path.insert(
+    0,
+    os.path.abspath(os.path.join(os.path.dirname(__file__), "..")),
+)
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-import scripts.generate as generate
+import scripts.generate as generate  # noqa: E402
 
 
 def test_calculate_json_hash_deterministic():
@@ -68,3 +69,11 @@ def test_parse_release_versions_missing():
     body = "No version info"
     versions = generate.parse_release_versions(body)
     assert versions == {}
+
+
+def test_release_notes_to_html_sanitizes_and_strips_images():
+    md = "Hello! ![img](http://example.com/a.png) <script>alert('x')</script>"
+    html = generate.release_notes_to_html(md)
+    assert "<img" not in html
+    assert "script" not in html
+    assert "Hello" in html
