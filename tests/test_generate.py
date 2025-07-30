@@ -2,11 +2,12 @@ import json
 import os
 import sys
 
-import pytest
+sys.path.insert(
+    0,
+    os.path.abspath(os.path.join(os.path.dirname(__file__), "..")),
+)
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-import scripts.generate as generate
+import scripts.generate as generate  # noqa: E402
 
 
 def test_calculate_json_hash_deterministic():
@@ -70,6 +71,26 @@ def test_parse_release_versions_missing():
     assert versions == {}
 
 
+
+def test_parse_release_versions_whitespace():
+    body = (
+        "Intro text\r\n"
+        "##   VERSIONS   \r\n"
+        "**Vector** :   `2.0`\r\n"
+        "<!-- END VERSIONS SECTION -->\r\n"
+    )
+    assert generate.parse_release_versions(body) == {"vector": "2.0"}
+
+
+def test_release_notes_to_html_sanitizes_and_strips_images():
+    md = "Hello! ![img](http://example.com/a.png) <script>alert('x')</script>"
+    html = generate.release_notes_to_html(md)
+    assert "<img" not in html
+    assert "script" not in html
+    assert "Hello" in html
+
+
+
 def test_build_latest_release_data_uses_tag():
     entry = {
         "version": "0.0.2-beta493",
@@ -104,7 +125,6 @@ def test_build_file_entry_and_download_record():
     assert "download_count" not in file_entry
     assert download_entry["download_count"] == 42
     assert file_entry["sha256"] == "deadbeef"
-
 
 
 def test_calculate_json_hash_unique():
