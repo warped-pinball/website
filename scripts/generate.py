@@ -58,6 +58,7 @@ def parse_release_versions(text):
     return versions
 
 
+
 def release_notes_to_html(text):
     """Convert Markdown release notes to sanitized HTML without images."""
     if not text:
@@ -74,15 +75,14 @@ def release_notes_to_html(text):
     )
 
 
+
 def build_latest_release_data(owner, repo, release_entry):
     """Return a standardized latest.json payload for a single release."""
 
     return {
         "version": release_entry["version"],
         "url": release_entry["url"],
-        "release_page": (
-            f"https://github.com/{owner}/{repo}/releases/tag/" f"{release_entry['tag']}"
-        ),
+        "release_page": f"https://github.com/{owner}/{repo}/releases/tag/{release_entry['tag']}",
         "notes": release_entry["notes"],
         "published_at": release_entry["published_at"],
     }
@@ -110,7 +110,6 @@ def build_download_record(product, version, release_type, url, count):
         "url": url,
         "download_count": count,
     }
-
 
 def main():
     p = argparse.ArgumentParser(
@@ -141,6 +140,9 @@ def main():
     builds_path = os.path.join(args.out_dir, "builds.json")
     if os.path.exists(builds_path):
         os.remove(builds_path)
+    counts_path = os.path.join(args.out_dir, "download_counts.json")
+    if os.path.exists(counts_path):
+        os.remove(counts_path)
 
     token = os.getenv("GITHUB_TOKEN")
     if not token:
@@ -157,7 +159,8 @@ def main():
     }
     # track last update hash for each product so we can skip identical builds
     previous_update_hashes = {"sys11": None, "wpc": None}
-    file_db = []  # collect metadata for all update files
+    file_db = []  # metadata for all update files (without download counts)
+    download_records = []  # download counts for each asset
 
     releases = list(repository.get_releases())
     # sort oldest -> newest so we only skip later duplicates
@@ -201,16 +204,23 @@ def main():
             update_hash = calculate_json_hash(update_data)
 
             file_db.append(
-                {
-                    **build_file_entry(
-                        product,
-                        product_version,
-                        release_type,
-                        asset.browser_download_url,
-                        update_hash,
-                    ),
-                    "download_count": asset.download_count,
-                }
+                build_file_entry(
+                    product,
+                    product_version,
+                    release_type,
+                    asset.browser_download_url,
+                    update_hash,
+                )
+            )
+            
+            download_records.append(
+                build_download_record(
+                    product,
+                    product_version,
+                    release_type,
+                    asset.browser_download_url,
+                    asset.download_count,
+                )
             )
 
             # Only skip if this is a production build identical to previous production
@@ -230,7 +240,6 @@ def main():
                 "notes": release_notes_to_html(release.body),
                 "published_at": release.published_at.isoformat(),
                 "type": release_type,
-                "download_count": asset.download_count,
             }
             releases_by_product[product]["all"].append(release_entry)
             releases_by_product[product][
@@ -267,6 +276,7 @@ def main():
                 latest_release = max(prod_releases, key=lambda r: r["published_at"])
             else:
                 latest_release = max(groups["all"], key=lambda r: r["published_at"])
+
             latest_release_data = build_latest_release_data(
                 args.owner, args.repo, latest_release
             )
@@ -284,6 +294,12 @@ def main():
         with open(build_db_path, "w") as f:
             json.dump(file_db, f, indent=2)
         print(f"✅ Wrote {build_db_path}")
+
+    if download_records:
+        counts_path = os.path.join(args.out_dir, "download_counts.json")
+        with open(counts_path, "w") as f:
+            json.dump(download_records, f, indent=2)
+        print(f"✅ Wrote {counts_path}")
 
     print("✅ Generated release data for all products.")
 

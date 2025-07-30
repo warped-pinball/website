@@ -71,6 +71,7 @@ def test_parse_release_versions_missing():
     assert versions == {}
 
 
+
 def test_parse_release_versions_whitespace():
     body = (
         "Intro text\r\n"
@@ -89,14 +90,12 @@ def test_release_notes_to_html_sanitizes_and_strips_images():
     assert "Hello" in html
 
 
+
 def test_build_latest_release_data_uses_tag():
     entry = {
         "version": "0.0.2-beta493",
         "tag": "1.3.11-beta493",
-        "url": (
-            "https://github.com/warped-pinball/vector/releases/download/"
-            "1.3.11-beta493/update_wpc.json"
-        ),
+        "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta493/update_wpc.json",
         "notes": "notes",
         "published_at": "2025-07-18T20:12:57+00:00",
     }
@@ -126,3 +125,31 @@ def test_build_file_entry_and_download_record():
     assert "download_count" not in file_entry
     assert download_entry["download_count"] == 42
     assert file_entry["sha256"] == "deadbeef"
+
+
+def test_calculate_json_hash_unique():
+    first = {"x": 1}
+    second = {"x": 2}
+    assert generate.calculate_json_hash(first) != generate.calculate_json_hash(second)
+
+
+def test_fetch_update_json_crlf(monkeypatch):
+    json_line = json.dumps({"foo": "bar"})
+
+    class MockResponse:
+        status_code = 200
+        text = json_line + "\r\nEXTRA"
+
+    monkeypatch.setattr(generate.requests, "get", lambda url: MockResponse())
+    assert generate.fetch_update_json("http://example.com/update.json") == {"foo": "bar"}
+
+
+def test_parse_release_versions_whitespace():
+    body = (
+        "Intro text\r\n"
+        "##   VERSIONS   \r\n"
+        "**Vector** :   `2.0`\r\n"
+        "<!-- END VERSIONS SECTION -->\r\n"
+    )
+    assert generate.parse_release_versions(body) == {"vector": "2.0"}
+
