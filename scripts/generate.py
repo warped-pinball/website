@@ -46,7 +46,7 @@ def parse_release_versions(text):
 
     section = block_match.group(1)
     versions = {}
-    for m in re.finditer(r"\*\*([^*]+)\*\*:\s*`([^`]+)`", section):
+    for m in re.finditer(r"\*\*([^*]+)\*\*\s*:\s*`([^`]+)`", section):
         product = m.group(1).strip().lower()
         versions[product] = m.group(2).strip()
     return versions
