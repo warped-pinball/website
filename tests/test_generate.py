@@ -68,3 +68,18 @@ def test_parse_release_versions_missing():
     body = "No version info"
     versions = generate.parse_release_versions(body)
     assert versions == {}
+
+
+def test_build_latest_release_data_uses_tag():
+    entry = {
+        "version": "0.0.2-beta493",
+        "tag": "1.3.11-beta493",
+        "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta493/update_wpc.json",
+        "notes": "notes",
+        "published_at": "2025-07-18T20:12:57+00:00",
+    }
+
+    result = generate.build_latest_release_data("warped-pinball", "vector", entry)
+    assert result["release_page"].endswith("/releases/tag/1.3.11-beta493")
+    assert result["version"] == entry["version"]
+
