@@ -52,7 +52,7 @@ def parse_release_versions(text):
 
     section = block_match.group(1)
     versions = {}
-    for m in re.finditer(r"\*\*([^*]+)\*\*:\s*`([^`]+)`", section):
+    for m in re.finditer(r"\*\*([^*]+)\*\*\s*:\s*`([^`]+)`", section):
         product = m.group(1).strip().lower()
         versions[product] = m.group(2).strip()
     return versions
@@ -72,6 +72,44 @@ def release_notes_to_html(text):
         attributes=bleach.sanitizer.ALLOWED_ATTRIBUTES,
         strip=True,
     )
+
+
+def build_latest_release_data(owner, repo, release_entry):
+    """Return a standardized latest.json payload for a single release."""
+
+    return {
+        "version": release_entry["version"],
+        "url": release_entry["url"],
+        "release_page": (
+            f"https://github.com/{owner}/{repo}/releases/tag/" f"{release_entry['tag']}"
+        ),
+        "notes": release_entry["notes"],
+        "published_at": release_entry["published_at"],
+    }
+
+
+def build_file_entry(product, version, release_type, url, sha256):
+    """Return metadata for builds.json without download counts."""
+
+    return {
+        "product": product,
+        "version": version,
+        "type": release_type,
+        "url": url,
+        "sha256": sha256,
+    }
+
+
+def build_download_record(product, version, release_type, url, count):
+    """Return a record used to track download counts separately."""
+
+    return {
+        "product": product,
+        "version": version,
+        "type": release_type,
+        "url": url,
+        "download_count": count,
+    }
 
 
 def main():
@@ -164,11 +202,13 @@ def main():
 
             file_db.append(
                 {
-                    "product": product,
-                    "version": product_version,
-                    "type": release_type,
-                    "url": asset.browser_download_url,
-                    "sha256": update_hash,
+                    **build_file_entry(
+                        product,
+                        product_version,
+                        release_type,
+                        asset.browser_download_url,
+                        update_hash,
+                    ),
                     "download_count": asset.download_count,
                 }
             )
@@ -185,6 +225,7 @@ def main():
 
             release_entry = {
                 "version": product_version,
+                "tag": tag,
                 "url": asset.browser_download_url,
                 "notes": release_notes_to_html(release.body),
                 "published_at": release.published_at.isoformat(),
@@ -226,18 +267,9 @@ def main():
                 latest_release = max(prod_releases, key=lambda r: r["published_at"])
             else:
                 latest_release = max(groups["all"], key=lambda r: r["published_at"])
-                latest_release_data = {
-                    "version": latest_release["version"],
-                    "url": latest_release[
-                        "url"
-                    ],  # This is the download link for update.json
-                    "release_page": (
-                        f"https://github.com/{args.owner}/{args.repo}/releases/tag/"
-                        f"{latest_release['version']}"
-                    ),  # Link to the release page
-                    "notes": latest_release["notes"],
-                    "published_at": latest_release["published_at"],
-                }
+            latest_release_data = build_latest_release_data(
+                args.owner, args.repo, latest_release
+            )
 
             # Latest release metadata in the same folder
             # https://software.warpedpinball.com/vector/<product>/latest.json

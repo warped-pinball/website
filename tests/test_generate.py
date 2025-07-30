@@ -71,9 +71,58 @@ def test_parse_release_versions_missing():
     assert versions == {}
 
 
+def test_parse_release_versions_whitespace():
+    body = (
+        "Intro text\r\n"
+        "##   VERSIONS   \r\n"
+        "**Vector** :   `2.0`\r\n"
+        "<!-- END VERSIONS SECTION -->\r\n"
+    )
+    assert generate.parse_release_versions(body) == {"vector": "2.0"}
+
+
 def test_release_notes_to_html_sanitizes_and_strips_images():
     md = "Hello! ![img](http://example.com/a.png) <script>alert('x')</script>"
     html = generate.release_notes_to_html(md)
     assert "<img" not in html
     assert "script" not in html
     assert "Hello" in html
+
+
+def test_build_latest_release_data_uses_tag():
+    entry = {
+        "version": "0.0.2-beta493",
+        "tag": "1.3.11-beta493",
+        "url": (
+            "https://github.com/warped-pinball/vector/releases/download/"
+            "1.3.11-beta493/update_wpc.json"
+        ),
+        "notes": "notes",
+        "published_at": "2025-07-18T20:12:57+00:00",
+    }
+
+    result = generate.build_latest_release_data("warped-pinball", "vector", entry)
+    assert result["release_page"].endswith("/releases/tag/1.3.11-beta493")
+    assert result["version"] == entry["version"]
+
+
+def test_build_file_entry_and_download_record():
+    file_entry = generate.build_file_entry(
+        "sys11",
+        "1.0.0",
+        "prod",
+        "https://example.com/update.json",
+        "deadbeef",
+    )
+
+    download_entry = generate.build_download_record(
+        "sys11",
+        "1.0.0",
+        "prod",
+        "https://example.com/update.json",
+        42,
+    )
+
+    assert "download_count" not in file_entry
+    assert download_entry["download_count"] == 42
+    assert file_entry["sha256"] == "deadbeef"
