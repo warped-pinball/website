@@ -63,9 +63,10 @@ def release_notes_to_html(text):
     """Convert Markdown release notes to sanitized HTML without images."""
     if not text:
         return ""
-    html = markdown.markdown(text)
+    # use the nl2br extension so single newlines become ``<br>`` tags
+    html = markdown.markdown(text, extensions=["nl2br"])
     allowed_tags = set(bleach.sanitizer.ALLOWED_TAGS).union(
-        {"p", "pre", "code", "h1", "h2", "h3", "h4", "h5", "h6"}
+        {"p", "pre", "code", "h1", "h2", "h3", "h4", "h5", "h6", "br"}
     ) - {"img"}
     return bleach.clean(
         html,
