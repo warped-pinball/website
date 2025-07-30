@@ -68,3 +68,11 @@ def test_parse_release_versions_missing():
     body = "No version info"
     versions = generate.parse_release_versions(body)
     assert versions == {}
+
+
+def test_release_notes_to_html_sanitizes_and_strips_images():
+    md = "Hello! ![img](http://example.com/a.png) <script>alert('x')</script>"
+    html = generate.release_notes_to_html(md)
+    assert "<img" not in html
+    assert "script" not in html
+    assert "Hello" in html

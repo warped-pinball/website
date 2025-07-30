@@ -8,6 +8,8 @@ import shutil
 import requests
 from github import Github
 import re
+import markdown
+import bleach
 
 def fetch_update_json(url):
     """Fetch an update JSON file and return its parsed content.
@@ -50,6 +52,24 @@ def parse_release_versions(text):
         product = m.group(1).strip().lower()
         versions[product] = m.group(2).strip()
     return versions
+
+
+def release_notes_to_html(text):
+    """Convert Markdown release notes to sanitized HTML without images."""
+    if not text:
+        return ""
+    html = markdown.markdown(text)
+    # remove img tags entirely
+    html = re.sub(r"<img\b[^>]*>", "", html, flags=re.IGNORECASE)
+    allowed_tags = set(bleach.sanitizer.ALLOWED_TAGS).union(
+        {"p", "pre", "code", "h1", "h2", "h3", "h4", "h5", "h6"}
+    )
+    return bleach.clean(
+        html,
+        tags=list(allowed_tags),
+        attributes=bleach.sanitizer.ALLOWED_ATTRIBUTES,
+        strip=True,
+    )
 
 def main():
     p = argparse.ArgumentParser(
@@ -148,7 +168,7 @@ def main():
             release_entry = {
                 "version": product_version,
                 "url": asset.browser_download_url,
-                "notes": release.body or "No release notes provided",
+                "notes": release_notes_to_html(release.body),
                 "published_at": release.published_at.isoformat(),
                 "type": release_type,
                 "download_count": asset.download_count,
