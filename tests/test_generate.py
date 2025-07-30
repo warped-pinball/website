@@ -90,6 +90,12 @@ def test_release_notes_to_html_sanitizes_and_strips_images():
     assert "Hello" in html
 
 
+def test_release_notes_to_html_converts_newlines_to_br():
+    md = "Line 1\nLine 2"
+    html = generate.release_notes_to_html(md)
+    assert "<br" in html
+
+
 
 def test_build_latest_release_data_uses_tag():
     entry = {

@@ -3,7 +3,7 @@
     "version": "0.0.1-dev83",
     "tag": "1.3.11-dev83",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-dev83/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev83</code>\n<strong>Sys11</strong>: <code>1.4.0-dev83</code>\n<strong>WPC</strong>: <code>0.0.1-dev83</code>\n<strong>EM</strong>: <code>0.0.1-dev83</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev83</code><br>\n<strong>Sys11</strong>: <code>1.4.0-dev83</code><br>\n<strong>WPC</strong>: <code>0.0.1-dev83</code><br>\n<strong>EM</strong>: <code>0.0.1-dev83</code></p>\n",
     "published_at": "2025-06-24T01:11:06+00:00",
     "type": "dev"
   },
@@ -11,7 +11,7 @@
     "version": "1.3.10-dev83",
     "tag": "1.3.10-dev83",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.10-dev83/update_wpc.json",
-    "notes": "<p>Version: 1.3.10-dev83\nTrigger: pull_request</p>",
+    "notes": "<p>Version: 1.3.10-dev83<br>\nTrigger: pull_request</p>",
     "published_at": "2025-06-19T02:25:50+00:00",
     "type": "dev"
   },
@@ -19,7 +19,7 @@
     "version": "0.0.1-dev89",
     "tag": "1.3.11-dev89",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-dev89/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev89</code>\n<strong>Sys11</strong>: <code>1.4.0-dev89</code>\n<strong>WPC</strong>: <code>0.0.1-dev89</code>\n<strong>EM</strong>: <code>0.0.1-dev89</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev89</code><br>\n<strong>Sys11</strong>: <code>1.4.0-dev89</code><br>\n<strong>WPC</strong>: <code>0.0.1-dev89</code><br>\n<strong>EM</strong>: <code>0.0.1-dev89</code></p>\n",
     "published_at": "2025-07-05T15:30:41+00:00",
     "type": "dev"
   },
@@ -27,7 +27,7 @@
     "version": "0.0.1-beta479",
     "tag": "1.3.11-beta479",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta479/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-beta479</code>\n<strong>Sys11</strong>: <code>1.4.0-beta479</code>\n<strong>WPC</strong>: <code>0.0.1-beta479</code>\n<strong>EM</strong>: <code>0.0.1-beta479</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-beta479</code><br>\n<strong>Sys11</strong>: <code>1.4.0-beta479</code><br>\n<strong>WPC</strong>: <code>0.0.1-beta479</code><br>\n<strong>EM</strong>: <code>0.0.1-beta479</code></p>\n",
     "published_at": "2025-07-05T15:07:23+00:00",
     "type": "beta"
   },
@@ -35,7 +35,7 @@
     "version": "0.0.1-dev91",
     "tag": "1.3.11-dev91",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-dev91/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev91</code>\n<strong>Sys11</strong>: <code>1.4.0-dev91</code>\n<strong>WPC</strong>: <code>0.0.1-dev91</code>\n<strong>EM</strong>: <code>0.0.1-dev91</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev91</code><br>\n<strong>Sys11</strong>: <code>1.4.0-dev91</code><br>\n<strong>WPC</strong>: <code>0.0.1-dev91</code><br>\n<strong>EM</strong>: <code>0.0.1-dev91</code></p>\n",
     "published_at": "2025-07-08T19:03:49+00:00",
     "type": "dev"
   },
@@ -43,7 +43,7 @@
     "version": "0.0.1-dev90",
     "tag": "1.3.11-dev90",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-dev90/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev90</code>\n<strong>Sys11</strong>: <code>1.4.0-dev90</code>\n<strong>WPC</strong>: <code>0.0.1-dev90</code>\n<strong>EM</strong>: <code>0.0.1-dev90</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev90</code><br>\n<strong>Sys11</strong>: <code>1.4.0-dev90</code><br>\n<strong>WPC</strong>: <code>0.0.1-dev90</code><br>\n<strong>EM</strong>: <code>0.0.1-dev90</code></p>\n",
     "published_at": "2025-07-08T18:50:19+00:00",
     "type": "dev"
   },
@@ -51,7 +51,7 @@
     "version": "0.0.1-beta481",
     "tag": "1.3.11-beta481",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta481/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-beta481</code>\n<strong>Sys11</strong>: <code>1.4.0-beta481</code>\n<strong>WPC</strong>: <code>0.0.1-beta481</code>\n<strong>EM</strong>: <code>0.0.1-beta481</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-beta481</code><br>\n<strong>Sys11</strong>: <code>1.4.0-beta481</code><br>\n<strong>WPC</strong>: <code>0.0.1-beta481</code><br>\n<strong>EM</strong>: <code>0.0.1-beta481</code></p>\n",
     "published_at": "2025-07-05T16:17:59+00:00",
     "type": "beta"
   },
@@ -59,7 +59,7 @@
     "version": "0.0.2-dev92",
     "tag": "1.3.11-dev92",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-dev92/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev92</code>\n<strong>Sys11</strong>: <code>1.4.0-dev92</code>\n<strong>WPC</strong>: <code>0.0.2-dev92</code>\n<strong>EM</strong>: <code>0.0.1-dev92</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev92</code><br>\n<strong>Sys11</strong>: <code>1.4.0-dev92</code><br>\n<strong>WPC</strong>: <code>0.0.2-dev92</code><br>\n<strong>EM</strong>: <code>0.0.1-dev92</code></p>\n",
     "published_at": "2025-07-12T22:23:49+00:00",
     "type": "dev"
   },
@@ -67,7 +67,7 @@
     "version": "0.0.1-beta486",
     "tag": "1.3.11-beta486",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta486/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-beta486</code>\n<strong>Sys11</strong>: <code>1.4.0-beta486</code>\n<strong>WPC</strong>: <code>0.0.1-beta486</code>\n<strong>EM</strong>: <code>0.0.1-beta486</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-beta486</code><br>\n<strong>Sys11</strong>: <code>1.4.0-beta486</code><br>\n<strong>WPC</strong>: <code>0.0.1-beta486</code><br>\n<strong>EM</strong>: <code>0.0.1-beta486</code></p>\n",
     "published_at": "2025-07-08T22:43:34+00:00",
     "type": "beta"
   },
@@ -75,7 +75,7 @@
     "version": "0.0.3-dev93",
     "tag": "1.3.12-dev93",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.12-dev93/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.12-dev93</code>\n<strong>Sys11</strong>: <code>1.4.1-dev93</code>\n<strong>WPC</strong>: <code>0.0.3-dev93</code>\n<strong>EM</strong>: <code>0.0.2-dev93</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.12-dev93</code><br>\n<strong>Sys11</strong>: <code>1.4.1-dev93</code><br>\n<strong>WPC</strong>: <code>0.0.3-dev93</code><br>\n<strong>EM</strong>: <code>0.0.2-dev93</code></p>\n",
     "published_at": "2025-07-22T01:56:25+00:00",
     "type": "dev"
   },
@@ -83,7 +83,7 @@
     "version": "0.0.2-dev96",
     "tag": "1.3.11-dev96",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-dev96/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev96</code>\n<strong>Sys11</strong>: <code>1.4.0-dev96</code>\n<strong>WPC</strong>: <code>0.0.2-dev96</code>\n<strong>EM</strong>: <code>0.0.1-dev96</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev96</code><br>\n<strong>Sys11</strong>: <code>1.4.0-dev96</code><br>\n<strong>WPC</strong>: <code>0.0.2-dev96</code><br>\n<strong>EM</strong>: <code>0.0.1-dev96</code></p>\n",
     "published_at": "2025-07-25T03:12:55+00:00",
     "type": "dev"
   },
@@ -91,7 +91,7 @@
     "version": "0.0.2-dev95",
     "tag": "1.3.11-dev95",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-dev95/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev95</code>\n<strong>Sys11</strong>: <code>1.4.0-dev95</code>\n<strong>WPC</strong>: <code>0.0.2-dev95</code>\n<strong>EM</strong>: <code>0.0.1-dev95</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev95</code><br>\n<strong>Sys11</strong>: <code>1.4.0-dev95</code><br>\n<strong>WPC</strong>: <code>0.0.2-dev95</code><br>\n<strong>EM</strong>: <code>0.0.1-dev95</code></p>\n",
     "published_at": "2025-07-22T13:36:02+00:00",
     "type": "dev"
   },
@@ -99,7 +99,7 @@
     "version": "0.0.2-dev94",
     "tag": "1.3.11-dev94",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-dev94/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev94</code>\n<strong>Sys11</strong>: <code>1.4.0-dev94</code>\n<strong>WPC</strong>: <code>0.0.2-dev94</code>\n<strong>EM</strong>: <code>0.0.1-dev94</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev94</code><br>\n<strong>Sys11</strong>: <code>1.4.0-dev94</code><br>\n<strong>WPC</strong>: <code>0.0.2-dev94</code><br>\n<strong>EM</strong>: <code>0.0.1-dev94</code></p>\n",
     "published_at": "2025-07-22T13:20:11+00:00",
     "type": "dev"
   },
@@ -107,7 +107,7 @@
     "version": "0.0.2-dev93",
     "tag": "1.3.11-dev93",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-dev93/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev93</code>\n<strong>Sys11</strong>: <code>1.4.0-dev93</code>\n<strong>WPC</strong>: <code>0.0.2-dev93</code>\n<strong>EM</strong>: <code>0.0.1-dev93</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-dev93</code><br>\n<strong>Sys11</strong>: <code>1.4.0-dev93</code><br>\n<strong>WPC</strong>: <code>0.0.2-dev93</code><br>\n<strong>EM</strong>: <code>0.0.1-dev93</code></p>\n",
     "published_at": "2025-07-22T00:40:35+00:00",
     "type": "dev"
   },
@@ -115,7 +115,7 @@
     "version": "0.0.2-beta493",
     "tag": "1.3.11-beta493",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta493/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-beta493</code>\n<strong>Sys11</strong>: <code>1.4.0-beta493</code>\n<strong>WPC</strong>: <code>0.0.2-beta493</code>\n<strong>EM</strong>: <code>0.0.1-beta493</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-beta493</code><br>\n<strong>Sys11</strong>: <code>1.4.0-beta493</code><br>\n<strong>WPC</strong>: <code>0.0.2-beta493</code><br>\n<strong>EM</strong>: <code>0.0.1-beta493</code></p>\n",
     "published_at": "2025-07-18T20:12:57+00:00",
     "type": "beta"
   },
@@ -123,7 +123,7 @@
     "version": "0.0.2-beta502",
     "tag": "1.3.11-beta502",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta502/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-beta502</code>\n<strong>Sys11</strong>: <code>1.4.0-beta502</code>\n<strong>WPC</strong>: <code>0.0.2-beta502</code>\n<strong>EM</strong>: <code>0.0.1-beta502</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.11-beta502</code><br>\n<strong>Sys11</strong>: <code>1.4.0-beta502</code><br>\n<strong>WPC</strong>: <code>0.0.2-beta502</code><br>\n<strong>EM</strong>: <code>0.0.1-beta502</code></p>\n",
     "published_at": "2025-07-27T16:56:03+00:00",
     "type": "beta"
   },
@@ -131,7 +131,7 @@
     "version": "0.0.3-dev98",
     "tag": "1.3.12-dev98",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.12-dev98/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.12-dev98</code>\n<strong>Sys11</strong>: <code>1.4.1-dev98</code>\n<strong>WPC</strong>: <code>0.0.3-dev98</code>\n<strong>EM</strong>: <code>0.0.2-dev98</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.12-dev98</code><br>\n<strong>Sys11</strong>: <code>1.4.1-dev98</code><br>\n<strong>WPC</strong>: <code>0.0.3-dev98</code><br>\n<strong>EM</strong>: <code>0.0.2-dev98</code></p>\n",
     "published_at": "2025-07-30T12:57:34+00:00",
     "type": "dev"
   },
@@ -139,7 +139,7 @@
     "version": "0.0.3-dev97",
     "tag": "1.3.12-dev97",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.12-dev97/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.12-dev97</code>\n<strong>Sys11</strong>: <code>1.4.1-dev97</code>\n<strong>WPC</strong>: <code>0.0.3-dev97</code>\n<strong>EM</strong>: <code>0.0.2-dev97</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.12-dev97</code><br>\n<strong>Sys11</strong>: <code>1.4.1-dev97</code><br>\n<strong>WPC</strong>: <code>0.0.3-dev97</code><br>\n<strong>EM</strong>: <code>0.0.2-dev97</code></p>\n",
     "published_at": "2025-07-30T12:43:13+00:00",
     "type": "dev"
   },
@@ -147,7 +147,7 @@
     "version": "0.0.3-beta504",
     "tag": "1.3.12-beta504",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.12-beta504/update_wpc.json",
-    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.12-beta504</code>\n<strong>Sys11</strong>: <code>1.4.1-beta504</code>\n<strong>WPC</strong>: <code>0.0.3-beta504</code>\n<strong>EM</strong>: <code>0.0.2-beta504</code></p>\n",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.3.12-beta504</code><br>\n<strong>Sys11</strong>: <code>1.4.1-beta504</code><br>\n<strong>WPC</strong>: <code>0.0.3-beta504</code><br>\n<strong>EM</strong>: <code>0.0.2-beta504</code></p>\n",
     "published_at": "2025-07-27T16:59:36+00:00",
     "type": "beta"
   }
