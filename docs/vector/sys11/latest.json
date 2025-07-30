@@ -2,6 +2,6 @@
   "version": "1.3.10",
   "url": "https://github.com/warped-pinball/vector/releases/download/1.3.10/update.json",
   "release_page": "https://github.com/warped-pinball/vector/releases/tag/1.3.10",
-  "notes": "## What's Changed\r\n* move leader reset function by @paulmullin in https://github.com/warped-pinball/vector/pull/82\r\n* Fire inplay score address by @paulmullin in https://github.com/warped-pinball/vector/pull/84\r\n\r\n\r\n**Full Changelog**: https://github.com/warped-pinball/vector/compare/1.3.9...1.3.10",
+  "notes": "<h2>What's Changed</h2>\n<ul>\n<li>move leader reset function by @paulmullin in https://github.com/warped-pinball/vector/pull/82</li>\n<li>Fire inplay score address by @paulmullin in https://github.com/warped-pinball/vector/pull/84</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.3.9...1.3.10</p>",
   "published_at": "2025-06-19T00:22:28+00:00"
 }
