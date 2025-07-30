@@ -51,6 +51,18 @@ def parse_release_versions(text):
         versions[product] = m.group(2).strip()
     return versions
 
+
+def build_latest_release_data(owner, repo, release_entry):
+    """Return a standardized latest.json payload for a single release."""
+
+    return {
+        "version": release_entry["version"],
+        "url": release_entry["url"],
+        "release_page": f"https://github.com/{owner}/{repo}/releases/tag/{release_entry['tag']}",
+        "notes": release_entry["notes"],
+        "published_at": release_entry["published_at"],
+    }
+
 def main():
     p = argparse.ArgumentParser(
         description="Fetch releases from warped-pinball/vector and generate per-product JSON"
@@ -147,6 +159,7 @@ def main():
 
             release_entry = {
                 "version": product_version,
+                "tag": tag,
                 "url": asset.browser_download_url,
                 "notes": release.body or "No release notes provided",
                 "published_at": release.published_at.isoformat(),
@@ -182,13 +195,10 @@ def main():
                 latest_release = max(prod_releases, key=lambda r: r["published_at"])
             else:
                 latest_release = max(groups["all"], key=lambda r: r["published_at"])
-            latest_release_data = {
-                "version": latest_release["version"],
-                "url": latest_release["url"],  # This is the download link for update.json
-                "release_page": f"https://github.com/{args.owner}/{args.repo}/releases/tag/{latest_release['version']}",  # Link to the release page
-                "notes": latest_release["notes"],
-                "published_at": latest_release["published_at"]
-            }
+
+            latest_release_data = build_latest_release_data(
+                args.owner, args.repo, latest_release
+            )
 
             # Latest release metadata in the same folder
             # https://software.warpedpinball.com/vector/<product>/latest.json
