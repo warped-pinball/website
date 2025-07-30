@@ -68,3 +68,29 @@ def test_parse_release_versions_missing():
     body = "No version info"
     versions = generate.parse_release_versions(body)
     assert versions == {}
+
+def test_calculate_json_hash_unique():
+    first = {"x": 1}
+    second = {"x": 2}
+    assert generate.calculate_json_hash(first) != generate.calculate_json_hash(second)
+
+
+def test_fetch_update_json_crlf(monkeypatch):
+    json_line = json.dumps({"foo": "bar"})
+
+    class MockResponse:
+        status_code = 200
+        text = json_line + "\r\nEXTRA"
+
+    monkeypatch.setattr(generate.requests, "get", lambda url: MockResponse())
+    assert generate.fetch_update_json("http://example.com/update.json") == {"foo": "bar"}
+
+
+def test_parse_release_versions_whitespace():
+    body = (
+        "Intro text\r\n"
+        "##   VERSIONS   \r\n"
+        "**Vector** :   `2.0`\r\n"
+        "<!-- END VERSIONS SECTION -->\r\n"
+    )
+    assert generate.parse_release_versions(body) == {"vector": "2.0"}
