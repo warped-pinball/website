@@ -1,50 +1,50 @@
 [
   {
     "version": "0.0.1-beta479",
+    "tag": "1.3.11-beta479",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta479/update_wpc.json",
     "notes": "## Versions\n**Vector**: `1.3.11-beta479`\n**Sys11**: `1.4.0-beta479`\n**WPC**: `0.0.1-beta479`\n**EM**: `0.0.1-beta479`\n<!-- END VERSIONS SECTION -->",
     "published_at": "2025-07-05T15:07:23+00:00",
-    "type": "beta",
-    "download_count": 7
+    "type": "beta"
   },
   {
     "version": "0.0.1-beta481",
+    "tag": "1.3.11-beta481",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta481/update_wpc.json",
     "notes": "## Versions\n**Vector**: `1.3.11-beta481`\n**Sys11**: `1.4.0-beta481`\n**WPC**: `0.0.1-beta481`\n**EM**: `0.0.1-beta481`\n<!-- END VERSIONS SECTION -->",
     "published_at": "2025-07-05T16:17:59+00:00",
-    "type": "beta",
-    "download_count": 6
+    "type": "beta"
   },
   {
     "version": "0.0.1-beta486",
+    "tag": "1.3.11-beta486",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta486/update_wpc.json",
     "notes": "## Versions\n**Vector**: `1.3.11-beta486`\n**Sys11**: `1.4.0-beta486`\n**WPC**: `0.0.1-beta486`\n**EM**: `0.0.1-beta486`\n<!-- END VERSIONS SECTION -->",
     "published_at": "2025-07-08T22:43:34+00:00",
-    "type": "beta",
-    "download_count": 6
+    "type": "beta"
   },
   {
     "version": "0.0.2-beta493",
+    "tag": "1.3.11-beta493",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta493/update_wpc.json",
     "notes": "## Versions\n**Vector**: `1.3.11-beta493`\n**Sys11**: `1.4.0-beta493`\n**WPC**: `0.0.2-beta493`\n**EM**: `0.0.1-beta493`\n<!-- END VERSIONS SECTION -->",
     "published_at": "2025-07-18T20:12:57+00:00",
-    "type": "beta",
-    "download_count": 5
+    "type": "beta"
   },
   {
     "version": "0.0.2-beta502",
+    "tag": "1.3.11-beta502",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.11-beta502/update_wpc.json",
     "notes": "## Versions\n**Vector**: `1.3.11-beta502`\n**Sys11**: `1.4.0-beta502`\n**WPC**: `0.0.2-beta502`\n**EM**: `0.0.1-beta502`\n<!-- END VERSIONS SECTION -->",
     "published_at": "2025-07-27T16:56:03+00:00",
-    "type": "beta",
-    "download_count": 3
+    "type": "beta"
   },
   {
     "version": "0.0.3-beta504",
+    "tag": "1.3.12-beta504",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.3.12-beta504/update_wpc.json",
     "notes": "## Versions\n**Vector**: `1.3.12-beta504`\n**Sys11**: `1.4.1-beta504`\n**WPC**: `0.0.3-beta504`\n**EM**: `0.0.2-beta504`\n<!-- END VERSIONS SECTION -->",
     "published_at": "2025-07-27T16:59:36+00:00",
-    "type": "beta",
-    "download_count": 2
+    "type": "beta"
   }
 ]

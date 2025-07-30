@@ -51,6 +51,42 @@ def parse_release_versions(text):
         versions[product] = m.group(2).strip()
     return versions
 
+
+def build_latest_release_data(owner, repo, release_entry):
+    """Return a standardized latest.json payload for a single release."""
+
+    return {
+        "version": release_entry["version"],
+        "url": release_entry["url"],
+        "release_page": f"https://github.com/{owner}/{repo}/releases/tag/{release_entry['tag']}",
+        "notes": release_entry["notes"],
+        "published_at": release_entry["published_at"],
+    }
+
+
+def build_file_entry(product, version, release_type, url, sha256):
+    """Return metadata for builds.json without download counts."""
+
+    return {
+        "product": product,
+        "version": version,
+        "type": release_type,
+        "url": url,
+        "sha256": sha256,
+    }
+
+
+def build_download_record(product, version, release_type, url, count):
+    """Return a record used to track download counts separately."""
+
+    return {
+        "product": product,
+        "version": version,
+        "type": release_type,
+        "url": url,
+        "download_count": count,
+    }
+
 def main():
     p = argparse.ArgumentParser(
         description="Fetch releases from warped-pinball/vector and generate per-product JSON"
@@ -75,6 +111,9 @@ def main():
     builds_path = os.path.join(args.out_dir, "builds.json")
     if os.path.exists(builds_path):
         os.remove(builds_path)
+    counts_path = os.path.join(args.out_dir, "download_counts.json")
+    if os.path.exists(counts_path):
+        os.remove(counts_path)
 
     token = os.getenv("GITHUB_TOKEN")
     if not token:
@@ -91,7 +130,8 @@ def main():
     }
     # track last update hash for each product so we can skip identical builds
     previous_update_hashes = {"sys11": None, "wpc": None}
-    file_db = []  # collect metadata for all update files
+    file_db = []  # metadata for all update files (without download counts)
+    download_records = []  # download counts for each asset
 
     releases = list(repository.get_releases())
     # sort oldest -> newest so we only skip later duplicates
@@ -129,14 +169,24 @@ def main():
 
             update_hash = calculate_json_hash(update_data)
 
-            file_db.append({
-                "product": product,
-                "version": product_version,
-                "type": release_type,
-                "url": asset.browser_download_url,
-                "sha256": update_hash,
-                "download_count": asset.download_count,
-            })
+            file_db.append(
+                build_file_entry(
+                    product,
+                    product_version,
+                    release_type,
+                    asset.browser_download_url,
+                    update_hash,
+                )
+            )
+            download_records.append(
+                build_download_record(
+                    product,
+                    product_version,
+                    release_type,
+                    asset.browser_download_url,
+                    asset.download_count,
+                )
+            )
 
             # Only skip if this is a production build identical to previous production
             if release_type == "production" and previous_update_hashes[product] == update_hash:
@@ -147,11 +197,11 @@ def main():
 
             release_entry = {
                 "version": product_version,
+                "tag": tag,
                 "url": asset.browser_download_url,
                 "notes": release.body or "No release notes provided",
                 "published_at": release.published_at.isoformat(),
                 "type": release_type,
-                "download_count": asset.download_count,
             }
             releases_by_product[product]["all"].append(release_entry)
             releases_by_product[product][release_type if release_type != "production" else "prod"].append(release_entry)
@@ -182,13 +232,10 @@ def main():
                 latest_release = max(prod_releases, key=lambda r: r["published_at"])
             else:
                 latest_release = max(groups["all"], key=lambda r: r["published_at"])
-            latest_release_data = {
-                "version": latest_release["version"],
-                "url": latest_release["url"],  # This is the download link for update.json
-                "release_page": f"https://github.com/{args.owner}/{args.repo}/releases/tag/{latest_release['version']}",  # Link to the release page
-                "notes": latest_release["notes"],
-                "published_at": latest_release["published_at"]
-            }
+
+            latest_release_data = build_latest_release_data(
+                args.owner, args.repo, latest_release
+            )
 
             # Latest release metadata in the same folder
             # https://software.warpedpinball.com/vector/<product>/latest.json
@@ -203,6 +250,12 @@ def main():
         with open(build_db_path, "w") as f:
             json.dump(file_db, f, indent=2)
         print(f"✅ Wrote {build_db_path}")
+
+    if download_records:
+        counts_path = os.path.join(args.out_dir, "download_counts.json")
+        with open(counts_path, "w") as f:
+            json.dump(download_records, f, indent=2)
+        print(f"✅ Wrote {counts_path}")
 
     print("✅ Generated release data for all products.")
 
