@@ -12,6 +12,13 @@ import markdown
 import bleach
 
 
+PRODUCT_ASSETS = {
+    "sys11": "update.json",
+    "wpc": "update_wpc.json",
+    "em": "update_em.json",
+}
+
+
 def fetch_update_json(url):
     """Fetch an update JSON file and return its parsed content.
 
@@ -155,11 +162,11 @@ def main():
 
     # key = product -> dict of release lists by type
     releases_by_product = {
-        "sys11": {"prod": [], "beta": [], "dev": [], "all": []},
-        "wpc": {"prod": [], "beta": [], "dev": [], "all": []},
+        product: {"prod": [], "beta": [], "dev": [], "all": []}
+        for product in PRODUCT_ASSETS
     }
     # track last update hash for each product so we can skip identical builds
-    previous_update_hashes = {"sys11": None, "wpc": None}
+    previous_update_hashes = {product: None for product in PRODUCT_ASSETS}
     file_db = []  # metadata for all update files (without download counts)
     download_records = []  # download counts for each asset
 
@@ -180,10 +187,7 @@ def main():
 
         # gather assets by name
         assets = {a.name: a for a in release.get_assets()}
-        for asset_name, product in [
-            ("update.json", "sys11"),
-            ("update_wpc.json", "wpc"),
-        ]:
+        for product, asset_name in PRODUCT_ASSETS.items():
             asset = assets.get(asset_name)
             if not asset:
                 continue

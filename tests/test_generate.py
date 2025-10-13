@@ -10,6 +10,14 @@ sys.path.insert(
 import scripts.generate as generate  # noqa: E402
 
 
+def test_product_assets_known_products():
+    assert generate.PRODUCT_ASSETS == {
+        "sys11": "update.json",
+        "wpc": "update_wpc.json",
+        "em": "update_em.json",
+    }
+
+
 def test_calculate_json_hash_deterministic():
     data1 = {"a": 1, "b": 2}
     data2 = {"b": 2, "a": 1}
