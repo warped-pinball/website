@@ -462,5 +462,77 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.4.1-beta629</code><br>\n<strong>Sys11</strong>: <code>1.4.1-beta629</code><br>\n<strong>WPC</strong>: <code>1.0.0-beta629</code><br>\n<strong>EM</strong>: <code>0.0.3-beta629</code></p>\n",
     "published_at": "2025-08-24T03:09:10+00:00",
     "type": "beta"
+  },
+  {
+    "version": "1.4.1-beta635",
+    "tag": "1.4.1-beta635",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.4.1-beta635/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.4.1-beta635</code><br>\n<strong>Sys11</strong>: <code>1.4.1-beta635</code><br>\n<strong>WPC</strong>: <code>1.0.0-beta635</code><br>\n<strong>EM</strong>: <code>0.0.3-beta635</code></p>\n",
+    "published_at": "2025-09-01T15:29:15+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.4.1-beta647",
+    "tag": "1.4.1-beta647",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.4.1-beta647/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.4.1-beta647</code><br>\n<strong>Sys11</strong>: <code>1.4.1-beta647</code><br>\n<strong>WPC</strong>: <code>1.0.0-beta647</code><br>\n<strong>EM</strong>: <code>0.0.3-beta647</code></p>\n",
+    "published_at": "2025-09-27T21:47:31+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.4.1-beta649",
+    "tag": "1.4.1-beta649",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.4.1-beta649/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.4.1-beta649</code><br>\n<strong>Sys11</strong>: <code>1.4.1-beta649</code><br>\n<strong>WPC</strong>: <code>1.0.0-beta649</code><br>\n<strong>EM</strong>: <code>0.0.3-beta649</code></p>\n",
+    "published_at": "2025-09-27T22:41:31+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.4.1-beta702",
+    "tag": "1.4.1-beta702",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.4.1-beta702/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.4.1-beta702</code><br>\n<strong>Sys11</strong>: <code>1.4.1-beta702</code><br>\n<strong>WPC</strong>: <code>1.0.0-beta702</code><br>\n<strong>EM</strong>: <code>0.0.3-beta702</code></p>\n",
+    "published_at": "2025-10-13T01:21:46+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.4.1-beta704",
+    "tag": "1.4.1-beta704",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.4.1-beta704/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.4.1-beta704</code><br>\n<strong>Sys11</strong>: <code>1.4.1-beta704</code><br>\n<strong>WPC</strong>: <code>1.0.0-beta704</code><br>\n<strong>EM</strong>: <code>0.0.3-beta704</code></p>\n",
+    "published_at": "2025-10-13T01:34:10+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.4.1-beta705",
+    "tag": "1.4.1-beta705",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.4.1-beta705/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.4.1-beta705</code><br>\n<strong>Sys11</strong>: <code>1.4.1-beta705</code><br>\n<strong>WPC</strong>: <code>1.1.0-beta705</code><br>\n<strong>EM</strong>: <code>0.0.3-beta705</code></p>\n",
+    "published_at": "2025-10-13T01:42:08+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.4.1-beta707",
+    "tag": "1.5.0-beta707",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-beta707/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.0-beta707</code><br>\n<strong>Sys11</strong>: <code>1.4.1-beta707</code><br>\n<strong>WPC</strong>: <code>1.1.0-beta707</code><br>\n<strong>EM</strong>: <code>0.0.3-beta707</code></p>\n",
+    "published_at": "2025-10-13T19:21:44+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.5.0-beta709",
+    "tag": "1.5.0-beta709",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-beta709/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.0-beta709</code><br>\n<strong>Sys11</strong>: <code>1.5.0-beta709</code><br>\n<strong>WPC</strong>: <code>1.1.0-beta709</code><br>\n<strong>EM</strong>: <code>1.0.0-beta709</code></p>\n",
+    "published_at": "2025-10-13T19:25:21+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.5.0-beta708",
+    "tag": "1.5.0-beta708",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-beta708/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.0-beta708</code><br>\n<strong>Sys11</strong>: <code>1.5.0-beta708</code><br>\n<strong>WPC</strong>: <code>1.1.0-beta708</code><br>\n<strong>EM</strong>: <code>0.0.3-beta708</code></p>\n",
+    "published_at": "2025-10-13T19:24:53+00:00",
+    "type": "beta"
   }
 ]
