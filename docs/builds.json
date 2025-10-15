@@ -2472,10 +2472,52 @@
   },
   {
     "product": "em",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "production",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0/update_em.json",
-    "sha256": "aa5993b7e46b6a9a6ae5f24a30286d5ac989faa18ba991331c342c3ff5b5b7f9"
+    "sha256": "793d9e2e3549ec061fc22b9984b9a363a15bc499661d4fe5ef421cfb00562e3a"
+  },
+  {
+    "product": "sys11",
+    "version": "1.5.0-dev140",
+    "type": "dev",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-dev140/update.json",
+    "sha256": "722e1ec6cb0284316e7f4c76e225cf24ea3c8f093b3f215ea90e49f1cd42ce42"
+  },
+  {
+    "product": "wpc",
+    "version": "1.1.0-dev140",
+    "type": "dev",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-dev140/update_wpc.json",
+    "sha256": "a882b3da0cd63ee12befd4e1ea402e6dcc7ccd5a30ca654507e8b61b3caa7ac5"
+  },
+  {
+    "product": "em",
+    "version": "1.0.1-dev140",
+    "type": "dev",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-dev140/update_em.json",
+    "sha256": "ad7e17786ae829ddd1658873cae2f7027b144113388145d4d9f4fad882aca2be"
+  },
+  {
+    "product": "sys11",
+    "version": "1.5.0-dev139",
+    "type": "dev",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-dev139/update.json",
+    "sha256": "1d699909861b7c4758f8096a3e24453e47049f5dbdcaf18713be158aecdd09d8"
+  },
+  {
+    "product": "wpc",
+    "version": "1.1.0-dev139",
+    "type": "dev",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-dev139/update_wpc.json",
+    "sha256": "2a521214e0f03605681b144f414a74c1f9252858db412293f94fb8043fb9c965"
+  },
+  {
+    "product": "em",
+    "version": "1.0.0-dev139",
+    "type": "dev",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-dev139/update_em.json",
+    "sha256": "90f79d7c823c7bce0c2ecf491409b22ded2aa6a3c0ca304d59e1298cf995283b"
   },
   {
     "product": "sys11",
@@ -2518,5 +2560,26 @@
     "type": "beta",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-beta708/update_em.json",
     "sha256": "06415e9550c05f50b848df2897430064ff23d7956b20aa62fe18b478588923d4"
+  },
+  {
+    "product": "sys11",
+    "version": "1.5.0-beta715",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-beta715/update.json",
+    "sha256": "ea07b183bd6303198ee879cc1ba5b33269a03573a588f92f9d7812a2685a30fa"
+  },
+  {
+    "product": "wpc",
+    "version": "1.1.0-beta715",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-beta715/update_wpc.json",
+    "sha256": "147a5cf226fcfd9d2e9fbd50830d9d3f860b0fa2cb759ff3e24ecbd8a613ca31"
+  },
+  {
+    "product": "em",
+    "version": "1.0.1-beta715",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-beta715/update_em.json",
+    "sha256": "3f01b48e6b2201874c08af5ca73de94417c8eef6eb48a81523dfb16491485e17"
   }
 ]
