@@ -542,5 +542,21 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.0-beta715</code><br>\n<strong>Sys11</strong>: <code>1.5.0-beta715</code><br>\n<strong>WPC</strong>: <code>1.1.0-beta715</code><br>\n<strong>EM</strong>: <code>1.0.1-beta715</code></p>\n",
     "published_at": "2025-10-14T18:17:42+00:00",
     "type": "beta"
+  },
+  {
+    "version": "1.5.0-beta718",
+    "tag": "1.5.0-beta718",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.0-beta718/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.0-beta718</code><br>\n<strong>Sys11</strong>: <code>1.5.0-beta718</code><br>\n<strong>WPC</strong>: <code>1.1.1-beta718</code><br>\n<strong>EM</strong>: <code>1.0.1-beta718</code></p>\n",
+    "published_at": "2025-10-21T16:20:16+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.5.0-beta720",
+    "tag": "1.5.2-beta720",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.2-beta720/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.2-beta720</code><br>\n<strong>Sys11</strong>: <code>1.5.0-beta720</code><br>\n<strong>WPC</strong>: <code>1.1.1-beta720</code><br>\n<strong>EM</strong>: <code>1.0.1-beta720</code></p>\n",
+    "published_at": "2025-10-21T17:21:41+00:00",
+    "type": "beta"
   }
 ]
