@@ -430,5 +430,29 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.0-dev141</code><br>\n<strong>Sys11</strong>: <code>1.5.0-dev141</code><br>\n<strong>WPC</strong>: <code>1.1.1-dev141</code><br>\n<strong>EM</strong>: <code>1.0.1-dev141</code></p>\n",
     "published_at": "2025-10-21T02:28:24+00:00",
     "type": "dev"
+  },
+  {
+    "version": "1.0.1-dev143",
+    "tag": "1.5.2-dev143",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.2-dev143/update_em.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.2-dev143</code><br>\n<strong>Sys11</strong>: <code>1.5.0-dev143</code><br>\n<strong>WPC</strong>: <code>1.1.2-dev143</code><br>\n<strong>EM</strong>: <code>1.0.1-dev143</code></p>\n",
+    "published_at": "2025-10-21T21:57:31+00:00",
+    "type": "dev"
+  },
+  {
+    "version": "1.0.1-dev142",
+    "tag": "1.5.2-dev142",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.2-dev142/update_em.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.2-dev142</code><br>\n<strong>Sys11</strong>: <code>1.5.0-dev142</code><br>\n<strong>WPC</strong>: <code>1.1.1-dev142</code><br>\n<strong>EM</strong>: <code>1.0.1-dev142</code></p>\n",
+    "published_at": "2025-10-21T17:25:52+00:00",
+    "type": "dev"
+  },
+  {
+    "version": "1.0.1-dev144",
+    "tag": "1.5.3-dev144",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.3-dev144/update_em.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.3-dev144</code><br>\n<strong>Sys11</strong>: <code>1.5.0-dev144</code><br>\n<strong>WPC</strong>: <code>1.1.2-dev144</code><br>\n<strong>EM</strong>: <code>1.0.1-dev144</code></p>\n",
+    "published_at": "2025-10-21T23:56:28+00:00",
+    "type": "dev"
   }
 ]
