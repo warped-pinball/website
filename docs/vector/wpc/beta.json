@@ -246,5 +246,21 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.3-beta729</code><br>\n<strong>Sys11</strong>: <code>1.5.0-beta729</code><br>\n<strong>WPC</strong>: <code>1.1.2-beta729</code><br>\n<strong>EM</strong>: <code>1.0.1-beta729</code></p>\n",
     "published_at": "2025-10-21T23:56:25+00:00",
     "type": "beta"
+  },
+  {
+    "version": "1.1.3-beta733",
+    "tag": "1.5.3-beta733",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.3-beta733/update_wpc.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.3-beta733</code><br>\n<strong>Sys11</strong>: <code>1.5.0-beta733</code><br>\n<strong>WPC</strong>: <code>1.1.3-beta733</code><br>\n<strong>EM</strong>: <code>1.0.1-beta733</code></p>\n",
+    "published_at": "2025-10-25T16:33:18+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.1.3-beta734",
+    "tag": "1.5.4-beta734",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.4-beta734/update_wpc.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.4-beta734</code><br>\n<strong>Sys11</strong>: <code>1.5.0-beta734</code><br>\n<strong>WPC</strong>: <code>1.1.3-beta734</code><br>\n<strong>EM</strong>: <code>1.0.1-beta734</code></p>\n",
+    "published_at": "2025-10-25T16:34:22+00:00",
+    "type": "beta"
   }
 ]
