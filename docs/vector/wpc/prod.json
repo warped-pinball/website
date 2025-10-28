@@ -46,5 +46,13 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.5</code><br>\n<strong>Sys11</strong>: <code>1.5.0</code><br>\n<strong>WPC</strong>: <code>1.1.4</code><br>\n<strong>EM</strong>: <code>1.0.1</code></p>\n\n\n<h2>What's Changed</h2>\n<ul>\n<li>Message area corrections fro WPC by @paulmullin in https://github.com/warped-pinball/vector/pull/146</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.5.4...1.5.5</p>",
     "published_at": "2025-10-26T21:42:14+00:00",
     "type": "production"
+  },
+  {
+    "version": "1.1.5",
+    "tag": "1.5.6",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.6/update_wpc.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.6</code><br>\n<strong>Sys11</strong>: <code>1.5.0</code><br>\n<strong>WPC</strong>: <code>1.1.5</code><br>\n<strong>EM</strong>: <code>1.0.1</code></p>\n\n\n<h2>What's Changed</h2>\n<ul>\n<li>Added config for Getaway: high Speed II by @paulmullin in https://github.com/warped-pinball/vector/pull/147</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.5.5...1.5.6</p>",
+    "published_at": "2025-10-28T00:16:12+00:00",
+    "type": "production"
   }
 ]
