@@ -286,5 +286,13 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.6-beta749</code><br>\n<strong>Sys11</strong>: <code>1.5.0-beta749</code><br>\n<strong>WPC</strong>: <code>1.1.5-beta749</code><br>\n<strong>EM</strong>: <code>1.0.1-beta749</code></p>\n",
     "published_at": "2025-10-28T00:15:54+00:00",
     "type": "beta"
+  },
+  {
+    "version": "1.0.1-beta762",
+    "tag": "1.5.7-beta762",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.5.7-beta762/update_em.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.5.7-beta762</code><br>\n<strong>Sys11</strong>: <code>1.5.0-beta762</code><br>\n<strong>WPC</strong>: <code>1.1.6-beta762</code><br>\n<strong>EM</strong>: <code>1.0.1-beta762</code></p>\n",
+    "published_at": "2025-10-31T23:05:15+00:00",
+    "type": "beta"
   }
 ]
