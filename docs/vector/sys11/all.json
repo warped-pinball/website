@@ -1862,5 +1862,45 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.6.0-beta804</code><br>\n<strong>Sys11</strong>: <code>1.6.0-beta804</code><br>\n<strong>WPC</strong>: <code>1.2.0-beta804</code><br>\n<strong>EM</strong>: <code>1.2.0-beta804</code></p>\n",
     "published_at": "2025-11-08T02:14:07+00:00",
     "type": "beta"
+  },
+  {
+    "version": "1.6.0-beta819",
+    "tag": "1.6.0-beta819",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.0-beta819/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.6.0-beta819</code><br>\n<strong>Sys11</strong>: <code>1.6.0-beta819</code><br>\n<strong>WPC</strong>: <code>1.2.0-beta819</code><br>\n<strong>EM</strong>: <code>1.2.0-beta819</code></p>\n",
+    "published_at": "2025-11-09T21:59:50+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.6.0-beta820",
+    "tag": "1.6.0-beta820",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.0-beta820/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.6.0-beta820</code><br>\n<strong>Sys11</strong>: <code>1.6.0-beta820</code><br>\n<strong>WPC</strong>: <code>1.2.0-beta820</code><br>\n<strong>EM</strong>: <code>1.2.0-beta820</code></p>\n",
+    "published_at": "2025-11-10T01:59:06+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.6.0-beta828",
+    "tag": "1.6.0-beta828",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.0-beta828/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.6.0-beta828</code><br>\n<strong>Sys11</strong>: <code>1.6.0-beta828</code><br>\n<strong>WPC</strong>: <code>1.2.0-beta828</code><br>\n<strong>EM</strong>: <code>1.2.0-beta828</code></p>\n",
+    "published_at": "2025-11-11T00:35:17+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.6.1",
+    "tag": "1.6.1",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.6.1</code><br>\n<strong>Sys11</strong>: <code>1.6.1</code><br>\n<strong>WPC</strong>: <code>1.2.1</code><br>\n<strong>EM</strong>: <code>1.2.1</code></p>\n\n\n<h2>What's Changed</h2>\n<ul>\n<li>New support for FunHouse ROM PA1 by @paulmullin in https://github.com/warped-pinball/vector/pull/160</li>\n<li>Live scores remain on screen for 15 seconds after game by @paulmullin in https://github.com/warped-pinball/vector/pull/156</li>\n</ul>\n<h2>Bug fixes</h2>\n<ul>\n<li>Wait for wifi connection to update clock by @mullinmax in https://github.com/warped-pinball/vector/pull/161</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.6.0...1.6.1</p>",
+    "published_at": "2025-11-11T00:39:58+00:00",
+    "type": "production"
+  },
+  {
+    "version": "1.6.1-beta830",
+    "tag": "1.6.1-beta830",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta830/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.6.1-beta830</code><br>\n<strong>Sys11</strong>: <code>1.6.1-beta830</code><br>\n<strong>WPC</strong>: <code>1.2.1-beta830</code><br>\n<strong>EM</strong>: <code>1.2.1-beta830</code></p>\n",
+    "published_at": "2025-11-11T00:37:38+00:00",
+    "type": "beta"
   }
 ]
