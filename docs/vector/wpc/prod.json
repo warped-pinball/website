@@ -70,5 +70,13 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.6.0</code><br>\n<strong>Sys11</strong>: <code>1.6.0</code><br>\n<strong>WPC</strong>: <code>1.2.0</code><br>\n<strong>EM</strong>: <code>1.2.0</code></p>\n\n\n<h2>What's Changed</h2>\n<ul>\n<li>New about page with list of supported titles by @mullinmax in https://github.com/warped-pinball/vector/pull/153</li>\n</ul>\n<h2>Development changes</h2>\n<ul>\n<li>System Specific Configs by @JakeSiegers in https://github.com/warped-pinball/vector/pull/152</li>\n<li>New pr development build workflow by @mullinmax in https://github.com/warped-pinball/vector/pull/154</li>\n<li>Skip signature validation for developer builds by @mullinmax in https://github.com/warped-pinball/vector/pull/157</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.5.7...1.6.0</p>",
     "published_at": "2025-11-08T02:31:23+00:00",
     "type": "production"
+  },
+  {
+    "version": "1.2.1",
+    "tag": "1.6.1",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1/update_wpc.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.6.1</code><br>\n<strong>Sys11</strong>: <code>1.6.1</code><br>\n<strong>WPC</strong>: <code>1.2.1</code><br>\n<strong>EM</strong>: <code>1.2.1</code></p>\n\n\n<h2>What's Changed</h2>\n<ul>\n<li>New support for FunHouse ROM PA1 by @paulmullin in https://github.com/warped-pinball/vector/pull/160</li>\n<li>Live scores remain on screen for 15 seconds after game by @paulmullin in https://github.com/warped-pinball/vector/pull/156</li>\n</ul>\n<h2>Bug fixes</h2>\n<ul>\n<li>Wait for wifi connection to update clock by @mullinmax in https://github.com/warped-pinball/vector/pull/161</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.6.0...1.6.1</p>",
+    "published_at": "2025-11-11T00:39:58+00:00",
+    "type": "production"
   }
 ]
