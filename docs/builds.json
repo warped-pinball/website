@@ -3445,7 +3445,7 @@
   },
   {
     "product": "data_east",
-    "version": "1.6.1-beta896",
+    "version": "0.0.0-beta896",
     "type": "beta",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta896/update_data_east.json",
     "sha256": "be181ae08e5ac716ba48e0a7d67e01a60dc56772f4d30783bfdda5015b7e68bf"
@@ -3480,7 +3480,7 @@
   },
   {
     "product": "data_east",
-    "version": "1.6.1-beta899",
+    "version": "0.0.0-beta899",
     "type": "beta",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta899/update_data_east.json",
     "sha256": "45f2764712cd011527f06dec24d2e560a38295d54bb9a29b70a9ec7cf3e27ec5"
@@ -3515,7 +3515,7 @@
   },
   {
     "product": "data_east",
-    "version": "1.7.0",
+    "version": "0.1.0",
     "type": "production",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.7.0/update_data_east.json",
     "sha256": "663a80c9f78b7d6887140b203639e85a114354fde8e29dec24e275b8b9920229"
@@ -3550,7 +3550,7 @@
   },
   {
     "product": "data_east",
-    "version": "1.7.0-beta904",
+    "version": "0.1.0-beta904",
     "type": "beta",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.7.0-beta904/update_data_east.json",
     "sha256": "a460b39984be8862832818e92d4e9c79cfd353ba061b0b910474f9e76c236233"
