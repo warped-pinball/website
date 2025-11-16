@@ -183,7 +183,7 @@ def main():
         for product in PRODUCT_ASSETS:
             prefix = f"{product.replace('_', '-')}-"
             if lower_tag.startswith(prefix):
-                base_version = tag[len(prefix):]
+                base_version = lower_tag[len(prefix):]
                 break
 
         versions_in_body = parse_release_versions(release.body or "")
