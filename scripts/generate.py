@@ -16,6 +16,8 @@ PRODUCT_ASSETS = {
     "sys11": "update.json",
     "wpc": "update_wpc.json",
     "em": "update_em.json",
+    "data_east": "update_data_east.json",
+    "whitestar": "update_whitestar.json",
 }
 
 
@@ -175,13 +177,14 @@ def main():
     releases.sort(key=lambda r: r.created_at)
 
     for release in releases:
-        tag = release.tag_name
-        if tag.startswith("wpc-"):
-            base_version = tag[len("wpc-") :]
-        elif tag.startswith("sys11-"):
-            base_version = tag[len("sys11-") :]
-        else:
-            base_version = tag
+        tag = release.tag_name or ""
+        base_version = tag
+        lower_tag = tag.lower()
+        for product in PRODUCT_ASSETS:
+            prefix = f"{product.replace('_', '-')}-"
+            if lower_tag.startswith(prefix):
+                base_version = tag[len(prefix):]
+            break
 
         versions_in_body = parse_release_versions(release.body or "")
 
