@@ -125,26 +125,8 @@
       <label style="margin-left:10px;"><input type="checkbox" id="show-dev"> Show dev builds</label>
     </div>
 
-    <div>
-      <div id="sys11-tab" class="tab active" onclick="showTab('sys11')">System 11 &amp; 9</div>
-      <div id="wpc-tab" class="tab" onclick="showTab('wpc')">WPC</div>
-      <div id="em-tab" class="tab" onclick="showTab('em')">EM</div>
-    </div>
-
-    <div id="sys11" class="tab-content active">
-      <h2>System 11 &amp; 9 Releases</h2>
-      <div id="sys11-releases" class="release-list"></div>
-    </div>
-
-    <div id="wpc" class="tab-content">
-      <h2>WPC Releases</h2>
-      <div id="wpc-releases" class="release-list"></div>
-    </div>
-
-    <div id="em" class="tab-content">
-      <h2>EM Releases</h2>
-      <div id="em-releases" class="release-list"></div>
-    </div>
+    <div id="tabs"></div>
+    <div id="tab-contents"></div>
   </div>
 
   <script>
@@ -153,7 +135,82 @@
 
     // Fetch the release data
     const releaseCache = {};
-    let currentProduct = 'sys11';
+    let currentProduct = "sys11";
+    let discoveredProducts = [];
+
+    const productLabels = {
+      sys11: "System 11 & 9",
+      wpc: "WPC",
+      em: "EM",
+      data_east: "Data East",
+      whitestar: "Whitestar",
+    };
+
+    const preferredProductOrder = ["sys11", "wpc", "em", "data_east", "whitestar"];
+
+    function formatProductLabel(product) {
+      if (productLabels[product]) return productLabels[product];
+      return product
+        .split(/[_-]/)
+        .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+        .join(" ");
+    }
+
+    function sortProducts(products) {
+      const orderMap = new Map(preferredProductOrder.map((p, idx) => [p, idx]));
+      return products.slice().sort((a, b) => {
+        const aOrder = orderMap.has(a) ? orderMap.get(a) : preferredProductOrder.length;
+        const bOrder = orderMap.has(b) ? orderMap.get(b) : preferredProductOrder.length;
+        if (aOrder !== bOrder) return aOrder - bOrder;
+        return a.localeCompare(b);
+      });
+    }
+
+    async function discoverProducts() {
+      try {
+        const response = await fetch("./builds.json");
+        const builds = await response.json();
+        const uniqueProducts = Array.from(new Set(builds.map((build) => build.product)));
+        return sortProducts(uniqueProducts);
+      } catch (err) {
+        console.warn("Falling back to default product list", err);
+        return sortProducts(Object.keys(productLabels));
+      }
+    }
+
+    function buildTabs(products) {
+      const tabsContainer = document.getElementById("tabs");
+      tabsContainer.innerHTML = "";
+      products.forEach((product) => {
+        const tab = document.createElement("div");
+        tab.id = `${product}-tab`;
+        tab.className = "tab";
+        tab.textContent = formatProductLabel(product);
+        tab.addEventListener("click", () => showTab(product));
+        tabsContainer.appendChild(tab);
+      });
+    }
+
+    function buildTabContents(products) {
+      const contentsContainer = document.getElementById("tab-contents");
+      contentsContainer.innerHTML = "";
+      products.forEach((product) => {
+        const tabContent = document.createElement("div");
+        tabContent.id = product;
+        tabContent.className = "tab-content";
+
+        const heading = document.createElement("h2");
+        heading.textContent = `${formatProductLabel(product)} Releases`;
+
+        const releaseList = document.createElement("div");
+        releaseList.id = `${product}-releases`;
+        releaseList.className = "release-list";
+
+        tabContent.appendChild(heading);
+        tabContent.appendChild(releaseList);
+        contentsContainer.appendChild(tabContent);
+      });
+    }
 
     async function fetchData(product, type) {
       releaseCache[product] = releaseCache[product] || {};
@@ -165,11 +222,11 @@
     }
 
     async function loadAndRender() {
-      const showBeta = document.getElementById('show-beta').checked;
-      const showDev = document.getElementById('show-dev').checked;
-      const promises = [fetchData(currentProduct, 'prod')];
-      if (showBeta) promises.push(fetchData(currentProduct, 'beta'));
-      if (showDev) promises.push(fetchData(currentProduct, 'dev'));
+      const showBeta = document.getElementById("show-beta").checked;
+      const showDev = document.getElementById("show-dev").checked;
+      const promises = [fetchData(currentProduct, "prod")];
+      if (showBeta) promises.push(fetchData(currentProduct, "beta"));
+      if (showDev) promises.push(fetchData(currentProduct, "dev"));
       const results = await Promise.all(promises);
       const data = [].concat(...results);
       renderReleases(data, currentProduct);
@@ -210,8 +267,15 @@
       document.querySelectorAll('.tab-content').forEach(tabContent => tabContent.classList.remove('active'));
       document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
 
-      document.getElementById(product + '-tab').classList.add('active');
-      document.getElementById(product).classList.add('active');
+      const tab = document.getElementById(product + '-tab');
+      const content = document.getElementById(product);
+      if (!tab || !content) {
+        console.warn(`Unknown product tab: ${product}`);
+        return;
+      }
+
+      tab.classList.add('active');
+      content.classList.add('active');
 
       loadAndRender();
     }
@@ -239,8 +303,20 @@
     document.getElementById('show-beta').addEventListener('change', loadAndRender);
     document.getElementById('show-dev').addEventListener('change', loadAndRender);
 
-    // Initial load for sys11
-    showTab('sys11');
+    async function initialize() {
+      discoveredProducts = await discoverProducts();
+      if (!discoveredProducts.length) return;
+
+      buildTabs(discoveredProducts);
+      buildTabContents(discoveredProducts);
+
+      const defaultProduct = discoveredProducts.includes('sys11')
+        ? 'sys11'
+        : discoveredProducts[0];
+      showTab(defaultProduct);
+    }
+
+    initialize();
   </script>
 
 </body>
