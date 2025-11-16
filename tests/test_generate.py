@@ -74,9 +74,21 @@ def test_parse_release_versions():
         "sys11": "1.0.0-dev83",
         "wpc": "0.0.0-dev83",
         "em": "0.0.1-dev83",
-        "data east": "0.0.1-dev83",
+        "dataeast": "0.0.1-dev83",
         "whitestar": "0.0.1-dev83",
     }
+
+
+def test_normalize_product_name_handles_separators():
+    assert generate.normalize_product_name("Data East") == "dataeast"
+    assert generate.normalize_product_name("data_east") == "dataeast"
+    assert generate.normalize_product_name("Data-East") == "dataeast"
+
+
+def test_product_version_lookup_uses_normalized_key():
+    versions = {"dataeast": "0.1.0"}
+    product = "data_east"
+    assert versions.get(generate.normalize_product_name(product), "fallback") == "0.1.0"
 
 
 def test_parse_release_versions_missing():
