@@ -15,6 +15,8 @@ def test_product_assets_known_products():
         "sys11": "update.json",
         "wpc": "update_wpc.json",
         "em": "update_em.json",
+        "data_east": "update_data_east.json",
+        "whitestar": "update_whitestar.json",
     }
 
 
@@ -62,6 +64,8 @@ def test_parse_release_versions():
         "**Sys11**: `1.0.0-dev83`\n"
         "**WPC**: `0.0.0-dev83`\n"
         "**EM**: `0.0.1-dev83`\n"
+        "**Data East**: `0.0.1-dev83`\n"
+        "**Whitestar**: `0.0.1-dev83`\n"
         "<!-- END VERSIONS SECTION -->\nMore text"
     )
     versions = generate.parse_release_versions(body)
@@ -70,6 +74,8 @@ def test_parse_release_versions():
         "sys11": "1.0.0-dev83",
         "wpc": "0.0.0-dev83",
         "em": "0.0.1-dev83",
+        "data east": "0.0.1-dev83",
+        "whitestar": "0.0.1-dev83",
     }
 
 

@@ -3400,5 +3400,61 @@
     "type": "beta",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta830/update_em.json",
     "sha256": "8285b976c2f8711f690ef1cfeed75780574b223a19b5e6392cb70bbf57d66c13"
+  },
+  {
+    "product": "sys11",
+    "version": "1.6.1-beta848",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta848/update.json",
+    "sha256": "f6cbbb9632e15c1911b61714e6291537384916b6674312ec64824bb0e54b5b70"
+  },
+  {
+    "product": "wpc",
+    "version": "1.2.1-beta848",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta848/update_wpc.json",
+    "sha256": "5264353907defa41be5ca75f66dbe8e254260ad6cc46bb780377de2cd351e9f3"
+  },
+  {
+    "product": "em",
+    "version": "1.2.1-beta848",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta848/update_em.json",
+    "sha256": "6d2abf2be41bd44aca525bef2a18b3caf5167f845e1aec8d5115b465e3732f5a"
+  },
+  {
+    "product": "sys11",
+    "version": "1.6.1-beta896",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta896/update.json",
+    "sha256": "dda505cdb0b045282b8df1b14d9011b563e0256fbd3c787c43b04e199d85e39a"
+  },
+  {
+    "product": "wpc",
+    "version": "1.2.1-beta896",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta896/update_wpc.json",
+    "sha256": "d3cf30651dd55d828d9b62c5b7b55b663d33eb07c8961c0fd67729480422f9d5"
+  },
+  {
+    "product": "em",
+    "version": "1.2.1-beta896",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta896/update_em.json",
+    "sha256": "22c1c0cc51629a529dba06e53351d0fa4a9fe6df47dfd8f157fe0babf3dd3e52"
+  },
+  {
+    "product": "data_east",
+    "version": "1.6.1-beta896",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta896/update_data_east.json",
+    "sha256": "be181ae08e5ac716ba48e0a7d67e01a60dc56772f4d30783bfdda5015b7e68bf"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.0.0-beta896",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta896/update_whitestar.json",
+    "sha256": "be181ae08e5ac716ba48e0a7d67e01a60dc56772f4d30783bfdda5015b7e68bf"
   }
 ]
