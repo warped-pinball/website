@@ -1,6 +1,6 @@
 [
   {
-    "version": "1.7.0",
+    "version": "0.1.0",
     "tag": "1.7.0",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.7.0/update_data_east.json",
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.7.0</code><br>\n<strong>Sys11</strong>: <code>1.7.0</code><br>\n<strong>WPC</strong>: <code>1.3.0</code><br>\n<strong>EM</strong>: <code>1.3.0</code><br>\n<strong>WhiteStar</strong>: <code>0.1.0</code><br>\n<strong>DataEast</strong>: <code>0.1.0</code></p>\n\n\n<h2>What's Changed</h2>\n<ul>\n<li>Added Terminator 2 L84 Rom by @paulmullin in https://github.com/warped-pinball/vector/pull/174</li>\n<li>Added stubs for whitestar and data_east :eyes: by @mullinmax in https://github.com/warped-pinball/vector/pull/162</li>\n<li>\n<p>New update build logic and better compatibility checking by @mullinmax in https://github.com/warped-pinball/vector/pull/162</p>\n</li>\n<li>\n<p>1.7.0 by @mullinmax in https://github.com/warped-pinball/vector/pull/178</p>\n</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.6.1...1.7.0</p>",

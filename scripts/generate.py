@@ -46,8 +46,14 @@ def calculate_json_hash(json_data):
     ).hexdigest()
 
 
+def normalize_product_name(name):
+    """Return a canonical product key without whitespace or separators."""
+
+    return re.sub(r"[^a-z0-9]+", "", name.lower())
+
+
 def parse_release_versions(text):
-    """Return a mapping of product name to version from a release body."""
+    """Return a mapping of normalized product name to version from a release body."""
     if not text:
         return {}
 
@@ -62,7 +68,7 @@ def parse_release_versions(text):
     section = block_match.group(1)
     versions = {}
     for m in re.finditer(r"\*\*([^*]+)\*\*\s*:\s*`([^`]+)`", section):
-        product = m.group(1).strip().lower()
+        product = normalize_product_name(m.group(1))
         versions[product] = m.group(2).strip()
     return versions
 
@@ -202,7 +208,8 @@ def main():
                 )
                 continue
 
-            product_version = versions_in_body.get(product, base_version)
+            normalized_product = normalize_product_name(product)
+            product_version = versions_in_body.get(normalized_product, base_version)
             release_type = "production"
             if re.search(r"-dev\d+$", product_version):
                 release_type = "dev"
