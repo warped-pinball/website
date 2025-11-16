@@ -74,7 +74,7 @@ def test_parse_release_versions():
         "sys11": "1.0.0-dev83",
         "wpc": "0.0.0-dev83",
         "em": "0.0.1-dev83",
-        "data_east": "0.0.1-dev83",
+        "data east": "0.0.1-dev83",
         "whitestar": "0.0.1-dev83",
     }
 
