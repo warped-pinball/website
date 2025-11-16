@@ -184,7 +184,7 @@ def main():
             prefix = f"{product.replace('_', '-')}-"
             if lower_tag.startswith(prefix):
                 base_version = tag[len(prefix):]
-            break
+                break
 
         versions_in_body = parse_release_versions(release.body or "")
 
