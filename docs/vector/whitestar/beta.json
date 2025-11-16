@@ -6,5 +6,21 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.6.1-beta896</code><br>\n<strong>Sys11</strong>: <code>1.6.1-beta896</code><br>\n<strong>WPC</strong>: <code>1.2.1-beta896</code><br>\n<strong>EM</strong>: <code>1.2.1-beta896</code><br>\n<strong>WhiteStar</strong>: <code>0.0.0-beta896</code><br>\n<strong>DataEast</strong>: <code>0.0.0-beta896</code></p>\n",
     "published_at": "2025-11-16T01:25:18+00:00",
     "type": "beta"
+  },
+  {
+    "version": "0.0.0-beta899",
+    "tag": "1.6.1-beta899",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.6.1-beta899/update_whitestar.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.6.1-beta899</code><br>\n<strong>Sys11</strong>: <code>1.6.1-beta899</code><br>\n<strong>WPC</strong>: <code>1.2.1-beta899</code><br>\n<strong>EM</strong>: <code>1.2.1-beta899</code><br>\n<strong>WhiteStar</strong>: <code>0.0.0-beta899</code><br>\n<strong>DataEast</strong>: <code>0.0.0-beta899</code></p>\n",
+    "published_at": "2025-11-16T02:29:07+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "0.1.0-beta904",
+    "tag": "1.7.0-beta904",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.7.0-beta904/update_whitestar.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.7.0-beta904</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta904</code><br>\n<strong>WPC</strong>: <code>1.3.0-beta904</code><br>\n<strong>EM</strong>: <code>1.3.0-beta904</code><br>\n<strong>WhiteStar</strong>: <code>0.1.0-beta904</code><br>\n<strong>DataEast</strong>: <code>0.1.0-beta904</code></p>\n",
+    "published_at": "2025-11-16T02:36:21+00:00",
+    "type": "beta"
   }
 ]
