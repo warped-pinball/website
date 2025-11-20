@@ -398,5 +398,53 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.7.0-beta904</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta904</code><br>\n<strong>WPC</strong>: <code>1.3.0-beta904</code><br>\n<strong>EM</strong>: <code>1.3.0-beta904</code><br>\n<strong>WhiteStar</strong>: <code>0.1.0-beta904</code><br>\n<strong>DataEast</strong>: <code>0.1.0-beta904</code></p>\n",
     "published_at": "2025-11-16T02:36:21+00:00",
     "type": "beta"
+  },
+  {
+    "version": "1.3.0-beta909",
+    "tag": "1.7.0-beta909",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.7.0-beta909/update_wpc.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.7.0-beta909</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta909</code><br>\n<strong>WPC</strong>: <code>1.3.0-beta909</code><br>\n<strong>EM</strong>: <code>1.3.0-beta909</code><br>\n<strong>WhiteStar</strong>: <code>0.1.0-beta909</code><br>\n<strong>DataEast</strong>: <code>0.1.0-beta909</code></p>\n",
+    "published_at": "2025-11-16T17:49:59+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.3.0-beta910",
+    "tag": "1.7.0-beta910",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.7.0-beta910/update_wpc.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.7.0-beta910</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta910</code><br>\n<strong>WPC</strong>: <code>1.3.0-beta910</code><br>\n<strong>EM</strong>: <code>1.3.0-beta910</code><br>\n<strong>WhiteStar</strong>: <code>0.1.0-beta910</code><br>\n<strong>DataEast</strong>: <code>0.1.0-beta910</code></p>\n",
+    "published_at": "2025-11-16T18:04:33+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.3.0-beta944",
+    "tag": "1.7.0-beta944",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.7.0-beta944/update_wpc.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.7.0-beta944</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta944</code><br>\n<strong>WPC</strong>: <code>1.3.0-beta944</code><br>\n<strong>EM</strong>: <code>1.3.0-beta944</code><br>\n<strong>WhiteStar</strong>: <code>0.1.0-beta944</code><br>\n<strong>DataEast</strong>: <code>0.1.0-beta944</code></p>\n",
+    "published_at": "2025-11-20T00:12:01+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.3.0-beta946",
+    "tag": "1.7.0-beta946",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.7.0-beta946/update_wpc.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.7.0-beta946</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta946</code><br>\n<strong>WPC</strong>: <code>1.3.0-beta946</code><br>\n<strong>EM</strong>: <code>1.3.0-beta946</code><br>\n<strong>WhiteStar</strong>: <code>0.1.0-beta946</code><br>\n<strong>DataEast</strong>: <code>0.1.0-beta946</code></p>\n",
+    "published_at": "2025-11-20T00:17:29+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.4.0-beta950",
+    "tag": "1.8.0-beta950",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.8.0-beta950/update_wpc.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.0-beta950</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta950</code><br>\n<strong>WPC</strong>: <code>1.4.0-beta950</code><br>\n<strong>EM</strong>: <code>1.4.0-beta950</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0-beta950</code><br>\n<strong>DataEast</strong>: <code>0.2.0-beta950</code></p>\n",
+    "published_at": "2025-11-20T00:30:31+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.4.0-beta953",
+    "tag": "1.8.0-beta953",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.8.0-beta953/update_wpc.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.0-beta953</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta953</code><br>\n<strong>WPC</strong>: <code>1.4.0-beta953</code><br>\n<strong>EM</strong>: <code>1.4.0-beta953</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0-beta953</code><br>\n<strong>DataEast</strong>: <code>0.2.0-beta953</code></p>\n",
+    "published_at": "2025-11-20T00:45:10+00:00",
+    "type": "beta"
   }
 ]
