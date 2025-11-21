@@ -1,7 +1,7 @@
 {
-  "version": "1.4.0",
-  "url": "https://github.com/warped-pinball/vector/releases/download/1.8.0/update_wpc.json",
-  "release_page": "https://github.com/warped-pinball/vector/releases/tag/1.8.0",
-  "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.0</code><br>\n<strong>Sys11</strong>: <code>1.7.0</code><br>\n<strong>WPC</strong>: <code>1.4.0</code><br>\n<strong>EM</strong>: <code>1.4.0</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0</code><br>\n<strong>DataEast</strong>: <code>0.2.0</code></p>\n\n\n<h2>What's Changed</h2>\n<ul>\n<li>new rom: Adams Family L2 by @paulmullin in https://github.com/warped-pinball/vector/pull/181</li>\n<li>new rom: Johnny Mnmeonic by @paulmullin in https://github.com/warped-pinball/vector/pull/187</li>\n<li>Enabled web API via USB port by @mullinmax in https://github.com/warped-pinball/vector/pull/186</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.7.0...1.8.0</p>",
-  "published_at": "2025-11-20T00:33:47+00:00"
+  "version": "1.4.1",
+  "url": "https://github.com/warped-pinball/vector/releases/download/1.8.1/update_wpc.json",
+  "release_page": "https://github.com/warped-pinball/vector/releases/tag/1.8.1",
+  "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.1</code><br>\n<strong>Sys11</strong>: <code>1.7.0</code><br>\n<strong>WPC</strong>: <code>1.4.1</code><br>\n<strong>EM</strong>: <code>1.4.0</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0</code><br>\n<strong>DataEast</strong>: <code>0.2.0</code></p>\n\n\n<h2>What's Changed</h2>\n<ul>\n<li>New ROMs for: Star Trek TNG, AFM, MBOP by @paulmullin in https://github.com/warped-pinball/vector/pull/189</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.8.0...1.8.1</p>",
+  "published_at": "2025-11-21T17:14:56+00:00"
 }
