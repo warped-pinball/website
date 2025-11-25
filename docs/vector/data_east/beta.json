@@ -86,5 +86,77 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.1-beta960</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta960</code><br>\n<strong>WPC</strong>: <code>1.4.1-beta960</code><br>\n<strong>EM</strong>: <code>1.4.0-beta960</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0-beta960</code><br>\n<strong>DataEast</strong>: <code>0.2.0-beta960</code></p>\n",
     "published_at": "2025-11-21T17:13:11+00:00",
     "type": "beta"
+  },
+  {
+    "version": "0.2.0-beta966",
+    "tag": "1.8.1-beta966",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.8.1-beta966/update_data_east.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.1-beta966</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta966</code><br>\n<strong>WPC</strong>: <code>1.4.1-beta966</code><br>\n<strong>EM</strong>: <code>1.4.0-beta966</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0-beta966</code><br>\n<strong>DataEast</strong>: <code>0.2.0-beta966</code></p>\n",
+    "published_at": "2025-11-22T16:47:44+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "0.2.0-beta974",
+    "tag": "1.8.1-beta974",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.8.1-beta974/update_data_east.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.1-beta974</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta974</code><br>\n<strong>WPC</strong>: <code>1.4.1-beta974</code><br>\n<strong>EM</strong>: <code>1.4.0-beta974</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0-beta974</code><br>\n<strong>DataEast</strong>: <code>0.2.0-beta974</code></p>\n",
+    "published_at": "2025-11-22T17:15:43+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "0.2.0-beta979",
+    "tag": "1.8.1-beta979",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.8.1-beta979/update_data_east.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.1-beta979</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta979</code><br>\n<strong>WPC</strong>: <code>1.4.1-beta979</code><br>\n<strong>EM</strong>: <code>1.4.0-beta979</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0-beta979</code><br>\n<strong>DataEast</strong>: <code>0.2.0-beta979</code></p>\n",
+    "published_at": "2025-11-22T18:56:49+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "0.2.0-beta988",
+    "tag": "1.8.1-beta988",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.8.1-beta988/update_data_east.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.1-beta988</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta988</code><br>\n<strong>WPC</strong>: <code>1.4.1-beta988</code><br>\n<strong>EM</strong>: <code>1.4.0-beta988</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0-beta988</code><br>\n<strong>DataEast</strong>: <code>0.2.0-beta988</code></p>\n",
+    "published_at": "2025-11-23T01:47:47+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "0.2.0-beta991",
+    "tag": "1.8.1-beta991",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.8.1-beta991/update_data_east.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.1-beta991</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta991</code><br>\n<strong>WPC</strong>: <code>1.4.1-beta991</code><br>\n<strong>EM</strong>: <code>1.4.0-beta991</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0-beta991</code><br>\n<strong>DataEast</strong>: <code>0.2.0-beta991</code></p>\n",
+    "published_at": "2025-11-23T17:53:13+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "0.2.0-beta990",
+    "tag": "1.8.1-beta990",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.8.1-beta990/update_data_east.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.1-beta990</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta990</code><br>\n<strong>WPC</strong>: <code>1.4.1-beta990</code><br>\n<strong>EM</strong>: <code>1.4.0-beta990</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0-beta990</code><br>\n<strong>DataEast</strong>: <code>0.2.0-beta990</code></p>\n",
+    "published_at": "2025-11-23T17:52:47+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "0.2.0-beta1004",
+    "tag": "1.8.1-beta1004",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.8.1-beta1004/update_data_east.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.1-beta1004</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta1004</code><br>\n<strong>WPC</strong>: <code>1.4.1-beta1004</code><br>\n<strong>EM</strong>: <code>1.4.0-beta1004</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0-beta1004</code><br>\n<strong>DataEast</strong>: <code>0.2.0-beta1004</code></p>\n",
+    "published_at": "2025-11-24T03:58:03+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "0.2.0-beta1003",
+    "tag": "1.8.1-beta1003",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.8.1-beta1003/update_data_east.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.8.1-beta1003</code><br>\n<strong>Sys11</strong>: <code>1.7.0-beta1003</code><br>\n<strong>WPC</strong>: <code>1.4.1-beta1003</code><br>\n<strong>EM</strong>: <code>1.4.0-beta1003</code><br>\n<strong>WhiteStar</strong>: <code>0.2.0-beta1003</code><br>\n<strong>DataEast</strong>: <code>0.2.0-beta1003</code></p>\n",
+    "published_at": "2025-11-24T03:57:45+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "0.3.0-beta1006",
+    "tag": "1.9.0-beta1006",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.9.0-beta1006/update_data_east.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.0-beta1006</code><br>\n<strong>Sys11</strong>: <code>1.8.0-beta1006</code><br>\n<strong>WPC</strong>: <code>1.5.0-beta1006</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1006</code><br>\n<strong>WhiteStar</strong>: <code>0.3.0-beta1006</code><br>\n<strong>DataEast</strong>: <code>0.3.0-beta1006</code></p>\n",
+    "published_at": "2025-11-25T17:59:02+00:00",
+    "type": "beta"
   }
 ]
