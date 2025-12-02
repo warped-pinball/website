@@ -214,5 +214,29 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.1-beta1018</code><br>\n<strong>Sys11</strong>: <code>1.8.0-beta1018</code><br>\n<strong>WPC</strong>: <code>1.5.1-beta1018</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1018</code><br>\n<strong>WhiteStar</strong>: <code>0.3.0-beta1018</code><br>\n<strong>DataEast</strong>: <code>0.3.0-beta1018</code></p>\n",
     "published_at": "2025-12-01T17:31:31+00:00",
     "type": "beta"
+  },
+  {
+    "version": "0.3.0-beta1030",
+    "tag": "1.9.2-beta1030",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.9.2-beta1030/update_whitestar.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.2-beta1030</code><br>\n<strong>Sys11</strong>: <code>1.8.0-beta1030</code><br>\n<strong>WPC</strong>: <code>1.5.1-beta1030</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1030</code><br>\n<strong>WhiteStar</strong>: <code>0.3.0-beta1030</code><br>\n<strong>DataEast</strong>: <code>0.3.0-beta1030</code></p>\n",
+    "published_at": "2025-12-02T23:39:47+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "0.3.0-beta1032",
+    "tag": "1.9.2-beta1032",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.9.2-beta1032/update_whitestar.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.2-beta1032</code><br>\n<strong>Sys11</strong>: <code>1.8.0-beta1032</code><br>\n<strong>WPC</strong>: <code>1.5.1-beta1032</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1032</code><br>\n<strong>WhiteStar</strong>: <code>0.3.0-beta1032</code><br>\n<strong>DataEast</strong>: <code>0.3.0-beta1032</code></p>\n",
+    "published_at": "2025-12-02T23:41:50+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "0.3.0-beta1034",
+    "tag": "1.9.2-beta1034",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.9.2-beta1034/update_whitestar.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.2-beta1034</code><br>\n<strong>Sys11</strong>: <code>1.8.0-beta1034</code><br>\n<strong>WPC</strong>: <code>1.5.2-beta1034</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1034</code><br>\n<strong>WhiteStar</strong>: <code>0.3.0-beta1034</code><br>\n<strong>DataEast</strong>: <code>0.3.0-beta1034</code></p>\n",
+    "published_at": "2025-12-02T23:46:10+00:00",
+    "type": "beta"
   }
 ]
