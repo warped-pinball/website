@@ -2182,5 +2182,21 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.3-beta1053</code><br>\n<strong>Sys11</strong>: <code>1.8.1-beta1053</code><br>\n<strong>WPC</strong>: <code>1.5.3-beta1053</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1053</code><br>\n<strong>WhiteStar</strong>: <code>0.3.1-beta1053</code><br>\n<strong>DataEast</strong>: <code>0.3.1-beta1053</code></p>\n",
     "published_at": "2025-12-16T01:40:57+00:00",
     "type": "beta"
+  },
+  {
+    "version": "1.8.2",
+    "tag": "1.9.4",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.9.4/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.4</code><br>\n<strong>Sys11</strong>: <code>1.8.2</code><br>\n<strong>WPC</strong>: <code>1.5.3</code><br>\n<strong>EM</strong>: <code>1.5.0</code><br>\n<strong>WhiteStar</strong>: <code>0.3.1</code><br>\n<strong>DataEast</strong>: <code>0.3.1</code></p>\n\n\n<h2>What's Changed</h2>\n<ul>\n<li>ball in play fix - riverboat gambler by @paulmullin in https://github.com/warped-pinball/vector/pull/217</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.9.3...1.9.4</p>",
+    "published_at": "2025-12-16T23:13:04+00:00",
+    "type": "production"
+  },
+  {
+    "version": "1.8.2-beta1064",
+    "tag": "1.9.4-beta1064",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.9.4-beta1064/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.4-beta1064</code><br>\n<strong>Sys11</strong>: <code>1.8.2-beta1064</code><br>\n<strong>WPC</strong>: <code>1.5.3-beta1064</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1064</code><br>\n<strong>WhiteStar</strong>: <code>0.3.1-beta1064</code><br>\n<strong>DataEast</strong>: <code>0.3.1-beta1064</code></p>\n",
+    "published_at": "2025-12-16T23:12:27+00:00",
+    "type": "beta"
   }
 ]
