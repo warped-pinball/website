@@ -158,5 +158,13 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.0</code><br>\n<strong>Sys11</strong>: <code>1.8.0</code><br>\n<strong>WPC</strong>: <code>1.5.0</code><br>\n<strong>EM</strong>: <code>1.5.0</code><br>\n<strong>WhiteStar</strong>: <code>0.3.0</code><br>\n<strong>DataEast</strong>: <code>0.3.0</code></p>\n\n\n<h2>What's Changed</h2>\n<ul>\n<li>Improved Setup UI for ios devices by @JakeSiegers in https://github.com/warped-pinball/vector/pull/185</li>\n<li>Delete scores / Import Scores by @JakeSiegers in https://github.com/warped-pinball/vector/pull/151</li>\n<li>Improved storage read and write speeds by @paulmullin in https://github.com/warped-pinball/vector/pull/199</li>\n</ul>\n<h2>Bug Fixes</h2>\n<ul>\n<li>Star Trek checksum correction by @paulmullin in https://github.com/warped-pinball/vector/pull/198</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.8.1...1.9.0</p>",
     "published_at": "2025-11-25T23:17:39+00:00",
     "type": "production"
+  },
+  {
+    "version": "1.8.1",
+    "tag": "1.9.3",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.9.3/update.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.3</code><br>\n<strong>Sys11</strong>: <code>1.8.1</code><br>\n<strong>WPC</strong>: <code>1.5.3</code><br>\n<strong>EM</strong>: <code>1.5.0</code><br>\n<strong>WhiteStar</strong>: <code>0.3.1</code><br>\n<strong>DataEast</strong>: <code>0.3.1</code></p>\n\n\n<h2>What's Changed</h2>\n<ul>\n<li>About page corrections by @mullinmax in https://github.com/warped-pinball/vector/pull/214</li>\n<li>New Riverboat Gambler ROM support &amp; adjusted config by @paulmullin in https://github.com/warped-pinball/vector/pull/213</li>\n<li>Adjusted some sys11 configs by @paulmullin in https://github.com/warped-pinball/vector/pull/211</li>\n</ul>\n<p><strong>Full Changelog</strong>: https://github.com/warped-pinball/vector/compare/1.9.2...1.9.3</p>",
+    "published_at": "2025-12-16T01:43:19+00:00",
+    "type": "production"
   }
 ]
