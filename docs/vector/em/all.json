@@ -1206,5 +1206,37 @@
     "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.4-beta1064</code><br>\n<strong>Sys11</strong>: <code>1.8.2-beta1064</code><br>\n<strong>WPC</strong>: <code>1.5.3-beta1064</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1064</code><br>\n<strong>WhiteStar</strong>: <code>0.3.1-beta1064</code><br>\n<strong>DataEast</strong>: <code>0.3.1-beta1064</code></p>\n",
     "published_at": "2025-12-16T23:12:27+00:00",
     "type": "beta"
+  },
+  {
+    "version": "1.5.0-beta1074",
+    "tag": "1.9.4-beta1074",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.9.4-beta1074/update_em.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.4-beta1074</code><br>\n<strong>Sys11</strong>: <code>1.8.2-beta1074</code><br>\n<strong>WPC</strong>: <code>1.5.3-beta1074</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1074</code><br>\n<strong>WhiteStar</strong>: <code>0.3.1-beta1074</code><br>\n<strong>DataEast</strong>: <code>0.3.1-beta1074</code></p>\n",
+    "published_at": "2025-12-28T17:18:32+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.5.0-beta1095",
+    "tag": "1.9.4-beta1095",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.9.4-beta1095/update_em.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.4-beta1095</code><br>\n<strong>Sys11</strong>: <code>1.8.2-beta1095</code><br>\n<strong>WPC</strong>: <code>1.5.3-beta1095</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1095</code><br>\n<strong>WhiteStar</strong>: <code>0.3.1-beta1095</code><br>\n<strong>DataEast</strong>: <code>0.3.1-beta1095</code></p>\n",
+    "published_at": "2025-12-30T17:12:06+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.5.0-beta1094",
+    "tag": "1.9.4-beta1094",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.9.4-beta1094/update_em.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.9.4-beta1094</code><br>\n<strong>Sys11</strong>: <code>1.8.2-beta1094</code><br>\n<strong>WPC</strong>: <code>1.5.3-beta1094</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1094</code><br>\n<strong>WhiteStar</strong>: <code>0.3.1-beta1094</code><br>\n<strong>DataEast</strong>: <code>0.3.1-beta1094</code></p>\n",
+    "published_at": "2025-12-30T17:11:35+00:00",
+    "type": "beta"
+  },
+  {
+    "version": "1.5.0-beta1097",
+    "tag": "1.10.0-beta1097",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1097/update_em.json",
+    "notes": "<h2>Versions</h2>\n<p><strong>Vector</strong>: <code>1.10.0-beta1097</code><br>\n<strong>Sys11</strong>: <code>1.9.0-beta1097</code><br>\n<strong>WPC</strong>: <code>1.6.0-beta1097</code><br>\n<strong>EM</strong>: <code>1.5.0-beta1097</code><br>\n<strong>WhiteStar</strong>: <code>0.4.0-beta1097</code><br>\n<strong>DataEast</strong>: <code>0.4.0-beta1097</code></p>\n",
+    "published_at": "2025-12-30T17:50:33+00:00",
+    "type": "beta"
   }
 ]
