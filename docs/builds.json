@@ -4996,5 +4996,1265 @@
     "type": "beta",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1097/update_whitestar.json",
     "sha256": "31dd10dd2e90dddf49a197b64dbaeba149457d15cca26a3fa2872015d0ebb3c4"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1136",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1136/update.json",
+    "sha256": "06cc93cc4331e5b2e171cb66acdec2472522c7d2c14d1c3b791bb19802626bc7"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1136",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1136/update_wpc.json",
+    "sha256": "fd6d9a766a989493060f96f7a0ce5f07501080228dfc0bb69a3a044171d151b3"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1136",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1136/update_em.json",
+    "sha256": "29604b03c7b4d1a2c2ca46f5c86903a001084cea5171b49707fda977ee336ba7"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1136",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1136/update_data_east.json",
+    "sha256": "4d64127f6299d11ea51f3eed19fc68fc48f47e81f45f7f7ea2526094e8b2cb11"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1136",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1136/update_whitestar.json",
+    "sha256": "4d64127f6299d11ea51f3eed19fc68fc48f47e81f45f7f7ea2526094e8b2cb11"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1135",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1135/update.json",
+    "sha256": "8210f3d1feadd998da24bae3df8f3e599283d69cc0013ceca6bf5a34164ab0ef"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1135",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1135/update_wpc.json",
+    "sha256": "57822bf701e1e7e6a9d15d2b3c3df5d2f16e3d96426cc4df9248b59169dfb99e"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1135",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1135/update_em.json",
+    "sha256": "88a4914aff54f8739fef33a782bee338499498c4e4e2bdbcc4bafc0ed2cd4941"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1135",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1135/update_data_east.json",
+    "sha256": "79f111ae822e89f88ccaebe379ae3cd4d443ccac5c1fc69876c68a98ca080793"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1135",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1135/update_whitestar.json",
+    "sha256": "79f111ae822e89f88ccaebe379ae3cd4d443ccac5c1fc69876c68a98ca080793"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1158",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1158/update.json",
+    "sha256": "1e945dc62b498d165f82b6e8c00312da0e3b71e16a849b05bcce3434561b104f"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1158",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1158/update_wpc.json",
+    "sha256": "8c61d12c17c0545224441f2d7046f9070cd367969a6c503bd7257e1ea2937a3e"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1158",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1158/update_em.json",
+    "sha256": "edf4440195051f2fad4d48d0bf61c8bc28cea9fc9e0e846e44249bf4d0994c37"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1158",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1158/update_data_east.json",
+    "sha256": "1a5a477ad50c827dc469ff53305ab846050f0a1a7b5840681b18354eec67197d"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1158",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1158/update_whitestar.json",
+    "sha256": "1a5a477ad50c827dc469ff53305ab846050f0a1a7b5840681b18354eec67197d"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1160",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1160/update.json",
+    "sha256": "3cb999ef6acbc9018d2827043c38d3a9e8088461b387757942783fd071802d0b"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1160",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1160/update_wpc.json",
+    "sha256": "53eb898829a2e5b747be1b5e50dd4f1955a14a97a7645131aa5b9dfea4421a50"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1160",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1160/update_em.json",
+    "sha256": "74d3a15a2a456919cfae6875c7b7f693ceea161e76975d681385b7aa66fb2003"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1160",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1160/update_data_east.json",
+    "sha256": "282abe232432ac96a7278fa44e4da37c13a832220fc98243ae92dcd65ab3de39"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1160",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1160/update_whitestar.json",
+    "sha256": "282abe232432ac96a7278fa44e4da37c13a832220fc98243ae92dcd65ab3de39"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1162",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1162/update.json",
+    "sha256": "babd63dc3717080c46fa4be2b3411e3e26033839f9d0742c3867c64bef5ca6bc"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1162",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1162/update_wpc.json",
+    "sha256": "a8c535f62febd216effd949747bbf3f4400c2eb5651c964f85b46da366ebecd7"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1162",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1162/update_em.json",
+    "sha256": "b867e8d62b14378cd67fb423739af184fc443965ad11794b45cf5985320904a8"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1162",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1162/update_data_east.json",
+    "sha256": "1e943ea887267f18db2ca2b0ec5f60e2e1340b86c49e095ed07f72384ed630cc"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1162",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1162/update_whitestar.json",
+    "sha256": "1e943ea887267f18db2ca2b0ec5f60e2e1340b86c49e095ed07f72384ed630cc"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1169",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1169/update.json",
+    "sha256": "8f837852b96f73b54ccd1780faf6a3dfc1c5ef3be3f1240d87fe9045d6b6ed6e"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1169",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1169/update_wpc.json",
+    "sha256": "78e002ff96b0b40e8fe512212766c23a2f97bbe8217691442d6b15e99aaaaaaf"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1169",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1169/update_em.json",
+    "sha256": "0de15521a1a3e6ccfcfac4619a74cc7aa170a06dc44e019c031228dc83f1f31b"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1169",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1169/update_data_east.json",
+    "sha256": "5d9a76481577a327f7b30bbe754c4ff36cdf0b036efa79ada8c88e4baaa9aaf8"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1169",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1169/update_whitestar.json",
+    "sha256": "5d9a76481577a327f7b30bbe754c4ff36cdf0b036efa79ada8c88e4baaa9aaf8"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1172",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1172/update.json",
+    "sha256": "28bd03eb263356ed4687a69e574369f2b2600c97d6d55da4ffe8bdd36f5c64f3"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1172",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1172/update_wpc.json",
+    "sha256": "6c8f560bed4471103bf39f8072aa2fdc2a0754799ed09a09d17e4131fb1d5069"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1172",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1172/update_em.json",
+    "sha256": "029305ed44f99a3c9406576832562c4083538928f8e558a8814f863af2526081"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1172",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1172/update_data_east.json",
+    "sha256": "aebbfe6eab9b1211d3452f0d798b2f37490ff3db5a24cc0358073a22cd5f9e7d"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1172",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1172/update_whitestar.json",
+    "sha256": "aebbfe6eab9b1211d3452f0d798b2f37490ff3db5a24cc0358073a22cd5f9e7d"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1179",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1179/update.json",
+    "sha256": "db30c0ee5c1ae336422f1d8e815ca1ccd01c935f0f788ef63efd9f1ffffe6aa8"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1179",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1179/update_wpc.json",
+    "sha256": "403d443843e134ab5549faaa37f709421aa228706075653c287ed103567930c7"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1179",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1179/update_em.json",
+    "sha256": "546a45ab58afdad1c764d6eca020bc692234e0619a249098bf45d9c507c55b17"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1179",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1179/update_data_east.json",
+    "sha256": "ea481b63f7f3c43ec43c0f653655f6071ee017d89cc14a0fda35588af9b70c6f"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1179",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1179/update_whitestar.json",
+    "sha256": "ea481b63f7f3c43ec43c0f653655f6071ee017d89cc14a0fda35588af9b70c6f"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1181",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1181/update.json",
+    "sha256": "55767cc7304ffb5811ad237292ecb88efd5a201c121e33c695d7d74529c255e6"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1181",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1181/update_wpc.json",
+    "sha256": "bce8309d14781c4b2f0b0c052a130500c3ae5c875c2ee72eb63a9c063139d0f1"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1181",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1181/update_em.json",
+    "sha256": "5c925f147b5cade00988b614df0a0d860503d1cec4ad9b1dd22ba53f1b4bdafd"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1181",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1181/update_data_east.json",
+    "sha256": "21527b914b36edf6ceb344e04f0c6d306cbd89c45c1891a91179260efd93cf3a"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1181",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1181/update_whitestar.json",
+    "sha256": "21527b914b36edf6ceb344e04f0c6d306cbd89c45c1891a91179260efd93cf3a"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1183",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1183/update.json",
+    "sha256": "dc49149d59b38dc7bb1ae35442be68543103d416f2661befd21b06d05fbbff20"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1183",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1183/update_wpc.json",
+    "sha256": "857478c1c7b991f61cc16137b11edb308ebc7540e0342286e82ca8df28912aba"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1183",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1183/update_em.json",
+    "sha256": "17849664464d4fa36d1026b14134b82fb88eff1d824809ccd890659fcc32f6fa"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1183",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1183/update_data_east.json",
+    "sha256": "5d5840d1a04a959a090ef03511affe8fc4adfd987fb831c2875e3ac622f569b5"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1183",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1183/update_whitestar.json",
+    "sha256": "5d5840d1a04a959a090ef03511affe8fc4adfd987fb831c2875e3ac622f569b5"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1204",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1204/update.json",
+    "sha256": "e19161626d05a38617a1aff325aa785f51b9b04d21ca6eb4fcf5577f1d122fc7"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1204",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1204/update_wpc.json",
+    "sha256": "b03e0184a8531223e68832b8a6cef765e9a3631897aeb9f88dae88ed43291cd9"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1204",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1204/update_em.json",
+    "sha256": "6a15b47d5d0d583d089f50b98c8cd475d1d5e2bd985ac04bed6317ad5986ebae"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1204",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1204/update_data_east.json",
+    "sha256": "e41fd668177f41fa0531a02d85899f1fb143d007014e781c0fc1ff1903e82261"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1204",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1204/update_whitestar.json",
+    "sha256": "e41fd668177f41fa0531a02d85899f1fb143d007014e781c0fc1ff1903e82261"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1212",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1212/update.json",
+    "sha256": "ecefcf36af6cd03a1e5ecb9ec3f45b37c6b0f4b858fcc24939283f741152865c"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1212",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1212/update_wpc.json",
+    "sha256": "65305c509439819c5d04780473afcad490da1974c1e84e069b5a5906561f3265"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1212",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1212/update_em.json",
+    "sha256": "b1c97314e8217997b6b409843e9672e6c0cad974a6c69d927d14feb52b5e85fe"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1212",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1212/update_data_east.json",
+    "sha256": "e680cc0731d712fd85e5ac66d4dc9eb8c958d1746ab55993b240bba5b4b51a3a"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1212",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1212/update_whitestar.json",
+    "sha256": "e680cc0731d712fd85e5ac66d4dc9eb8c958d1746ab55993b240bba5b4b51a3a"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1247",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1247/update.json",
+    "sha256": "c37c880b928515d8572dc2116dc1eeb7c290d12cb4385d4f58cae5dd167e7cd4"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1247",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1247/update_wpc.json",
+    "sha256": "143183ad919969fa0752cd56df8044d9b88778621ac239671a1297dc4892cfae"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1247",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1247/update_em.json",
+    "sha256": "1d7a6a3d517a75f4dd86d12c2221d9e00e81d60a5029270e780bc4af065b6711"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1247",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1247/update_data_east.json",
+    "sha256": "f6b1e001bb5c42563a850f5b3b02fad16de330e7502da15785122c7b20911f4e"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1247",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1247/update_whitestar.json",
+    "sha256": "f6b1e001bb5c42563a850f5b3b02fad16de330e7502da15785122c7b20911f4e"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1252",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1252/update.json",
+    "sha256": "9cbda834e69085bfcb093a364e316df6c0a7967cdd0a7d1ccc4d8d555a69ef8d"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1252",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1252/update_wpc.json",
+    "sha256": "1d3a902a355d4f6278b2e39412bfb7a5ce4dab359f256d5f6550fd2204d63e30"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1252",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1252/update_em.json",
+    "sha256": "bfdb27bf2ebd195feebb981ecee6e8ca5bef63317a43dc5baa39614e494dda80"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1252",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1252/update_data_east.json",
+    "sha256": "2bcc1f817be0bb92d18faae53f60d43c7ba68554a578960f4ff751ff713786de"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1252",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1252/update_whitestar.json",
+    "sha256": "2bcc1f817be0bb92d18faae53f60d43c7ba68554a578960f4ff751ff713786de"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1257",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1257/update.json",
+    "sha256": "3c624bbc17cede7966855ec70b6d7a18b6822b485041a6b3018e393d5881942a"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1257",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1257/update_wpc.json",
+    "sha256": "9c7e312cb211ef63be023e9d3b4f80f2098324403cd4cc061d83299e89c329b9"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1257",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1257/update_em.json",
+    "sha256": "56803cc3b4574f5ecd7b6dee12f35d644834153ea1958c74ef0ba9e2656c7f07"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1257",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1257/update_data_east.json",
+    "sha256": "109e8f7de2ff3b53bb0a92f6e5ce7af370c06f88ad8b8a91619bc874c41358aa"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1257",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1257/update_whitestar.json",
+    "sha256": "109e8f7de2ff3b53bb0a92f6e5ce7af370c06f88ad8b8a91619bc874c41358aa"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1262",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1262/update.json",
+    "sha256": "8d782a7d31659149cf3f2013648be1cf6317ceb9e3809d5069a12b757dbd0ab9"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1262",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1262/update_wpc.json",
+    "sha256": "7aebb19fd337c4f8af387ae87b3ca0070e0b51fdc18f8b3c3accce4009d721cf"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1262",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1262/update_em.json",
+    "sha256": "079b9674358f989fc52dc4e0dcdf128dc80a0276d0560fd8c1c5220eabc113ac"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1262",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1262/update_data_east.json",
+    "sha256": "e901b4c27569218a974efe7a7dff1af6ffa8f2c6b6b22c4ae302a15c8bf1b949"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1262",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1262/update_whitestar.json",
+    "sha256": "e901b4c27569218a974efe7a7dff1af6ffa8f2c6b6b22c4ae302a15c8bf1b949"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1264",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1264/update.json",
+    "sha256": "dcf669c6ddfb96e8325d2a72997726da28436190a4fa92568922814e92358f98"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1264",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1264/update_wpc.json",
+    "sha256": "4cb13e485cf1e69c870320606259d5e3b813ea551b3bae4f78bdb597db447d49"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1264",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1264/update_em.json",
+    "sha256": "603cf74a5c9a8a41a114daeb23fa86c88daa7bb1fd7ef75e25321bcf439ddf3b"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1264",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1264/update_data_east.json",
+    "sha256": "ea8928a71f4c223cb85f984ee18fc3d7eac84bcb3435edb987f2d82343a975ee"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1264",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1264/update_whitestar.json",
+    "sha256": "ea8928a71f4c223cb85f984ee18fc3d7eac84bcb3435edb987f2d82343a975ee"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1266",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1266/update.json",
+    "sha256": "2eca9e6451b540c5d42d33f7a0bf88777f19e068cc92d330a5bf8a0160be1d69"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1266",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1266/update_wpc.json",
+    "sha256": "88ed062303da0df5a6628c8c4465699d44c49601354b2cfa2e5619f6fc8e84c5"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1266",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1266/update_em.json",
+    "sha256": "c82ff1228ee6bf7c2e9ebaaca5a3305ac8d1e9a382393e9b85109a45a3e300e7"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1266",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1266/update_data_east.json",
+    "sha256": "9ea5162e8acee18f19a3cb6fa3e1176135c1c30fad010daa5a7357a943a9f3bc"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1266",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1266/update_whitestar.json",
+    "sha256": "9ea5162e8acee18f19a3cb6fa3e1176135c1c30fad010daa5a7357a943a9f3bc"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1270",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1270/update.json",
+    "sha256": "624624f32870ce33e43f2ddf8844b9cce3b18cbc84048d04ffd01b0dd5e0947a"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1270",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1270/update_wpc.json",
+    "sha256": "0749ef79ea7b970143bfa2fd1ee76a18f64b395eeb174d1cede75e71aaa3b74b"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1270",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1270/update_em.json",
+    "sha256": "83674bb3748192dcef50a51f11907b335617ef7495bd91c1ca4e2e104a55ece7"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1270",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1270/update_data_east.json",
+    "sha256": "f75802e3bf214c270458eebaa1ad148299641f73a7d8828a21c156ecc01142c8"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1270",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1270/update_whitestar.json",
+    "sha256": "f75802e3bf214c270458eebaa1ad148299641f73a7d8828a21c156ecc01142c8"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1279",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1279/update.json",
+    "sha256": "c01a2bb63c6f5ed1c23056d3c6f16fcfb5a8ade40e1261a66cb11855f9af5a14"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1279",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1279/update_wpc.json",
+    "sha256": "53a3a12f3b2dc36a845f7e36a9791f341e8cb08df8d0efd0d97b1b69eb4c381e"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1279",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1279/update_em.json",
+    "sha256": "ee741337860272b6cfad5bf7f639c640d4a96b23b7ab43877eeae28c6e4e96fb"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1279",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1279/update_data_east.json",
+    "sha256": "c33a6e86c370db087de7b2f2797a548a7057299e1795e0a1f541cbd5d332db4f"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1279",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1279/update_whitestar.json",
+    "sha256": "c33a6e86c370db087de7b2f2797a548a7057299e1795e0a1f541cbd5d332db4f"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1293",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1293/update.json",
+    "sha256": "0884813dd7ac306092897a997804ba91c01bb4301e5981c63d1b631c2354ae78"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1293",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1293/update_wpc.json",
+    "sha256": "49e7c37934b50beb354de77d548c958fb31cca3c1c6c49206f637d1685eb17de"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1293",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1293/update_em.json",
+    "sha256": "4d547ed8151f590aaa17d98e77bce86f37d27d183dd765da90ac02c2b98d5e8f"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1293",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1293/update_data_east.json",
+    "sha256": "5a9ef0e781258e8568ceaa37fa41bfb36edbe0a85d86833d2570b2df1e3783ee"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1293",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1293/update_whitestar.json",
+    "sha256": "5a9ef0e781258e8568ceaa37fa41bfb36edbe0a85d86833d2570b2df1e3783ee"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1297",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1297/update.json",
+    "sha256": "37cb4a7c2b5b4039ed819f5da830a1e2982913dcbebf8c78971a40339799984c"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1297",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1297/update_wpc.json",
+    "sha256": "b08a7f7f98334a8283905ea0d7348d9954acd22ead10ea0a249a922dc841632a"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1297",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1297/update_em.json",
+    "sha256": "afca13638da2ef3c0ce331f087809e93bfcdbfa424020929943144ccb7829fb9"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1297",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1297/update_data_east.json",
+    "sha256": "e98a4933719da9d61e5b3f94d6ad3ccef2bcf06ef59bdd3aee8aed72737d29d9"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1297",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1297/update_whitestar.json",
+    "sha256": "e98a4933719da9d61e5b3f94d6ad3ccef2bcf06ef59bdd3aee8aed72737d29d9"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1306",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1306/update.json",
+    "sha256": "e0ad389cb66beb281edb9f06bac6e5dc0141c4b27b2e52d53e2e9c1f38f774cc"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1306",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1306/update_wpc.json",
+    "sha256": "bb31bad0809b19427f9aa226769f1ff53bd0d73f16d7b12f2cc0ca22b7df075b"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1306",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1306/update_em.json",
+    "sha256": "ca0a2eece69075d06fe9a896979f035af5db424cae345350c5afa12215c950a9"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1306",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1306/update_data_east.json",
+    "sha256": "77803eca2c2ea6c78875bfa178c74263f0af61db1cc807fb9f95540fa92bbfb0"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1306",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1306/update_whitestar.json",
+    "sha256": "77803eca2c2ea6c78875bfa178c74263f0af61db1cc807fb9f95540fa92bbfb0"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1309",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1309/update.json",
+    "sha256": "13126d5d1134a6f7d8a8087369cdf6bc9a621b867dbaf1fb90d2d814b2226c01"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1309",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1309/update_wpc.json",
+    "sha256": "6eb5aae065d387a3b3abb37bc97750e90309708413362cbc1af0939412b3975d"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1309",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1309/update_em.json",
+    "sha256": "e318f6f7d50983fe517c585a5406be928239d325bcc529554d69be5402120c4c"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1309",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1309/update_data_east.json",
+    "sha256": "462ef70c2c707f2dd32ebf524115d04dfbc275c03a53397051054bf5f9bfb60a"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1309",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1309/update_whitestar.json",
+    "sha256": "462ef70c2c707f2dd32ebf524115d04dfbc275c03a53397051054bf5f9bfb60a"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1308",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1308/update.json",
+    "sha256": "60e606b1345888a6ec1b53795961d7d2718b3e8f8235b64c74cdb667d98a58c1"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1308",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1308/update_wpc.json",
+    "sha256": "2e24123cf177cf55865b91a0eea0162c84fa0a2f3b56dd1f42cac97b943fc964"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1308",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1308/update_em.json",
+    "sha256": "11412d76664ace96ac76041a8d6e51b64df4090b20302fb015d95da42639e4fb"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1308",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1308/update_data_east.json",
+    "sha256": "f34d8249862e4e0743d9560fe20f918fd49462e24658722165b748b47f2cc1db"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1308",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1308/update_whitestar.json",
+    "sha256": "f34d8249862e4e0743d9560fe20f918fd49462e24658722165b748b47f2cc1db"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1311",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1311/update.json",
+    "sha256": "af6d6c5229c995a518be618bc34bba3e1847fc204f6690d89172cfb1bb4f6d2e"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1311",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1311/update_wpc.json",
+    "sha256": "bedb9cdc60c00c36c132f0d21c65dd5212b560e2bc661f771e513d2701eeb312"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1311",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1311/update_em.json",
+    "sha256": "636a5a07111073481abd32119f5177763bd5fde731fb7f16a5535c9fd5a607f1"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1311",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1311/update_data_east.json",
+    "sha256": "a8d04e34ff1c4c2255424f725d9e8d553615d5b75916af8fe56bd4f293bd40aa"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1311",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1311/update_whitestar.json",
+    "sha256": "a8d04e34ff1c4c2255424f725d9e8d553615d5b75916af8fe56bd4f293bd40aa"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1342",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1342/update.json",
+    "sha256": "35ce09a432f95903f5d22c95ccb5b01ce9feec94d7ac8cacfb1f74a4501b5927"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1342",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1342/update_wpc.json",
+    "sha256": "9a0b10be4ee25d56bb580552620ebe35497afbddb97647eb9762ea663af24f11"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1342",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1342/update_em.json",
+    "sha256": "5b9ecb5462ba126b278b5366808e71c9a8d1e7fd3d839700db3237d67fb0b9c7"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1342",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1342/update_data_east.json",
+    "sha256": "4791d0b7c4de5d29f5eff51918369ebccd6dfa779a9b8e327f5c51fbb25064cd"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1342",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1342/update_whitestar.json",
+    "sha256": "4791d0b7c4de5d29f5eff51918369ebccd6dfa779a9b8e327f5c51fbb25064cd"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1362",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1362/update.json",
+    "sha256": "7a7386bfe06c69f88f63d862c22d88103cde2e928e0d15921f6477b49c79ef15"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1362",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1362/update_wpc.json",
+    "sha256": "eabb4fb8da2ae3bf47e91184f2a20abb76678f79d1a295b38093dfea879e549d"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1362",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1362/update_em.json",
+    "sha256": "6a9ded93ad9456a32b5112a17358bba087fd907b8d378e1d0958ab5a8c13aae9"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1362",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1362/update_data_east.json",
+    "sha256": "0fce89a72c57f46e250d34e7b8d9fd3db07cf36010862b5885f7405cb9a2adaa"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1362",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1362/update_whitestar.json",
+    "sha256": "0fce89a72c57f46e250d34e7b8d9fd3db07cf36010862b5885f7405cb9a2adaa"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1380",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1380/update.json",
+    "sha256": "02e48e956b523998c005c9bb3a3e0218c6e212f407ae4ec816dbad7600c2f5f7"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1380",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1380/update_wpc.json",
+    "sha256": "be9e8389bcd5163adfbaa1f9222e6bf0d1060eb5e6e6a7ea5dc91f73626afc1e"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1380",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1380/update_em.json",
+    "sha256": "be84f803cc71c4d38d252a53af2c9a11e5f0ce57ef8dc734dee3d207bb4e295f"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1380",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1380/update_data_east.json",
+    "sha256": "d9fdba9b602268e7a0a403a53d24cc5fcb4888de2126b977987a3a02008d0644"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1380",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1380/update_whitestar.json",
+    "sha256": "d9fdba9b602268e7a0a403a53d24cc5fcb4888de2126b977987a3a02008d0644"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1381",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1381/update.json",
+    "sha256": "3291d3f700860fdaf39e48248ec8113e8992204fdbe03cb1b4dff126dac6440b"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1381",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1381/update_wpc.json",
+    "sha256": "b64516645f5a76194d5139a51c3f6ddcd193a7cf28d7205da720f4ef58921e7d"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1381",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1381/update_em.json",
+    "sha256": "d3363d9aa727115e896f57bd8a1c42e8423882bcb418c312281a0ee2b6f4548b"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1381",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1381/update_data_east.json",
+    "sha256": "9249d713fef7bdb58c42737149c9b777ecf3eba524ccd455631134c94fb4af39"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1381",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1381/update_whitestar.json",
+    "sha256": "9249d713fef7bdb58c42737149c9b777ecf3eba524ccd455631134c94fb4af39"
+  },
+  {
+    "product": "sys11",
+    "version": "1.9.0-beta1387",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1387/update.json",
+    "sha256": "17ab8a90e4ad8f9475e1a95bc3f33e40d43f1d877c67a931db1119f35666843b"
+  },
+  {
+    "product": "wpc",
+    "version": "1.6.0-beta1387",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1387/update_wpc.json",
+    "sha256": "fb1bc3ed56028d1b3133a2026b630d6ca58416701845e03bd946cec65633f921"
+  },
+  {
+    "product": "em",
+    "version": "1.5.0-beta1387",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1387/update_em.json",
+    "sha256": "aa044333b1a789a98e010e6bb4e50a829ca8e5346ffb4d3987d8db91957ed5a9"
+  },
+  {
+    "product": "data_east",
+    "version": "0.4.0-beta1387",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1387/update_data_east.json",
+    "sha256": "10ebb5a5a820989170827afd59cb66b82cee0c05bf44f6e022d051fab1d8b972"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.4.0-beta1387",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.10.0-beta1387/update_whitestar.json",
+    "sha256": "10ebb5a5a820989170827afd59cb66b82cee0c05bf44f6e022d051fab1d8b972"
+  },
+  {
+    "product": "sys11",
+    "version": "1.10.0-beta1397",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1397/update.json",
+    "sha256": "b1ae5cdab6fb124327d12fcf889b4a2d433c055fb75627cfc79d26d75886dc9c"
+  },
+  {
+    "product": "wpc",
+    "version": "1.7.0-beta1397",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1397/update_wpc.json",
+    "sha256": "56bd2e3af1357e209b6ea8abffefd70b576d82e22f6baae0741b0d745cc4f2dd"
+  },
+  {
+    "product": "em",
+    "version": "1.6.0-beta1397",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1397/update_em.json",
+    "sha256": "7ef55c1ebbe386a341d5af9f19fefd6c4cd3fcfd0ef0f903b8a695443d7adbcb"
+  },
+  {
+    "product": "data_east",
+    "version": "1.0.0-beta1397",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1397/update_data_east.json",
+    "sha256": "6cd67a8d42baa4eac3f54865535575e53d6f57d9a4cfb9583349c3428ceffca1"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.5.0-beta1397",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1397/update_whitestar.json",
+    "sha256": "56ac69be006a0ebcfd0e6d592bb06967cd92733b406cb8229db487fcabcec1e2"
+  },
+  {
+    "product": "sys11",
+    "version": "1.10.0-beta1403",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1403/update.json",
+    "sha256": "aa5693ba75d8029b608be1c139261353408beb2472fbf4e29a47758018b813b8"
+  },
+  {
+    "product": "wpc",
+    "version": "1.7.0-beta1403",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1403/update_wpc.json",
+    "sha256": "942dee5e89aaa871855d5d83586a6970cd7428765361055d0eaacefa44ae114d"
+  },
+  {
+    "product": "em",
+    "version": "1.6.0-beta1403",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1403/update_em.json",
+    "sha256": "38a1f2cf5992634774258ab41fd0905b3271dfb77e33647f12ebf4e5621efae9"
+  },
+  {
+    "product": "data_east",
+    "version": "1.0.0-beta1403",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1403/update_data_east.json",
+    "sha256": "e3220edd768ab9f9b2d7c015e6c4b0befb29b944dbd3555f5ebc6b131b1ca99b"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.5.0-beta1403",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1403/update_whitestar.json",
+    "sha256": "b83402909dffb2b771712a373218ad90a6afc0425f6442495c898f45fd20a93f"
+  },
+  {
+    "product": "sys11",
+    "version": "1.10.0-beta1405",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1405/update.json",
+    "sha256": "47b695e5f0770709a79d536dde7a51cfec7ece3f32f7f63ffa7719ce95a41765"
+  },
+  {
+    "product": "wpc",
+    "version": "1.7.0-beta1405",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1405/update_wpc.json",
+    "sha256": "9693e025891d32ffde1b5b72719c5cd3cb317a3cfa5b575509ed525841deea5d"
+  },
+  {
+    "product": "em",
+    "version": "1.6.0-beta1405",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1405/update_em.json",
+    "sha256": "6c8f0583112d6d4259afac0c331a554076f2fa3959a9accb445c24786c836836"
+  },
+  {
+    "product": "data_east",
+    "version": "1.0.0-beta1405",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1405/update_data_east.json",
+    "sha256": "17dc759a5455f364a8c1812ddba0342b187baf682c0c3ea29170d1b59dd6c97c"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.5.0-beta1405",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1405/update_whitestar.json",
+    "sha256": "6939de176b67d050d7e847f607f4accafad1be28feca9d9601c41c58ab49c234"
+  },
+  {
+    "product": "sys11",
+    "version": "1.10.0",
+    "type": "production",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0/update.json",
+    "sha256": "ae9d537ea9daaea5c783504456539d1d767d1b6194f4d33dee67c0935b16d8dd"
+  },
+  {
+    "product": "wpc",
+    "version": "1.7.0",
+    "type": "production",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0/update_wpc.json",
+    "sha256": "e7876e68c9b1c116526c81273438d01a397de430a80cf83a9a01fbe6566e6d81"
+  },
+  {
+    "product": "em",
+    "version": "1.6.0",
+    "type": "production",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0/update_em.json",
+    "sha256": "0b27045401e6414f3c50af5500fa96d88b956547a35501748e6346cbb03fa500"
+  },
+  {
+    "product": "data_east",
+    "version": "1.0.0",
+    "type": "production",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0/update_data_east.json",
+    "sha256": "b125d6b0b0533b7734052b35c06c0fc35b4705aa220911cb086f6b95fa7a171a"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.5.0",
+    "type": "production",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0/update_whitestar.json",
+    "sha256": "dc83e1d4c12a6e04fd7101882e1986414f74a7417499eb9c0883e58262bddb6c"
+  },
+  {
+    "product": "sys11",
+    "version": "1.10.0-beta1407",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1407/update.json",
+    "sha256": "aa48667c7103d8bc2fc42741f4b81dec808f15636224f072d6ef9fef7b3b16bc"
+  },
+  {
+    "product": "wpc",
+    "version": "1.7.0-beta1407",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1407/update_wpc.json",
+    "sha256": "fcb8f2a354d69d30bd764bd9734ca1109bcad02c1e746e2537a41e2d92c89bf7"
+  },
+  {
+    "product": "em",
+    "version": "1.6.0-beta1407",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1407/update_em.json",
+    "sha256": "cc0ff22f60bd46b1f9154f2e9a22653fad5961cfafd9096636954fb75151ab36"
+  },
+  {
+    "product": "data_east",
+    "version": "1.0.0-beta1407",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1407/update_data_east.json",
+    "sha256": "29686d474817014ab6cbb953810840e25fc734617ec32c075ad034ad1e1de346"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.5.0-beta1407",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.0-beta1407/update_whitestar.json",
+    "sha256": "781449ed851115c4e01ed5cf6af5528f937e10aded59f447d82d57acea5858f2"
   }
 ]
