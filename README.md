@@ -33,3 +33,6 @@ GitHub Pages is configured to publish from the `docs/` directory. The
 repository includes a `CNAME` file so the site is served at
 `https://updates.warpedpinball.com` without extra path segments.
 
+## Release operations
+
+For the release and publication workflow (vector release, website branch, sync action, PR, VideoApron notification, and merge), see `docs/release-process.md`.
