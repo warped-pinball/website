@@ -6889,6 +6889,41 @@
   },
   {
     "product": "sys11",
+    "version": "1.10.2-beta1560",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1560/update.json",
+    "sha256": "12ac0fbca8d9f1ac6089488f45d18c8ce31895a7b1c60170e1a5899acf5ccdbb"
+  },
+  {
+    "product": "wpc",
+    "version": "1.7.5-beta1560",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1560/update_wpc.json",
+    "sha256": "d66a345810bde337df0d8f6dbb68c2470230fac0ca546aeddc4850be62a4d649"
+  },
+  {
+    "product": "em",
+    "version": "1.6.4-beta1560",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1560/update_em.json",
+    "sha256": "2e5b126a77e332a043d9e2cf47c5acc443f9df515377a106e6e0ac8721f69be0"
+  },
+  {
+    "product": "data_east",
+    "version": "1.0.4-beta1560",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1560/update_data_east.json",
+    "sha256": "431cf90d8bb6fb5b0b959c0159c56ed65aad6785823522f792632a591b821daf"
+  },
+  {
+    "product": "whitestar",
+    "version": "0.5.0-beta1560",
+    "type": "beta",
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1560/update_whitestar.json",
+    "sha256": "14aa4e5b31ef702834bcb007a5bc5f5be8be7322aa4f94bc2ce6de6a51ca78aa"
+  },
+  {
+    "product": "sys11",
     "version": "1.10.2",
     "type": "production",
     "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10/update.json",
@@ -6924,37 +6959,37 @@
   },
   {
     "product": "sys11",
-    "version": "1.10.2-beta1560",
+    "version": "1.10.2-beta1568",
     "type": "beta",
-    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1560/update.json",
-    "sha256": "12ac0fbca8d9f1ac6089488f45d18c8ce31895a7b1c60170e1a5899acf5ccdbb"
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1568/update.json",
+    "sha256": "63c1f01d1beac8e4dbd642db15865f9636e424caca2cacee3af0e0c55443971c"
   },
   {
     "product": "wpc",
-    "version": "1.7.5-beta1560",
+    "version": "1.7.5-beta1568",
     "type": "beta",
-    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1560/update_wpc.json",
-    "sha256": "d66a345810bde337df0d8f6dbb68c2470230fac0ca546aeddc4850be62a4d649"
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1568/update_wpc.json",
+    "sha256": "c928afa1760a472f953efa2f3416ffa283e3dee69562c4a8ecc69b36bec550de"
   },
   {
     "product": "em",
-    "version": "1.6.4-beta1560",
+    "version": "1.6.4-beta1568",
     "type": "beta",
-    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1560/update_em.json",
-    "sha256": "2e5b126a77e332a043d9e2cf47c5acc443f9df515377a106e6e0ac8721f69be0"
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1568/update_em.json",
+    "sha256": "80406809157971055d9b163b89013696fe4535b8372c70713a2e4f0477028e6a"
   },
   {
     "product": "data_east",
-    "version": "1.0.4-beta1560",
+    "version": "1.0.4-beta1568",
     "type": "beta",
-    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1560/update_data_east.json",
-    "sha256": "431cf90d8bb6fb5b0b959c0159c56ed65aad6785823522f792632a591b821daf"
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1568/update_data_east.json",
+    "sha256": "20f217119d0463c3423dfa5a00b15d14c382efa89c05e43432fbf5d6a1e4ce4a"
   },
   {
     "product": "whitestar",
-    "version": "0.5.0-beta1560",
+    "version": "0.5.0-beta1568",
     "type": "beta",
-    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1560/update_whitestar.json",
-    "sha256": "14aa4e5b31ef702834bcb007a5bc5f5be8be7322aa4f94bc2ce6de6a51ca78aa"
+    "url": "https://github.com/warped-pinball/vector/releases/download/1.11.10-beta1568/update_whitestar.json",
+    "sha256": "d712ea3ec306a2a9a89139f72d728f384415ceb508820d828cd11b97ca8898e8"
   }
 ]
